@@ -1,9 +1,9 @@
 # Agreed art pack for The-Apology
 # Source of truth: /workspace/game-art/agreed/
 # Repo: public/assets/agreed/
-# Updated: batch 56 — scout attack_14/walk_14, melee death_11/walk_16, brute hover_12, heal_06, barrel_06, portrait scout_09, ramp_08, orbital_16
-# Brute LOCK: 3 hover pods tripod + magenta + circular eye, no baked trails. Player LOCK: cyan VERTICAL canister tube + SQUARE cyan eyes dark charcoal rounded helmet hi-bit, emissives eyes+tube lean, pure BLACK void, attack empty off-hand. Melee LOCK: magenta true T + cloak + solid purple belt NO cyan tube empty hands idle/walk, lean LEDs. Props: no English dark charcoal. Minimap: SOLID cyan diamond pure black. Orbital: space station+planet not ground.
-# Soft: masters trending smoother 3D-render vs hi-bit pixel; melee walk_16 denser magenta coat-edge trim
+# Updated: batch 57 — scout hit_14/run_14, melee attack_14/hit_13, brute idle_06, muzzle_07, medkit_07, minimap_05, fill_11, nebula_16
+# Brute LOCK: 3 hover pods tripod + magenta + circular eye, no baked trails. Player LOCK: cyan VERTICAL canister tube + SQUARE cyan eyes dark charcoal rounded helmet hi-bit, emissives eyes+tube lean, pure BLACK void. Melee LOCK: magenta true T + cloak + solid purple belt NO cyan tube empty hands idle/walk, lean LEDs. Props: no English dark charcoal. Minimap: SOLID cyan diamond pure black. Nebula: space/gas not ground.
+# Soft: melee hit_13 visor more slits than bold true T; brute idle_06 pods more vertical cylinders / weak base hover rings
 drone/drone_attack_se_01.png
 drone/drone_death_se_00.png
 drone/drone_death_se_01.png
@@ -49,6 +49,7 @@ enemies/enemy_drone_brute_idle_se_02.png
 enemies/enemy_drone_brute_idle_se_03.png
 enemies/enemy_drone_brute_idle_se_04.png
 enemies/enemy_drone_brute_idle_se_05.png
+enemies/enemy_drone_brute_idle_se_06.png
 enemies/enemy_scout_melee_attack_se_00.png
 enemies/enemy_scout_melee_attack_se_00_v2.png
 enemies/enemy_scout_melee_attack_se_01.png
@@ -65,6 +66,7 @@ enemies/enemy_scout_melee_attack_se_10.png
 enemies/enemy_scout_melee_attack_se_11.png
 enemies/enemy_scout_melee_attack_se_12.png
 enemies/enemy_scout_melee_attack_se_13.png
+enemies/enemy_scout_melee_attack_se_14.png
 enemies/enemy_scout_melee_death_se_00.png
 enemies/enemy_scout_melee_death_se_00_v2.png
 enemies/enemy_scout_melee_death_se_01.png
@@ -94,6 +96,7 @@ enemies/enemy_scout_melee_hit_se_09.png
 enemies/enemy_scout_melee_hit_se_10.png
 enemies/enemy_scout_melee_hit_se_11.png
 enemies/enemy_scout_melee_hit_se_12.png
+enemies/enemy_scout_melee_hit_se_13.png
 enemies/enemy_scout_melee_idle_se_00.png
 enemies/enemy_scout_melee_idle_se_01.png
 enemies/enemy_scout_melee_idle_se_02.png
@@ -135,6 +138,7 @@ env/env_nebula_12.png
 env/env_nebula_13.png
 env/env_nebula_14.png
 env/env_nebula_15.png
+env/env_nebula_16.png
 env/env_nebula_backdrop_00.png
 env/env_nebula_backdrop_01.png
 env/env_nebula_backdrop_02.png
@@ -215,6 +219,7 @@ fx/fx_muzzle_cyan_03.png
 fx/fx_muzzle_flash_04.png
 fx/fx_muzzle_flash_05.png
 fx/fx_muzzle_flash_06.png
+fx/fx_muzzle_flash_07.png
 fx/fx_pickup_burst_00.png
 fx/fx_pickup_burst_01.png
 fx/fx_pickup_burst_02.png
@@ -273,6 +278,7 @@ props/prop_medkit_03.png
 props/prop_medkit_04.png
 props/prop_medkit_05.png
 props/prop_medkit_06.png
+props/prop_medkit_07.png
 props/prop_pillar_ruin_00.png
 props/prop_pillar_tech_00.png
 props/prop_pillar_tech_01.png
@@ -329,6 +335,7 @@ scout/scout_hit_se_10.png
 scout/scout_hit_se_11.png
 scout/scout_hit_se_12.png
 scout/scout_hit_se_13.png
+scout/scout_hit_se_14.png
 scout/scout_idle_se_00.png
 scout/scout_idle_se_01.png
 scout/scout_idle_se_02.png
@@ -356,6 +363,7 @@ scout/scout_run_se_10.png
 scout/scout_run_se_11.png
 scout/scout_run_se_12.png
 scout/scout_run_se_13.png
+scout/scout_run_se_14.png
 scout/scout_walk_se_00.png
 scout/scout_walk_se_01.png
 scout/scout_walk_se_02.png
@@ -400,6 +408,7 @@ tiles/tile_floor_tech_fill_05.png
 tiles/tile_floor_tech_fill_06.png
 tiles/tile_floor_tech_fill_07.png
 tiles/tile_floor_tech_fill_10.png
+tiles/tile_floor_tech_fill_11.png
 tiles/tile_floor_tech_fill_b_00.png
 tiles/tile_floor_tech_fill_b_01.png
 tiles/tile_floor_tech_fill_b_02.png
@@ -465,6 +474,7 @@ ui/ui_minimap_player_01.png
 ui/ui_minimap_player_02.png
 ui/ui_minimap_player_03.png
 ui/ui_minimap_player_04.png
+ui/ui_minimap_player_05.png
 ui/ui_pickup_glint_00.png
 ui/ui_portrait_drone_brute_02.png
 ui/ui_portrait_drone_brute_03.png
