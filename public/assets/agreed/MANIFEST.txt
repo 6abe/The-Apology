@@ -1,9 +1,9 @@
 # Agreed art pack for The-Apology
 # Source of truth: /workspace/game-art/agreed/
 # Repo: public/assets/agreed/
-# Updated: batch 61 — scout idle_13/death_12, melee walk_18/hit_15, brute hover_14, crit_08, ammo_08, portrait melee_09, hazard_11, nebula_18
-# Brute LOCK: 3 hover pods underside tripod + base glow rings + magenta + circular eye, POD-ONLY (no arms/spikes), no baked trails. Player LOCK: cyan VERTICAL canister tube + SQUARE cyan eyes dark charcoal rounded helmet hi-bit, emissives eyes+tube lean, pure BLACK void, attack empty off-hand; death tube tipped with body (not upright when prone). Melee LOCK: magenta bold true T + cloak + solid purple belt NO cyan tube empty hands idle/walk/hit, lean LEDs, no dropped weapons, no baked hit sparks. Props: no English dark charcoal. Minimap: SOLID cyan diamond. Orbital: station+planet. Nebula: space/gas. Muzzle: prefer centered radial starburst. Crit: magenta geometric centered radial.
-# Soft: (batch 60 carry) muzzle prefer centered radial vs directional; brute idle prefer underside tripod not radial/top — fixed on hover_14
+# Updated: batch 62 — scout attack_16/walk_16, melee attack_16/death_13, brute attack_11, heal_pack_08, barrel_tech_08, portrait scout_11, ramp_se_10, orbital_vista_19
+# Brute LOCK: 3 hover pods underside tripod + base glow rings + magenta + circular eye, POD-ONLY (no arms/spikes), no baked trails. Player LOCK: cyan VERTICAL canister tube + SQUARE cyan eyes dark charcoal rounded helmet hi-bit, emissives eyes+tube lean, pure BLACK void, attack empty off-hand; death tube tipped with body (not upright when prone). Melee LOCK: magenta bold true T + cloak + solid purple belt NO cyan tube empty hands idle/walk/hit/death, lean LEDs, no dropped weapons, no baked hit sparks; attack empty off-hand. Props: no English dark charcoal. Minimap: SOLID cyan diamond. Orbital: station+planet. Nebula: space/gas. Muzzle: prefer centered radial starburst. Crit: magenta geometric centered radial.
+# Soft: brute attack_11 pod glow more bloom/ground cast vs clear concentric base rings; (carry) muzzle prefer centered radial vs directional; brute idle prefer underside tripod
 drone/drone_attack_se_01.png
 drone/drone_death_se_00.png
 drone/drone_death_se_01.png
@@ -21,6 +21,7 @@ enemies/enemy_drone_brute_attack_se_07.png
 enemies/enemy_drone_brute_attack_se_08.png
 enemies/enemy_drone_brute_attack_se_09.png
 enemies/enemy_drone_brute_attack_se_10.png
+enemies/enemy_drone_brute_attack_se_11.png
 enemies/enemy_drone_brute_death_se.png
 enemies/enemy_drone_brute_death_se_00.png
 enemies/enemy_drone_brute_death_se_01.png
@@ -72,6 +73,7 @@ enemies/enemy_scout_melee_attack_se_12.png
 enemies/enemy_scout_melee_attack_se_13.png
 enemies/enemy_scout_melee_attack_se_14.png
 enemies/enemy_scout_melee_attack_se_15.png
+enemies/enemy_scout_melee_attack_se_16.png
 enemies/enemy_scout_melee_death_se_00.png
 enemies/enemy_scout_melee_death_se_00_v2.png
 enemies/enemy_scout_melee_death_se_01.png
@@ -88,6 +90,7 @@ enemies/enemy_scout_melee_death_se_09.png
 enemies/enemy_scout_melee_death_se_10.png
 enemies/enemy_scout_melee_death_se_11.png
 enemies/enemy_scout_melee_death_se_12.png
+enemies/enemy_scout_melee_death_se_13.png
 enemies/enemy_scout_melee_hit_se_00.png
 enemies/enemy_scout_melee_hit_se_00_v2.png
 enemies/enemy_scout_melee_hit_se_01.png
@@ -183,6 +186,7 @@ env/env_orbital_vista_15.png
 env/env_orbital_vista_16.png
 env/env_orbital_vista_17.png
 env/env_orbital_vista_18.png
+env/env_orbital_vista_19.png
 env/prop_ruin_chunk.png
 fx/fx_crit_burst_00.png
 fx/fx_crit_burst_01.png
@@ -268,6 +272,7 @@ props/prop_barrel_tech_04.png
 props/prop_barrel_tech_05.png
 props/prop_barrel_tech_06.png
 props/prop_barrel_tech_07.png
+props/prop_barrel_tech_08.png
 props/prop_bed_camp_00.png
 props/prop_chest_relic_00.png
 props/prop_chest_relic_open_00.png
@@ -286,6 +291,7 @@ props/prop_door_tech_01.png
 props/prop_door_tech_locked_00.png
 props/prop_door_tech_open_00.png
 props/prop_door_tech_open_01.png
+props/prop_heal_pack_08.png
 props/prop_keycard_00.png
 props/prop_keycard_01.png
 props/prop_keycard_02.png
@@ -334,6 +340,7 @@ scout/scout_attack_se_12.png
 scout/scout_attack_se_13.png
 scout/scout_attack_se_14.png
 scout/scout_attack_se_15.png
+scout/scout_attack_se_16.png
 scout/scout_death_se_00.png
 scout/scout_death_se_01.png
 scout/scout_death_se_02.png
@@ -410,6 +417,7 @@ scout/scout_walk_se_12.png
 scout/scout_walk_se_13.png
 scout/scout_walk_se_14.png
 scout/scout_walk_se_15.png
+scout/scout_walk_se_16.png
 tiles/tile_floor_tech_00.png
 tiles/tile_floor_tech_2x2_seam_ref.png
 tiles/tile_floor_tech_corner_ne.png
@@ -473,6 +481,7 @@ tiles/tile_ramp_se_06.png
 tiles/tile_ramp_se_07.png
 tiles/tile_ramp_se_08.png
 tiles/tile_ramp_se_09.png
+tiles/tile_ramp_se_10.png
 tiles/tile_stairs_se_04.png
 tiles/tile_stairs_se_05.png
 ui/portraits/ui_portrait_drone_brute_00.png
@@ -532,4 +541,5 @@ ui/ui_portrait_scout_07.png
 ui/ui_portrait_scout_08.png
 ui/ui_portrait_scout_09.png
 ui/ui_portrait_scout_10.png
+ui/ui_portrait_scout_11.png
 ui/ui_xp_pip_00.png
