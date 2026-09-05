@@ -1,10 +1,11 @@
 # The-Apology agreed art pack
-# Count: 909 PNGs (excl ref/)
+# Count: 919 PNGs (excl ref/)
 # Themes: dark charcoal + cyan/magenta; iso SE; hi-bit pixel
 # Scout: ROUND helmet, cyan eyes+tube; attack EMPTY off-hand + RIFLE; death tube tipped
 # Melee: bold true T (not Y/inverted); MAGENTA single-strip LEDs s/f/k knees only (no shin/ankle spill); empty hands idle/walk/hit/death; attack EMPTY off-hand
 # Brute: POD-ONLY, EXACTLY 3 underside tripod discs + CLEAR base rings
 # Props: dark charcoal, cyan accents, no English
+# Env: orbital station+planet no engine trails; nebula space/gas only
 # Minimap: SOLID cyan diamond; Muzzle: cyan centered radial; Crit: magenta centered radial
 # Softs carried: scout RIFLE; melee bold true T + s/f/k knees only (no ankle); brute 3-tripod; death tube tipped; no sparks/trails
 
@@ -75,6 +76,7 @@ enemies/enemy_drone_brute_hover_se_23.png
 enemies/enemy_drone_brute_hover_se_24.png
 enemies/enemy_drone_brute_hover_se_25.png
 enemies/enemy_drone_brute_hover_se_26.png
+enemies/enemy_drone_brute_hover_se_27.png
 enemies/enemy_drone_brute_idle_se_00.png
 enemies/enemy_drone_brute_idle_se_01.png
 enemies/enemy_drone_brute_idle_se_02.png
@@ -127,6 +129,7 @@ enemies/enemy_scout_melee_attack_se_25.png
 enemies/enemy_scout_melee_attack_se_26.png
 enemies/enemy_scout_melee_attack_se_27.png
 enemies/enemy_scout_melee_attack_se_28.png
+enemies/enemy_scout_melee_attack_se_29.png
 enemies/enemy_scout_melee_death_se_00.png
 enemies/enemy_scout_melee_death_se_00_v2.png
 enemies/enemy_scout_melee_death_se_01.png
@@ -259,6 +262,7 @@ enemies/enemy_scout_melee_walk_se_33.png
 enemies/enemy_scout_melee_walk_se_34.png
 enemies/enemy_scout_melee_walk_se_35.png
 enemies/enemy_scout_melee_walk_se_36.png
+enemies/enemy_scout_melee_walk_se_37.png
 env/env_ancient_ruin_vista_00.png
 env/env_ancient_world_vista_00.png
 env/env_capital_ship_far.png
@@ -339,6 +343,7 @@ env/env_orbital_vista_34.png
 env/env_orbital_vista_35.png
 env/env_orbital_vista_36.png
 env/env_orbital_vista_37.png
+env/env_orbital_vista_38.png
 env/prop_ruin_chunk.png
 fx/fx_crit_burst_00.png
 fx/fx_crit_burst_01.png
@@ -361,6 +366,7 @@ fx/fx_crit_hit_17.png
 fx/fx_crit_hit_18.png
 fx/fx_crit_hit_19.png
 fx/fx_crit_hit_20.png
+fx/fx_crit_hit_21.png
 fx/fx_dash_afterimage_00.png
 fx/fx_dash_afterimage_01.png
 fx/fx_dash_afterimage_02.png
@@ -453,6 +459,7 @@ props/prop_ammo_crate_17.png
 props/prop_ammo_crate_18.png
 props/prop_ammo_crate_19.png
 props/prop_ammo_crate_20.png
+props/prop_ammo_crate_21.png
 props/prop_barrel_tech_00.png
 props/prop_barrel_tech_01.png
 props/prop_barrel_tech_02.png
@@ -604,6 +611,7 @@ scout/scout_death_se_21.png
 scout/scout_death_se_22.png
 scout/scout_death_se_23.png
 scout/scout_death_se_24.png
+scout/scout_death_se_25.png
 scout/scout_hit_se_00.png
 scout/scout_hit_se_01.png
 scout/scout_hit_se_02.png
@@ -659,6 +667,7 @@ scout/scout_idle_se_22.png
 scout/scout_idle_se_23.png
 scout/scout_idle_se_24.png
 scout/scout_idle_se_25.png
+scout/scout_idle_se_26.png
 scout/scout_idle_se_master.png
 scout/scout_run_se_00.png
 scout/scout_run_se_01.png
@@ -801,6 +810,7 @@ tiles/tile_hazard_20.png
 tiles/tile_hazard_21.png
 tiles/tile_hazard_22.png
 tiles/tile_hazard_23.png
+tiles/tile_hazard_24.png
 tiles/tile_ramp_se_05.png
 tiles/tile_ramp_se_06.png
 tiles/tile_ramp_se_07.png
@@ -895,6 +905,7 @@ ui/ui_portrait_melee_18.png
 ui/ui_portrait_melee_19.png
 ui/ui_portrait_melee_20.png
 ui/ui_portrait_melee_21.png
+ui/ui_portrait_melee_22.png
 ui/ui_portrait_scout_03.png
 ui/ui_portrait_scout_04.png
 ui/ui_portrait_scout_05.png
