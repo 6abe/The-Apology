@@ -1,7 +1,7 @@
 # Agreed art pack for The-Apology
 # Source of truth: /workspace/game-art/agreed/
 # Repo: public/assets/agreed/
-# Updated: batch 17 — melee death_02_v2 LOCKED, scout death_02, loot/ammo/FX, raised pad, brute hit
+# Updated: batch 17 priority redo — death_02 refresh, scout_death_02, brute_attack_01, footstep_v3_02, xp_pip
 # Player LOCK: scout cyan tube | Enemy melee LOCK: magenta NO cyan tube
 
 drone/drone_attack_se_01.png
@@ -10,6 +10,7 @@ drone/drone_death_se_01.png
 drone/drone_hover_se_01.png
 drone/drone_hover_se_master.png
 enemies/enemy_drone_brute_attack_se.png
+enemies/enemy_drone_brute_attack_se_01.png
 enemies/enemy_drone_brute_death_se.png
 enemies/enemy_drone_brute_death_se_01.png
 enemies/enemy_drone_brute_hit_se_00.png
@@ -46,6 +47,7 @@ fx/fx_dash_streak_00.png
 fx/fx_footstep_v2.png
 fx/fx_footstep_v3.png
 fx/fx_footstep_v3_01.png
+fx/fx_footstep_v3_02.png
 fx/fx_geo_explode_00.png
 fx/fx_geo_explode_01.png
 fx/fx_geo_explode_02.png
@@ -140,3 +142,4 @@ ui/ui_interact_prompt_00.png
 ui/ui_interact_prompt_active_00.png
 ui/ui_interact_prompt_pressed_00.png
 ui/ui_pickup_glint_00.png
+ui/ui_xp_pip_00.png
