@@ -1,9 +1,9 @@
 # Agreed art pack for The-Apology
 # Source of truth: /workspace/game-art/agreed/
 # Repo: public/assets/agreed/
-# Updated: batch 57 — scout hit_14/run_14, melee attack_14/hit_13, brute idle_06, muzzle_07, medkit_07, minimap_05, fill_11, nebula_16
-# Brute LOCK: 3 hover pods tripod + magenta + circular eye, no baked trails. Player LOCK: cyan VERTICAL canister tube + SQUARE cyan eyes dark charcoal rounded helmet hi-bit, emissives eyes+tube lean, pure BLACK void. Melee LOCK: magenta true T + cloak + solid purple belt NO cyan tube empty hands idle/walk, lean LEDs. Props: no English dark charcoal. Minimap: SOLID cyan diamond pure black. Nebula: space/gas not ground.
-# Soft: melee hit_13 visor more slits than bold true T; brute idle_06 pods more vertical cylinders / weak base hover rings
+# Updated: batch 58 — scout idle_12/death_11, melee idle_10/death_12, brute attack_10, crit_07, ammo_07, portrait melee_08, hazard_10, orbital_17
+# Brute LOCK: 3 hover pods tripod + base glow rings + magenta + circular eye, no baked trails; prefer pod-only silhouette (arms/spikes = soft). Player LOCK: cyan VERTICAL canister tube + SQUARE cyan eyes dark charcoal rounded helmet hi-bit, emissives eyes+tube lean, pure BLACK void. Melee LOCK: magenta bold true T + cloak + solid purple belt NO cyan tube empty hands idle/walk, lean LEDs. Props: no English dark charcoal. Minimap: SOLID cyan diamond. Orbital: station+planet. Nebula: space/gas.
+# Soft: death_11 tube stays upright when prone; brute attack_10 gained arms/spikes vs pod-only; melee death_12 dropped baton prop
 drone/drone_attack_se_01.png
 drone/drone_death_se_00.png
 drone/drone_death_se_01.png
@@ -20,6 +20,7 @@ enemies/enemy_drone_brute_attack_se_06.png
 enemies/enemy_drone_brute_attack_se_07.png
 enemies/enemy_drone_brute_attack_se_08.png
 enemies/enemy_drone_brute_attack_se_09.png
+enemies/enemy_drone_brute_attack_se_10.png
 enemies/enemy_drone_brute_death_se.png
 enemies/enemy_drone_brute_death_se_00.png
 enemies/enemy_drone_brute_death_se_01.png
@@ -82,6 +83,7 @@ enemies/enemy_scout_melee_death_se_08.png
 enemies/enemy_scout_melee_death_se_09.png
 enemies/enemy_scout_melee_death_se_10.png
 enemies/enemy_scout_melee_death_se_11.png
+enemies/enemy_scout_melee_death_se_12.png
 enemies/enemy_scout_melee_hit_se_00.png
 enemies/enemy_scout_melee_hit_se_00_v2.png
 enemies/enemy_scout_melee_hit_se_01.png
@@ -168,6 +170,7 @@ env/env_orbital_vista_13.png
 env/env_orbital_vista_14.png
 env/env_orbital_vista_15.png
 env/env_orbital_vista_16.png
+env/env_orbital_vista_17.png
 env/prop_ruin_chunk.png
 fx/fx_crit_burst_00.png
 fx/fx_crit_burst_01.png
@@ -176,6 +179,7 @@ fx/fx_crit_burst_03.png
 fx/fx_crit_hit_04.png
 fx/fx_crit_hit_05.png
 fx/fx_crit_hit_06.png
+fx/fx_crit_hit_07.png
 fx/fx_dash_afterimage_00.png
 fx/fx_dash_afterimage_01.png
 fx/fx_dash_afterimage_02.png
@@ -239,6 +243,7 @@ props/prop_ammo_cell_03.png
 props/prop_ammo_crate_04.png
 props/prop_ammo_crate_05.png
 props/prop_ammo_crate_06.png
+props/prop_ammo_crate_07.png
 props/prop_barrel_tech_00.png
 props/prop_barrel_tech_01.png
 props/prop_barrel_tech_02.png
@@ -321,6 +326,7 @@ scout/scout_death_se_07.png
 scout/scout_death_se_08.png
 scout/scout_death_se_09.png
 scout/scout_death_se_10.png
+scout/scout_death_se_11.png
 scout/scout_hit_se_00.png
 scout/scout_hit_se_01.png
 scout/scout_hit_se_02.png
@@ -348,6 +354,7 @@ scout/scout_idle_se_08.png
 scout/scout_idle_se_09.png
 scout/scout_idle_se_10.png
 scout/scout_idle_se_11.png
+scout/scout_idle_se_12.png
 scout/scout_idle_se_master.png
 scout/scout_run_se_00.png
 scout/scout_run_se_01.png
@@ -434,6 +441,7 @@ tiles/tile_floor_tech_stairs_se_00.png
 tiles/tile_floor_tech_stairs_se_01.png
 tiles/tile_floor_tech_stairs_se_02.png
 tiles/tile_floor_tech_stairs_se_03.png
+tiles/tile_hazard_10.png
 tiles/tile_ramp_se_05.png
 tiles/tile_ramp_se_06.png
 tiles/tile_ramp_se_07.png
@@ -486,6 +494,7 @@ ui/ui_portrait_enemy_melee_04.png
 ui/ui_portrait_enemy_melee_05.png
 ui/ui_portrait_enemy_melee_06.png
 ui/ui_portrait_enemy_melee_07.png
+ui/ui_portrait_melee_08.png
 ui/ui_portrait_scout_03.png
 ui/ui_portrait_scout_04.png
 ui/ui_portrait_scout_05.png
