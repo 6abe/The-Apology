@@ -1,8 +1,8 @@
 # Agreed art pack for The-Apology
 # Source of truth: /workspace/game-art/agreed/
 # Repo: public/assets/agreed/
-# Updated: batch 17 priority redo — death_02 refresh, scout_death_02, brute_attack_01, footstep_v3_02, xp_pip
-# Player LOCK: scout cyan tube | Enemy melee LOCK: magenta NO cyan tube
+# Updated: batch 18 — xp pip, footstep, brute attack/hover, medkit/heal, minimap, keycard, orbital vista
+# Player LOCK: scout cyan tube | Enemy melee LOCK: magenta NO cyan tube | Brute: hover silhouette preferred
 
 drone/drone_attack_se_01.png
 drone/drone_death_se_00.png
@@ -16,6 +16,7 @@ enemies/enemy_drone_brute_death_se_01.png
 enemies/enemy_drone_brute_hit_se_00.png
 enemies/enemy_drone_brute_hover_se.png
 enemies/enemy_drone_brute_hover_se_01.png
+enemies/enemy_drone_brute_hover_se_02.png
 enemies/enemy_scout_melee_attack_se_00_v2.png
 enemies/enemy_scout_melee_attack_se_01_v2.png
 enemies/enemy_scout_melee_death_se_00_v2.png
@@ -42,6 +43,7 @@ env/env_ancient_world_vista_00.png
 env/env_capital_ship_far.png
 env/env_nebula_backdrop_00.png
 env/env_orbital_ring_far.png
+env/env_orbital_vista_00.png
 env/prop_ruin_chunk.png
 fx/fx_dash_streak_00.png
 fx/fx_footstep_v2.png
@@ -52,6 +54,7 @@ fx/fx_geo_explode_00.png
 fx/fx_geo_explode_01.png
 fx/fx_geo_explode_02.png
 fx/fx_heal_pulse_00.png
+fx/fx_heal_spark_00.png
 fx/fx_hit_spark_00.png
 fx/fx_levelup_burst_00.png
 fx/fx_muzzle_cyan_00.png
@@ -73,8 +76,10 @@ props/prop_crate_tech_00.png
 props/prop_crate_tech_01.png
 props/prop_door_tech_00.png
 props/prop_door_tech_open_00.png
+props/prop_keycard_00.png
 props/prop_light_post_tech_00.png
 props/prop_loot_cache_00.png
+props/prop_medkit_00.png
 props/prop_pillar_ruin_00.png
 props/prop_portal_tech_00.png
 props/prop_portal_tech_01.png
@@ -141,5 +146,7 @@ ui/ui_health_pips_sheet_00.png
 ui/ui_interact_prompt_00.png
 ui/ui_interact_prompt_active_00.png
 ui/ui_interact_prompt_pressed_00.png
+ui/ui_minimap_enemy_00.png
+ui/ui_minimap_player_00.png
 ui/ui_pickup_glint_00.png
 ui/ui_xp_pip_00.png
