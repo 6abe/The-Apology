@@ -1,4 +1,3 @@
-import { ArtContract } from './ArtContract';
 import { Clips } from './Clips';
 import type { Sample } from './Input';
 import type { SpriteSpec } from './SpriteSpec';
@@ -244,7 +243,7 @@ export class Arena {
   }
 
   private move(actor: Actor, dx: number, dy: number): void {
-    const clamp = (value: number): number => ArtContract.snap(Math.max(-HALF, Math.min(HALF, value)));
+    const clamp = (value: number): number => Math.max(-HALF, Math.min(HALF, value));
     const x = clamp(actor.x + dx);
     const y = clamp(actor.y + dy);
     if (!this.blocked(x, y, actor.id)) {
