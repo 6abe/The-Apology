@@ -1,9 +1,9 @@
 # Agreed art pack for The-Apology
 # Source of truth: /workspace/game-art/agreed/
 # Repo: public/assets/agreed/
-# Updated: batch 50 — scout attack_12/walk_12, melee hit_10/death_09, brute hover_10, heal_pulse_04, crate_05, fill_09, ramp_se_06, orbital_13
-# Brute LOCK: hover pods + magenta + circular eye, no baked trails. Player LOCK: cyan single tube void square eyes dark charcoal rounded helmet. Melee LOCK: magenta true T-visor cloak, solid purple belt, NO cyan tube. Props: no English. Fill: pure iso diamond.
-# Soft: attack_12 one-hand rifle grip; walk_12 hooded silhouette + chunkier pixels vs hi-bit helmet family
+# Updated: batch 51 — scout hit_12/run_12, melee idle_08/attack_12, brute death_04, muzzle_05, medkit_05, portrait brute_05, stairs_se_05, nebula_13
+# Brute LOCK: hover pods + magenta + circular eye, no baked trails. Player LOCK: cyan single tube void square eyes dark charcoal rounded helmet hi-bit. Melee LOCK: magenta true T-visor cloak, solid purple belt, NO cyan tube, idle empty hands, attack SE. Props: no English.
+# Soft: muzzle_05 chunkier pixel scale; brute death_04 pods read flatter/shoulder-mounted when collapsed
 drone/drone_attack_se_01.png
 drone/drone_death_se_00.png
 drone/drone_death_se_01.png
@@ -23,6 +23,7 @@ enemies/enemy_drone_brute_death_se_00.png
 enemies/enemy_drone_brute_death_se_01.png
 enemies/enemy_drone_brute_death_se_02.png
 enemies/enemy_drone_brute_death_se_03.png
+enemies/enemy_drone_brute_death_se_04.png
 enemies/enemy_drone_brute_hit_se_00.png
 enemies/enemy_drone_brute_hit_se_01.png
 enemies/enemy_drone_brute_hit_se_02.png
@@ -57,6 +58,7 @@ enemies/enemy_scout_melee_attack_se_08.png
 enemies/enemy_scout_melee_attack_se_09.png
 enemies/enemy_scout_melee_attack_se_10.png
 enemies/enemy_scout_melee_attack_se_11.png
+enemies/enemy_scout_melee_attack_se_12.png
 enemies/enemy_scout_melee_death_se_00.png
 enemies/enemy_scout_melee_death_se_00_v2.png
 enemies/enemy_scout_melee_death_se_01.png
@@ -90,6 +92,7 @@ enemies/enemy_scout_melee_idle_se_04.png
 enemies/enemy_scout_melee_idle_se_05.png
 enemies/enemy_scout_melee_idle_se_06.png
 enemies/enemy_scout_melee_idle_se_07.png
+enemies/enemy_scout_melee_idle_se_08.png
 enemies/enemy_scout_melee_idle_se_v2.png
 enemies/enemy_scout_melee_walk_se_00.png
 enemies/enemy_scout_melee_walk_se_00_v2.png
@@ -114,6 +117,7 @@ env/env_ancient_world_vista_00.png
 env/env_capital_ship_far.png
 env/env_nebula_11.png
 env/env_nebula_12.png
+env/env_nebula_13.png
 env/env_nebula_backdrop_00.png
 env/env_nebula_backdrop_01.png
 env/env_nebula_backdrop_02.png
@@ -185,6 +189,7 @@ fx/fx_muzzle_cyan_01.png
 fx/fx_muzzle_cyan_02.png
 fx/fx_muzzle_cyan_03.png
 fx/fx_muzzle_flash_04.png
+fx/fx_muzzle_flash_05.png
 fx/fx_pickup_burst_00.png
 fx/fx_pickup_burst_01.png
 fx/fx_pickup_burst_02.png
@@ -237,6 +242,7 @@ props/prop_medkit_01.png
 props/prop_medkit_02.png
 props/prop_medkit_03.png
 props/prop_medkit_04.png
+props/prop_medkit_05.png
 props/prop_pillar_ruin_00.png
 props/prop_pillar_tech_00.png
 props/prop_pillar_tech_01.png
@@ -287,6 +293,7 @@ scout/scout_hit_se_08.png
 scout/scout_hit_se_09.png
 scout/scout_hit_se_10.png
 scout/scout_hit_se_11.png
+scout/scout_hit_se_12.png
 scout/scout_idle_se_00.png
 scout/scout_idle_se_01.png
 scout/scout_idle_se_02.png
@@ -310,6 +317,7 @@ scout/scout_run_se_08.png
 scout/scout_run_se_09.png
 scout/scout_run_se_10.png
 scout/scout_run_se_11.png
+scout/scout_run_se_12.png
 scout/scout_walk_se_00.png
 scout/scout_walk_se_01.png
 scout/scout_walk_se_02.png
@@ -377,6 +385,7 @@ tiles/tile_floor_tech_stairs_se_03.png
 tiles/tile_ramp_se_05.png
 tiles/tile_ramp_se_06.png
 tiles/tile_stairs_se_04.png
+tiles/tile_stairs_se_05.png
 ui/portraits/ui_portrait_drone_brute_00.png
 ui/portraits/ui_portrait_drone_brute_01.png
 ui/portraits/ui_portrait_enemy_melee_00.png
@@ -413,6 +422,7 @@ ui/ui_pickup_glint_00.png
 ui/ui_portrait_drone_brute_02.png
 ui/ui_portrait_drone_brute_03.png
 ui/ui_portrait_drone_brute_04.png
+ui/ui_portrait_drone_brute_05.png
 ui/ui_portrait_enemy_melee_02.png
 ui/ui_portrait_enemy_melee_03.png
 ui/ui_portrait_enemy_melee_04.png
