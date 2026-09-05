@@ -1,11 +1,11 @@
 import { ArtContract } from './ArtContract';
-import { Clips, type Pose } from './Clips';
+import { Clips } from './Clips';
 import type { Sample } from './Input';
 import type { SpriteSpec } from './SpriteSpec';
 
 export type Phase =
   | { readonly name: 'idle' }
-  | { readonly name: 'walk' }
+  | { readonly name: 'walk'; age: number }
   | { readonly name: 'attack'; age: number; landed: boolean }
   | { readonly name: 'hit'; age: number }
   | { readonly name: 'dead'; age: number };
@@ -133,7 +133,7 @@ export class Arena {
       })),
       actors: this.actors.map((actor) => ({
         key: actor.id,
-        spec: Clips.kit(actor.kind)[Arena.pose(actor)],
+        spec: Clips.specFor(actor.kind, actor.phase.name, 'age' in actor.phase ? actor.phase.age : 0),
         at: [actor.x, actor.y] as const,
         z: 0,
       })),
@@ -165,7 +165,8 @@ export class Arena {
       return;
     }
     if (input.mx !== 0 || input.my !== 0) {
-      actor.phase = { name: 'walk' };
+      const age = actor.phase.name === 'walk' ? actor.phase.age + dt : 0;
+      actor.phase = { name: 'walk', age };
       this.move(actor, input.mx * SPEED * dt, input.my * SPEED * dt);
       return;
     }
@@ -198,7 +199,8 @@ export class Arena {
       return;
     }
     if (dist > 0.55) {
-      drone.phase = { name: 'walk' };
+      const age = drone.phase.name === 'walk' ? drone.phase.age + dt : 0;
+      drone.phase = { name: 'walk', age };
       this.move(drone, (dx / dist) * DRONE_SPEED * dt, (dy / dist) * DRONE_SPEED * dt);
       return;
     }
@@ -280,10 +282,6 @@ export class Arena {
 
   private drones(): Actor[] {
     return this.actors.filter((actor) => actor.kind === 'brute');
-  }
-
-  private static pose(actor: Actor): Pose {
-    return actor.phase.name;
   }
 
   private static actor(

@@ -39,14 +39,15 @@ npm run preview
 - Attack: Space or left mouse
 - Death resets the pad after a short hold on the death still
 
-### Agreed assets used (1-frame SE stills)
+### Agreed assets used
 
-These filenames are revision keepers, not animation strips. Each state holds one pose.
+Idle, attack, hit, and death still hold one SE pose. Walk cycles the `f00`–`f07` strip.
 
 | Role | Path |
 | --- | --- |
 | Scout idle | `scout/scout_idle_se_30.png` |
-| Scout walk | `scout/scout_walk_se_33.png` |
+| Scout walk | `scout/scout_walk_se_f00.png` … `scout_walk_se_f07.png` |
+| Scout walk fallback | `scout/scout_walk_se_33.png` |
 | Scout attack | `scout/scout_attack_se_33.png` |
 | Scout hit | `scout/scout_hit_se_33.png` |
 | Scout death | `scout/scout_death_se_29.png` |
@@ -60,7 +61,7 @@ These filenames are revision keepers, not animation strips. Each state holds one
 
 ### Art gaps
 
-- No `scout_walk_se_f00…` strip yet. Walk holds `scout_walk_se_33`.
+- Walk strip is in. Softs on some frames (eyes soft or circular, slight chibi vs `walk_33`) are fine for v0. Missing strip frames fall back to `scout_walk_se_33`.
 - Brute has no hit still. Hit keeps the hover pose.
 - Ally `drone_*` is out of scope.
 - 1024² keepers are nearest-neighbour downscaled to the 64×64 character contract at load. The floor keeper stays 1024² and sits at 32 px/unit.
