@@ -1,9 +1,9 @@
 # Agreed art pack for The-Apology
 # Source of truth: /workspace/game-art/agreed/
 # Repo: public/assets/agreed/
-# Updated: batch 35 — scout run_07/death_04, melee attack_05/death_04, brute idle_02 magenta, hit_spark_01, keycard_01, portrait brute_02, fill_03, nebula_05
-# Brute LOCK: hover pods + magenta accents + circular eye preferred. Player LOCK: cyan tube void square eyes dark charcoal. Melee LOCK: magenta T-visor cloak, NO cyan tube.
-# Soft: keycard_01 readable KEYCARD/SYSTEM ACCESS text; fill_03 may read top-down vs iso diamond; brute idle_02 V-visor vs circular eye
+# Updated: batch 36 — scout idle_04/attack_07, melee hit_04/idle_02, brute hover_06 circular eye, geo_07, keycard_02 textless, health_pip_01, fill_04 iso, orbital_06
+# Brute LOCK: hover pods + magenta + circular eye. Player LOCK: cyan tube void square eyes dark charcoal. Melee LOCK: magenta T-visor cloak, NO cyan tube. Props: no English text.
+# Soft: attack_07 baked muzzle flash; health_pip heart vs prior square pips; geo_07 more crystal shards than cubes
 
 drone/drone_attack_se_01.png
 drone/drone_death_se_00.png
@@ -26,6 +26,7 @@ enemies/enemy_drone_brute_hover_se_02.png
 enemies/enemy_drone_brute_hover_se_03.png
 enemies/enemy_drone_brute_hover_se_04.png
 enemies/enemy_drone_brute_hover_se_05.png
+enemies/enemy_drone_brute_hover_se_06.png
 enemies/enemy_drone_brute_idle_se_00.png
 enemies/enemy_drone_brute_idle_se_01.png
 enemies/enemy_drone_brute_idle_se_02.png
@@ -50,8 +51,10 @@ enemies/enemy_scout_melee_hit_se_00_v2.png
 enemies/enemy_scout_melee_hit_se_01.png
 enemies/enemy_scout_melee_hit_se_02.png
 enemies/enemy_scout_melee_hit_se_03.png
+enemies/enemy_scout_melee_hit_se_04.png
 enemies/enemy_scout_melee_idle_se_00.png
 enemies/enemy_scout_melee_idle_se_01.png
+enemies/enemy_scout_melee_idle_se_02.png
 enemies/enemy_scout_melee_idle_se_v2.png
 enemies/enemy_scout_melee_walk_se_00.png
 enemies/enemy_scout_melee_walk_se_00_v2.png
@@ -97,6 +100,7 @@ env/env_orbital_vista_02.png
 env/env_orbital_vista_03.png
 env/env_orbital_vista_04.png
 env/env_orbital_vista_05.png
+env/env_orbital_vista_06.png
 env/prop_ruin_chunk.png
 fx/fx_crit_burst_00.png
 fx/fx_crit_burst_01.png
@@ -119,6 +123,7 @@ fx/fx_geo_explode_03.png
 fx/fx_geo_explode_04.png
 fx/fx_geo_explode_05.png
 fx/fx_geo_explode_06.png
+fx/fx_geo_explode_07.png
 fx/fx_heal_pulse_00.png
 fx/fx_heal_pulse_01.png
 fx/fx_heal_spark_00.png
@@ -161,6 +166,7 @@ props/prop_door_tech_open_00.png
 props/prop_door_tech_open_01.png
 props/prop_keycard_00.png
 props/prop_keycard_01.png
+props/prop_keycard_02.png
 props/prop_light_post_tech_00.png
 props/prop_loot_cache_00.png
 props/prop_loot_cache_01.png
@@ -215,6 +221,7 @@ scout/scout_attack_se_03.png
 scout/scout_attack_se_04.png
 scout/scout_attack_se_05.png
 scout/scout_attack_se_06.png
+scout/scout_attack_se_07.png
 scout/scout_death_se_00.png
 scout/scout_death_se_01.png
 scout/scout_death_se_02.png
@@ -231,6 +238,7 @@ scout/scout_idle_se_00.png
 scout/scout_idle_se_01.png
 scout/scout_idle_se_02.png
 scout/scout_idle_se_03.png
+scout/scout_idle_se_04.png
 scout/scout_idle_se_master.png
 scout/scout_run_se_00.png
 scout/scout_run_se_01.png
@@ -277,6 +285,7 @@ tiles/tile_floor_tech_fill_00.png
 tiles/tile_floor_tech_fill_01.png
 tiles/tile_floor_tech_fill_02.png
 tiles/tile_floor_tech_fill_03.png
+tiles/tile_floor_tech_fill_04.png
 tiles/tile_floor_tech_fill_b_00.png
 tiles/tile_floor_tech_fill_b_01.png
 tiles/tile_floor_tech_fill_b_02.png
@@ -309,6 +318,7 @@ ui/ui_damage_number_crit_ref_00.png
 ui/ui_damage_number_style_ref_00.png
 ui/ui_health_pip_empty_00.png
 ui/ui_health_pip_full_00.png
+ui/ui_health_pip_full_01.png
 ui/ui_health_pips_sheet_00.png
 ui/ui_interact_prompt_00.png
 ui/ui_interact_prompt_active_00.png
