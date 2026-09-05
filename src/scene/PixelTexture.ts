@@ -66,15 +66,38 @@ export class PixelTexture {
     } catch {
       return PixelTexture.missing(spec, 'undecodable', 'decode failed');
     }
-    if (bitmap.width !== spec.size.w || bitmap.height !== spec.size.h) {
+    const image = PixelTexture.fitContract(bitmap, spec);
+    if (image === 'mismatch') {
       const detail = `got ${bitmap.width}x${bitmap.height}, contract says ${spec.size.w}x${spec.size.h}`;
       bitmap.close();
       return PixelTexture.missing(spec, 'size-mismatch', detail);
     }
-    const texture = new Texture(bitmap);
+    const texture = new Texture(image);
     texture.flipY = false;
     PixelTexture.applyPixelFilter(texture);
     texture.needsUpdate = true;
     return { kind: 'ready', spec, texture };
+  }
+
+  private static fitContract(bitmap: ImageBitmap, spec: SpriteSpec): TexImageSource | 'mismatch' {
+    if (bitmap.width === spec.size.w && bitmap.height === spec.size.h) {
+      return bitmap;
+    }
+    const sx = bitmap.width / spec.size.w;
+    const sy = bitmap.height / spec.size.h;
+    if (sx < 1 || sy < 1 || sx !== sy || !Number.isInteger(sx)) {
+      return 'mismatch';
+    }
+    const canvas = document.createElement('canvas');
+    canvas.width = spec.size.w;
+    canvas.height = spec.size.h;
+    const ctx = canvas.getContext('2d');
+    if (!ctx) {
+      return 'mismatch';
+    }
+    ctx.imageSmoothingEnabled = false;
+    ctx.drawImage(bitmap, 0, 0, spec.size.w, spec.size.h);
+    bitmap.close();
+    return canvas;
   }
 }
