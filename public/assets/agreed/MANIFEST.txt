@@ -1,9 +1,9 @@
 # Agreed art pack for The-Apology
 # Source of truth: /workspace/game-art/agreed/
 # Repo: public/assets/agreed/
-# Updated: batch 44 — scout attack_10/walk_10, melee idle_05/death_07, brute hover_08, dash_streak_01, ammo_03, portrait brute_04, stairs_se_03, orbital_10
+# Updated: batch 45 — scout hit_10/run_10, melee hit_08/walk_11, brute attack_06, pickup_burst_02, barrel_03, minimap_player_02, fill_07, nebula_10
 # Brute LOCK: hover pods + magenta + circular eye. Player LOCK: cyan tube void square eyes dark charcoal. Melee LOCK: magenta true T-visor cloak, purple belt, NO cyan tube. Props: no English text.
-# Soft: melee idle_05 holds dagger; death_07 purple shoulder emblem
+# Soft: minimap_player_02 navy field vs pure black void (icon fine)
 
 drone/drone_attack_se_01.png
 drone/drone_death_se_00.png
@@ -17,6 +17,7 @@ enemies/enemy_drone_brute_attack_se_02.png
 enemies/enemy_drone_brute_attack_se_03.png
 enemies/enemy_drone_brute_attack_se_04.png
 enemies/enemy_drone_brute_attack_se_05.png
+enemies/enemy_drone_brute_attack_se_06.png
 enemies/enemy_drone_brute_death_se.png
 enemies/enemy_drone_brute_death_se_00.png
 enemies/enemy_drone_brute_death_se_01.png
@@ -70,6 +71,7 @@ enemies/enemy_scout_melee_hit_se_04.png
 enemies/enemy_scout_melee_hit_se_05.png
 enemies/enemy_scout_melee_hit_se_06.png
 enemies/enemy_scout_melee_hit_se_07.png
+enemies/enemy_scout_melee_hit_se_08.png
 enemies/enemy_scout_melee_idle_se_00.png
 enemies/enemy_scout_melee_idle_se_01.png
 enemies/enemy_scout_melee_idle_se_02.png
@@ -92,6 +94,7 @@ enemies/enemy_scout_melee_walk_se_07.png
 enemies/enemy_scout_melee_walk_se_08.png
 enemies/enemy_scout_melee_walk_se_09.png
 enemies/enemy_scout_melee_walk_se_10.png
+enemies/enemy_scout_melee_walk_se_11.png
 enemies/ref/enemy_drone_brute_attack_se_00_b18.png
 enemies/ref/enemy_drone_brute_attack_se_00_pre_b25.png
 enemies/ref/enemy_drone_brute_attack_se_01_pre_b26.png
@@ -121,6 +124,7 @@ env/env_nebula_backdrop_06.png
 env/env_nebula_backdrop_07.png
 env/env_nebula_backdrop_08.png
 env/env_nebula_backdrop_09.png
+env/env_nebula_backdrop_10.png
 env/env_orbital_ring_far.png
 env/env_orbital_vista_00.png
 env/env_orbital_vista_01.png
@@ -176,6 +180,7 @@ fx/fx_muzzle_cyan_02.png
 fx/fx_muzzle_cyan_03.png
 fx/fx_pickup_burst_00.png
 fx/fx_pickup_burst_01.png
+fx/fx_pickup_burst_02.png
 fx/fx_shadow_blob_00.png
 fx/fx_shadow_blob_wide_00.png
 fx/ref/fx_crit_burst_00_b19.png
@@ -194,6 +199,7 @@ props/prop_ammo_cell_03.png
 props/prop_barrel_tech_00.png
 props/prop_barrel_tech_01.png
 props/prop_barrel_tech_02.png
+props/prop_barrel_tech_03.png
 props/prop_bed_camp_00.png
 props/prop_chest_relic_00.png
 props/prop_chest_relic_open_00.png
@@ -290,6 +296,7 @@ scout/scout_hit_se_06.png
 scout/scout_hit_se_07.png
 scout/scout_hit_se_08.png
 scout/scout_hit_se_09.png
+scout/scout_hit_se_10.png
 scout/scout_idle_se_00.png
 scout/scout_idle_se_01.png
 scout/scout_idle_se_02.png
@@ -309,6 +316,7 @@ scout/scout_run_se_06.png
 scout/scout_run_se_07.png
 scout/scout_run_se_08.png
 scout/scout_run_se_09.png
+scout/scout_run_se_10.png
 scout/scout_walk_se_00.png
 scout/scout_walk_se_01.png
 scout/scout_walk_se_02.png
@@ -352,6 +360,7 @@ tiles/tile_floor_tech_fill_03.png
 tiles/tile_floor_tech_fill_04.png
 tiles/tile_floor_tech_fill_05.png
 tiles/tile_floor_tech_fill_06.png
+tiles/tile_floor_tech_fill_07.png
 tiles/tile_floor_tech_fill_b_00.png
 tiles/tile_floor_tech_fill_b_01.png
 tiles/tile_floor_tech_fill_b_02.png
@@ -404,6 +413,7 @@ ui/ui_minimap_enemy_00.png
 ui/ui_minimap_enemy_01.png
 ui/ui_minimap_player_00.png
 ui/ui_minimap_player_01.png
+ui/ui_minimap_player_02.png
 ui/ui_pickup_glint_00.png
 ui/ui_portrait_drone_brute_02.png
 ui/ui_portrait_drone_brute_03.png
