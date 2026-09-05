@@ -1,9 +1,9 @@
 # Agreed art pack for The-Apology
 # Source of truth: /workspace/game-art/agreed/
 # Repo: public/assets/agreed/
-# Updated: batch 62 — scout attack_16/walk_16, melee attack_16/death_13, brute attack_11, heal_pack_08, barrel_tech_08, portrait scout_11, ramp_se_10, orbital_vista_19
-# Brute LOCK: 3 hover pods underside tripod + base glow rings + magenta + circular eye, POD-ONLY (no arms/spikes), no baked trails. Player LOCK: cyan VERTICAL canister tube + SQUARE cyan eyes dark charcoal rounded helmet hi-bit, emissives eyes+tube lean, pure BLACK void, attack empty off-hand; death tube tipped with body (not upright when prone). Melee LOCK: magenta bold true T + cloak + solid purple belt NO cyan tube empty hands idle/walk/hit/death, lean LEDs, no dropped weapons, no baked hit sparks; attack empty off-hand. Props: no English dark charcoal. Minimap: SOLID cyan diamond. Orbital: station+planet. Nebula: space/gas. Muzzle: prefer centered radial starburst. Crit: magenta geometric centered radial.
-# Soft: brute attack_11 pod glow more bloom/ground cast vs clear concentric base rings; (carry) muzzle prefer centered radial vs directional; brute idle prefer underside tripod
+# Updated: batch 63 — scout hit_16/run_16, melee idle_12/hit_16, brute idle_08, muzzle_09, medkit_09, minimap_07, fill_13, nebula_19
+# Brute LOCK: 3 hover pods underside tripod + CLEAR concentric base glow rings + magenta + circular eye, POD-ONLY (no arms/spikes), no baked trails. Player LOCK: cyan VERTICAL canister tube + SQUARE cyan eyes dark charcoal rounded helmet hi-bit, emissives eyes+tube lean, pure BLACK void, attack empty off-hand; death tube tipped with body (not upright when prone). Melee LOCK: magenta bold true T + cloak + solid purple belt NO cyan tube empty hands idle/walk/hit/death, lean LEDs (avoid dense chest glyphs), no dropped weapons, no baked hit sparks; attack empty off-hand. Props: no English dark charcoal. Minimap: SOLID cyan diamond. Orbital: station+planet. Nebula: space/gas. Muzzle: cyan geometric CENTERED radial starburst. Crit: magenta geometric centered radial.
+# Soft: melee hit_16 denser magenta chest Y/fork vs lean LED accents; softs from 62 fixed (brute idle concentric rings; muzzle centered radial)
 drone/drone_attack_se_01.png
 drone/drone_death_se_00.png
 drone/drone_death_se_01.png
@@ -55,6 +55,7 @@ enemies/enemy_drone_brute_idle_se_04.png
 enemies/enemy_drone_brute_idle_se_05.png
 enemies/enemy_drone_brute_idle_se_06.png
 enemies/enemy_drone_brute_idle_se_07.png
+enemies/enemy_drone_brute_idle_se_08.png
 enemies/enemy_scout_melee_attack_se_00.png
 enemies/enemy_scout_melee_attack_se_00_v2.png
 enemies/enemy_scout_melee_attack_se_01.png
@@ -108,6 +109,7 @@ enemies/enemy_scout_melee_hit_se_12.png
 enemies/enemy_scout_melee_hit_se_13.png
 enemies/enemy_scout_melee_hit_se_14.png
 enemies/enemy_scout_melee_hit_se_15.png
+enemies/enemy_scout_melee_hit_se_16.png
 enemies/enemy_scout_melee_idle_se_00.png
 enemies/enemy_scout_melee_idle_se_01.png
 enemies/enemy_scout_melee_idle_se_02.png
@@ -120,6 +122,7 @@ enemies/enemy_scout_melee_idle_se_08.png
 enemies/enemy_scout_melee_idle_se_09.png
 enemies/enemy_scout_melee_idle_se_10.png
 enemies/enemy_scout_melee_idle_se_11.png
+enemies/enemy_scout_melee_idle_se_12.png
 enemies/enemy_scout_melee_idle_se_v2.png
 enemies/enemy_scout_melee_walk_se_00.png
 enemies/enemy_scout_melee_walk_se_00_v2.png
@@ -155,6 +158,7 @@ env/env_nebula_15.png
 env/env_nebula_16.png
 env/env_nebula_17.png
 env/env_nebula_18.png
+env/env_nebula_19.png
 env/env_nebula_backdrop_00.png
 env/env_nebula_backdrop_01.png
 env/env_nebula_backdrop_02.png
@@ -243,6 +247,7 @@ fx/fx_muzzle_flash_05.png
 fx/fx_muzzle_flash_06.png
 fx/fx_muzzle_flash_07.png
 fx/fx_muzzle_flash_08.png
+fx/fx_muzzle_flash_09.png
 fx/fx_pickup_burst_00.png
 fx/fx_pickup_burst_01.png
 fx/fx_pickup_burst_02.png
@@ -308,6 +313,7 @@ props/prop_medkit_05.png
 props/prop_medkit_06.png
 props/prop_medkit_07.png
 props/prop_medkit_08.png
+props/prop_medkit_09.png
 props/prop_pillar_ruin_00.png
 props/prop_pillar_tech_00.png
 props/prop_pillar_tech_01.png
@@ -370,6 +376,7 @@ scout/scout_hit_se_12.png
 scout/scout_hit_se_13.png
 scout/scout_hit_se_14.png
 scout/scout_hit_se_15.png
+scout/scout_hit_se_16.png
 scout/scout_idle_se_00.png
 scout/scout_idle_se_01.png
 scout/scout_idle_se_02.png
@@ -401,6 +408,7 @@ scout/scout_run_se_12.png
 scout/scout_run_se_13.png
 scout/scout_run_se_14.png
 scout/scout_run_se_15.png
+scout/scout_run_se_16.png
 scout/scout_walk_se_00.png
 scout/scout_walk_se_01.png
 scout/scout_walk_se_02.png
@@ -449,6 +457,7 @@ tiles/tile_floor_tech_fill_07.png
 tiles/tile_floor_tech_fill_10.png
 tiles/tile_floor_tech_fill_11.png
 tiles/tile_floor_tech_fill_12.png
+tiles/tile_floor_tech_fill_13.png
 tiles/tile_floor_tech_fill_b_00.png
 tiles/tile_floor_tech_fill_b_01.png
 tiles/tile_floor_tech_fill_b_02.png
@@ -520,6 +529,7 @@ ui/ui_minimap_player_03.png
 ui/ui_minimap_player_04.png
 ui/ui_minimap_player_05.png
 ui/ui_minimap_player_06.png
+ui/ui_minimap_player_07.png
 ui/ui_pickup_glint_00.png
 ui/ui_portrait_drone_brute_02.png
 ui/ui_portrait_drone_brute_03.png
