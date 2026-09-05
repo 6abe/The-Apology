@@ -3,7 +3,7 @@ import { useState, type ReactElement } from 'react';
 import { GameCanvas } from './scene/GameCanvas';
 
 export default function App(): ReactElement {
-  const [hud, setHud] = useState('HP 3/3');
+  const [hud, setHud] = useState('HP 4/4 · idle');
   return (
     <>
       <div

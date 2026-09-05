@@ -2,6 +2,7 @@ export type Sample = {
   readonly mx: number;
   readonly my: number;
   readonly attack: boolean;
+  readonly holding: boolean;
 };
 
 export class Input {
@@ -62,9 +63,10 @@ export class Input {
     const len = Math.hypot(mx, my);
     const attack = Input.queued;
     Input.queued = false;
+    const holding = Input.held.has('Space');
     if (len === 0) {
-      return { mx: 0, my: 0, attack };
+      return { mx: 0, my: 0, attack, holding };
     }
-    return { mx: mx / len, my: my / len, attack };
+    return { mx: mx / len, my: my / len, attack, holding };
   }
 }

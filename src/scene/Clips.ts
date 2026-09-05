@@ -28,8 +28,11 @@ export class Clips {
 
   static readonly hazard = SpriteSpec.character('tiles/tile_hazard_28.png');
 
+  private static boot: Promise<unknown> | undefined;
+
   static preload(): Promise<unknown> {
-    return Promise.all(Clips.all().map((spec) => PixelTexture.load(spec)));
+    Clips.boot ??= Promise.all(Clips.all().map((spec) => PixelTexture.load(spec)));
+    return Clips.boot;
   }
 
   static kit(kind: 'scout' | 'brute'): Record<Pose, SpriteSpec> {

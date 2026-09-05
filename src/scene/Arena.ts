@@ -45,12 +45,12 @@ export type ArenaView = {
 };
 
 const SPEED = 4.2;
-const DRONE_SPEED = 2.6;
-const REACH = 1.15;
+const DRONE_SPEED = 1.7;
+const REACH = 1.35;
 const DRONE_REACH = 0.95;
 const BODY = 0.45;
 const HALF = 6.5;
-const SE: readonly [number, number] = [0.75, -0.75];
+const GRACE = 1.1;
 
 export class Arena {
   private actors: Actor[];
@@ -61,6 +61,8 @@ export class Arena {
 
   private loggedWin = false;
 
+  private age = 0;
+
   private constructor(actors: Actor[], props: Prop[]) {
     this.actors = actors;
     this.props = props;
@@ -69,9 +71,9 @@ export class Arena {
   static spawn(): Arena {
     return new Arena(
       [
-        Arena.actor('player', 'scout', 4, -3.5, 3),
-        Arena.actor('drone-a', 'brute', -4, 3.5, 2),
-        Arena.actor('drone-b', 'brute', -3, 4.4, 2),
+        Arena.actor('player', 'scout', 4, -3.5, 4),
+        Arena.actor('drone-a', 'brute', -4, 3.5, 1, 0),
+        Arena.actor('drone-b', 'brute', -3, 4.4, 1, 0.45),
       ],
       [
         { id: 'crate', spec: Clips.crate, x: 2.4, y: 1.6, radius: 0.55 },
@@ -82,6 +84,7 @@ export class Arena {
   }
 
   tick(dt: number, input: Sample): void {
+    this.age += dt;
     const player = this.player();
     if (player.phase.name === 'dead') {
       player.phase = { name: 'dead', age: player.phase.age + dt };
@@ -90,12 +93,15 @@ export class Arena {
         this.actors = next.actors;
         this.outcome = 'play';
         this.loggedWin = false;
+        this.age = 0;
       }
       return;
     }
     this.tickActor(player, dt, input);
-    for (const drone of this.drones()) {
-      this.tickDrone(drone, dt, player);
+    if (this.age >= GRACE) {
+      for (const drone of this.drones()) {
+        this.tickDrone(drone, dt, player);
+      }
     }
     if (this.outcome === 'play' && this.drones().every((drone) => drone.phase.name === 'dead')) {
       this.outcome = 'win';
@@ -108,12 +114,13 @@ export class Arena {
 
   view(): ArenaView {
     const player = this.player();
+    const pose = player.phase.name;
     const hud =
       this.outcome === 'win'
         ? `HP ${player.hp}/${player.maxHp}  ·  clear`
         : this.outcome === 'dead'
           ? `HP 0/${player.maxHp}  ·  down`
-          : `HP ${player.hp}/${player.maxHp}`;
+          : `HP ${player.hp}/${player.maxHp}  ·  ${pose}`;
     return {
       hud,
       outcome: this.outcome,
@@ -144,11 +151,10 @@ export class Arena {
     }
     if (actor.phase.name === 'attack') {
       actor.phase = { name: 'attack', age: actor.phase.age + dt, landed: actor.phase.landed };
-      if (!actor.phase.landed && actor.phase.age >= 0.08) {
-        actor.phase.landed = true;
-        this.strike(actor, SE, REACH, 1);
+      if (actor.phase.age >= 0.08 && actor.phase.age <= 0.42) {
+        this.strike(actor, [0, 0], REACH, 1);
       }
-      if (actor.phase.age > 0.32) {
+      if (actor.phase.age > 0.48 && !input.holding) {
         actor.phase = { name: 'idle' };
       }
       return;
@@ -188,7 +194,7 @@ export class Arena {
     const dist = Math.hypot(dx, dy);
     if (dist < DRONE_REACH + 0.15 && drone.cooldown <= 0 && player.phase.name !== 'dead') {
       drone.phase = { name: 'attack', age: 0, landed: false };
-      drone.cooldown = 0.7;
+      drone.cooldown = 0.95;
       return;
     }
     if (dist > 0.55) {
@@ -213,7 +219,7 @@ export class Arena {
   }
 
   private hurt(actor: Actor, damage: number): void {
-    if (actor.phase.name === 'dead') {
+    if (actor.phase.name === 'dead' || actor.phase.name === 'hit') {
       return;
     }
     actor.hp = Math.max(0, actor.hp - damage);
@@ -230,13 +236,21 @@ export class Arena {
   }
 
   private move(actor: Actor, dx: number, dy: number): void {
-    const x = ArtContract.snap(Math.max(-HALF, Math.min(HALF, actor.x + dx)));
-    const y = ArtContract.snap(Math.max(-HALF, Math.min(HALF, actor.y + dy)));
-    if (this.blocked(x, y, actor.id)) {
+    const clamp = (value: number): number => ArtContract.snap(Math.max(-HALF, Math.min(HALF, value)));
+    const x = clamp(actor.x + dx);
+    const y = clamp(actor.y + dy);
+    if (!this.blocked(x, y, actor.id)) {
+      actor.x = x;
+      actor.y = y;
       return;
     }
-    actor.x = x;
-    actor.y = y;
+    if (!this.blocked(x, actor.y, actor.id)) {
+      actor.x = x;
+      return;
+    }
+    if (!this.blocked(actor.x, y, actor.id)) {
+      actor.y = y;
+    }
   }
 
   private blocked(x: number, y: number, self: string): boolean {
@@ -272,7 +286,14 @@ export class Arena {
     return actor.phase.name;
   }
 
-  private static actor(id: string, kind: Actor['kind'], x: number, y: number, hp: number): Actor {
-    return { id, kind, x, y, hp, maxHp: hp, phase: { name: 'idle' }, cooldown: 0 };
+  private static actor(
+    id: string,
+    kind: Actor['kind'],
+    x: number,
+    y: number,
+    hp: number,
+    cooldown = 0,
+  ): Actor {
+    return { id, kind, x, y, hp, maxHp: hp, phase: { name: 'idle' }, cooldown };
   }
 }
