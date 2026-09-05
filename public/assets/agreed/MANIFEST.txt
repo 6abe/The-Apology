@@ -1,9 +1,9 @@
 # Agreed art pack for The-Apology
 # Source of truth: /workspace/game-art/agreed/
 # Repo: public/assets/agreed/
-# Updated: batch 84 — scout hit_23/run_23, melee idle_19/walk_29, brute idle_15, muzzle_16, medkit_16, minimap_14, fill_20, orbital_30
+# Updated: batch 85 — scout idle_21/death_20, melee attack_24/hit_27, brute hover_22, crit_16, ammo_16, portrait melee_17, hazard_19, nebula_30
 # Brute LOCK: 3 hover pods underside tripod + CLEAR concentric BASE glow rings + magenta + circular eye, POD-ONLY ROUNDED disc pods (not taper points), no arms/spikes, no baked trails. Player LOCK: cyan VERTICAL canister tube + SQUARE cyan eyes dark charcoal ROUND helmet hi-bit, emissives eyes+tube lean, pure BLACK void, attack empty off-hand + RIFLE (not baton/sword); death tube tipped with body; no tan straps; no skull helmet. Melee LOCK: magenta bold true T visor + cloak + solid purple belt NO cyan tube empty hands idle/walk/hit/death, lean MAGENTA LEDs on shoulders/forearms/knees only as SINGLE strips (not multi-strip clusters; not chest/upper-leg/shin spill; not cyan; no dense chest/pectoral glyphs), no dropped weapons, no baked hit sparks / no baked sword-tip spark trails; attack empty off-hand. Props: no English dark charcoal. Minimap: SOLID cyan diamond. Orbital: station+planet. Nebula: space/gas. Muzzle: cyan geometric CENTERED radial. Crit: magenta geometric centered radial.
-# Soft: none new; softs carried fixed (melee single-strip MAGENTA s/f/k knees only; brute EXACTLY 3 underside tripod)
+# Soft: none new; softs carried fixed (death tube tipped; melee single-strip MAGENTA s/f/k knees only; brute EXACTLY 3 underside tripod)
 drone/drone_attack_se_01.png
 drone/drone_death_se_00.png
 drone/drone_death_se_01.png
@@ -61,6 +61,7 @@ enemies/enemy_drone_brute_hover_se_18.png
 enemies/enemy_drone_brute_hover_se_19.png
 enemies/enemy_drone_brute_hover_se_20.png
 enemies/enemy_drone_brute_hover_se_21.png
+enemies/enemy_drone_brute_hover_se_22.png
 enemies/enemy_drone_brute_idle_se_00.png
 enemies/enemy_drone_brute_idle_se_01.png
 enemies/enemy_drone_brute_idle_se_02.png
@@ -103,6 +104,7 @@ enemies/enemy_scout_melee_attack_se_20.png
 enemies/enemy_scout_melee_attack_se_21.png
 enemies/enemy_scout_melee_attack_se_22.png
 enemies/enemy_scout_melee_attack_se_23.png
+enemies/enemy_scout_melee_attack_se_24.png
 enemies/enemy_scout_melee_death_se_00.png
 enemies/enemy_scout_melee_death_se_00_v2.png
 enemies/enemy_scout_melee_death_se_01.png
@@ -155,6 +157,7 @@ enemies/enemy_scout_melee_hit_se_23.png
 enemies/enemy_scout_melee_hit_se_24.png
 enemies/enemy_scout_melee_hit_se_25.png
 enemies/enemy_scout_melee_hit_se_26.png
+enemies/enemy_scout_melee_hit_se_27.png
 enemies/enemy_scout_melee_idle_se_00.png
 enemies/enemy_scout_melee_idle_se_01.png
 enemies/enemy_scout_melee_idle_se_02.png
@@ -232,6 +235,7 @@ env/env_nebula_26.png
 env/env_nebula_27.png
 env/env_nebula_28.png
 env/env_nebula_29.png
+env/env_nebula_30.png
 env/env_nebula_backdrop_00.png
 env/env_nebula_backdrop_01.png
 env/env_nebula_backdrop_02.png
@@ -292,6 +296,7 @@ fx/fx_crit_hit_12.png
 fx/fx_crit_hit_13.png
 fx/fx_crit_hit_14.png
 fx/fx_crit_hit_15.png
+fx/fx_crit_hit_16.png
 fx/fx_dash_afterimage_00.png
 fx/fx_dash_afterimage_01.png
 fx/fx_dash_afterimage_02.png
@@ -374,6 +379,7 @@ props/prop_ammo_crate_12.png
 props/prop_ammo_crate_13.png
 props/prop_ammo_crate_14.png
 props/prop_ammo_crate_15.png
+props/prop_ammo_crate_16.png
 props/prop_barrel_tech_00.png
 props/prop_barrel_tech_01.png
 props/prop_barrel_tech_02.png
@@ -500,6 +506,7 @@ scout/scout_death_se_16.png
 scout/scout_death_se_17.png
 scout/scout_death_se_18.png
 scout/scout_death_se_19.png
+scout/scout_death_se_20.png
 scout/scout_hit_se_00.png
 scout/scout_hit_se_01.png
 scout/scout_hit_se_02.png
@@ -545,6 +552,7 @@ scout/scout_idle_se_17.png
 scout/scout_idle_se_18.png
 scout/scout_idle_se_19.png
 scout/scout_idle_se_20.png
+scout/scout_idle_se_21.png
 scout/scout_idle_se_master.png
 scout/scout_run_se_00.png
 scout/scout_run_se_01.png
@@ -667,6 +675,7 @@ tiles/tile_hazard_15.png
 tiles/tile_hazard_16.png
 tiles/tile_hazard_17.png
 tiles/tile_hazard_18.png
+tiles/tile_hazard_19.png
 tiles/tile_ramp_se_05.png
 tiles/tile_ramp_se_06.png
 tiles/tile_ramp_se_07.png
@@ -746,6 +755,7 @@ ui/ui_portrait_melee_13.png
 ui/ui_portrait_melee_14.png
 ui/ui_portrait_melee_15.png
 ui/ui_portrait_melee_16.png
+ui/ui_portrait_melee_17.png
 ui/ui_portrait_scout_03.png
 ui/ui_portrait_scout_04.png
 ui/ui_portrait_scout_05.png
