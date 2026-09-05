@@ -1,10 +1,11 @@
 # Agreed art pack for The-Apology
 # Source of truth: /workspace/game-art/agreed/
 # Repo: public/assets/agreed/
-# Updated: batch 15 — melee hit/death_00 v2, shopkeeper, portal, ramp, shadows, UI, portraits, nebula
+# Updated: batch 15 refined — death_01_v2, cyan shopkeeper+stall, portal, pressed prompt, scout bust
 #
 # Player LOCK: scout *_v2 cyan tube
 # Enemy melee LOCK: enemy_scout_melee_*_v2 magenta, NO cyan tube
+# Shopkeeper: prefer prop_shopkeeper_stall_00 (cyan); magenta solo in props/ref/
 
 drone/drone_attack_se_01.png
 drone/drone_death_se_00.png
@@ -18,6 +19,7 @@ enemies/enemy_drone_brute_hover_se_01.png
 enemies/enemy_scout_melee_attack_se_00_v2.png
 enemies/enemy_scout_melee_attack_se_01_v2.png
 enemies/enemy_scout_melee_death_se_00_v2.png
+enemies/enemy_scout_melee_death_se_01_v2.png
 enemies/enemy_scout_melee_hit_se_00_v2.png
 enemies/enemy_scout_melee_idle_se_v2.png
 enemies/enemy_scout_melee_walk_se_00_v2.png
@@ -72,8 +74,9 @@ props/prop_pillar_ruin_00.png
 props/prop_portal_tech_00.png
 props/prop_save_crystal_00.png
 props/prop_shop_stall_00.png
-props/prop_shopkeeper_idle_se_00.png
+props/prop_shopkeeper_stall_00.png
 props/prop_terminal_ancient_00.png
+props/ref/prop_shopkeeper_idle_se_magenta_00.png
 scout/ref/scout_idle_se_03_drift.png
 scout/scout_attack_se_00.png
 scout/scout_attack_se_01.png
@@ -125,4 +128,5 @@ ui/ui_damage_number_crit_ref_00.png
 ui/ui_damage_number_style_ref_00.png
 ui/ui_interact_prompt_00.png
 ui/ui_interact_prompt_active_00.png
+ui/ui_interact_prompt_pressed_00.png
 ui/ui_pickup_glint_00.png
