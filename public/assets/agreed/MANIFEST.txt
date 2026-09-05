@@ -1,9 +1,9 @@
 # Agreed art pack for The-Apology
 # Source of truth: /workspace/game-art/agreed/
 # Repo: public/assets/agreed/
-# Updated: batch 21 — scout idle/attack 00–01 refresh, brute hover_03, geo_explode_03, tech floor_00 + edge_n_00, interact_00, pillar_tech
-# Brute LOCK: hover pods. Player LOCK: cyan tube. Melee LOCK: magenta, no cyan tube.
-# Soft: idle_00+attack_01 baked floor; idle silhouette drift 00↔01; edge_n_00 reads as raised wall-corner not flat edge
+# Updated: batch 22 — scout idle/attack 02–03 void, brute attack_02, geo_04, flat edge_e/s + corner_se, pillar_01 damaged
+# Brute LOCK: hover pods. Player LOCK: cyan tube, prefer void bg.
+# Soft: attack_03 crouch-ready vs recovery; edge_s reads corner-ish (two trimmed sides); idle silhouette still drifts
 
 drone/drone_attack_se_01.png
 drone/drone_death_se_00.png
@@ -13,6 +13,7 @@ drone/drone_hover_se_master.png
 enemies/enemy_drone_brute_attack_se.png
 enemies/enemy_drone_brute_attack_se_00.png
 enemies/enemy_drone_brute_attack_se_01.png
+enemies/enemy_drone_brute_attack_se_02.png
 enemies/enemy_drone_brute_death_se.png
 enemies/enemy_drone_brute_death_se_01.png
 enemies/enemy_drone_brute_hit_se_00.png
@@ -62,6 +63,7 @@ fx/fx_geo_explode_00.png
 fx/fx_geo_explode_01.png
 fx/fx_geo_explode_02.png
 fx/fx_geo_explode_03.png
+fx/fx_geo_explode_04.png
 fx/fx_heal_pulse_00.png
 fx/fx_heal_spark_00.png
 fx/fx_hit_spark_00.png
@@ -98,6 +100,7 @@ props/prop_loot_cache_00.png
 props/prop_medkit_00.png
 props/prop_pillar_ruin_00.png
 props/prop_pillar_tech_00.png
+props/prop_pillar_tech_01.png
 props/prop_portal_tech_00.png
 props/prop_portal_tech_01.png
 props/prop_save_crystal_00.png
@@ -112,9 +115,13 @@ props/ref/prop_save_crystal_01_b19.png
 props/ref/prop_shopkeeper_idle_se_magenta_00.png
 scout/ref/scout_attack_se_00_pre_b21.png
 scout/ref/scout_attack_se_01_pre_b21.png
+scout/ref/scout_attack_se_02_pre_b22.png
+scout/ref/scout_attack_se_03_pre_b22.png
 scout/ref/scout_idle_se_00_pre_b21.png
 scout/ref/scout_idle_se_01_pre_b21.png
+scout/ref/scout_idle_se_02_pre_b22.png
 scout/ref/scout_idle_se_03_drift.png
+scout/ref/scout_idle_se_03_pre_b22.png
 scout/scout_attack_se_00.png
 scout/scout_attack_se_01.png
 scout/scout_attack_se_02.png
@@ -150,11 +157,14 @@ tiles/tile_floor_tech_2x2_seam_ref.png
 tiles/tile_floor_tech_corner_ne.png
 tiles/tile_floor_tech_corner_nw.png
 tiles/tile_floor_tech_corner_se.png
+tiles/tile_floor_tech_corner_se_00.png
 tiles/tile_floor_tech_corner_sw.png
 tiles/tile_floor_tech_edge_e.png
+tiles/tile_floor_tech_edge_e_00.png
 tiles/tile_floor_tech_edge_n.png
 tiles/tile_floor_tech_edge_n_00.png
 tiles/tile_floor_tech_edge_s.png
+tiles/tile_floor_tech_edge_s_00.png
 tiles/tile_floor_tech_edge_w.png
 tiles/tile_floor_tech_fill_b_00.png
 tiles/tile_floor_tech_fill_b_01.png
