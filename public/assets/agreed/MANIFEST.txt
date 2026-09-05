@@ -1,8 +1,8 @@
 # Agreed art pack for The-Apology
 # Source of truth: /workspace/game-art/agreed/
 # Repo: public/assets/agreed/
-# Updated: batch 18 — xp pip, footstep, brute attack/hover, medkit/heal, minimap, keycard, orbital vista
-# Player LOCK: scout cyan tube | Enemy melee LOCK: magenta NO cyan tube | Brute: hover silhouette preferred
+# Updated: batch 18 remainder — hover retighten, attack_00, scout_01, levelup ring + prop/UI refreshes
+# Brute LOCK: hover pods (hit/hover_02/attack_00–01). Prefer hover-language attack.
 
 drone/drone_attack_se_01.png
 drone/drone_death_se_00.png
@@ -10,6 +10,7 @@ drone/drone_death_se_01.png
 drone/drone_hover_se_01.png
 drone/drone_hover_se_master.png
 enemies/enemy_drone_brute_attack_se.png
+enemies/enemy_drone_brute_attack_se_00.png
 enemies/enemy_drone_brute_attack_se_01.png
 enemies/enemy_drone_brute_death_se.png
 enemies/enemy_drone_brute_death_se_01.png
@@ -57,6 +58,7 @@ fx/fx_heal_pulse_00.png
 fx/fx_heal_spark_00.png
 fx/fx_hit_spark_00.png
 fx/fx_levelup_burst_00.png
+fx/fx_levelup_ring_00.png
 fx/fx_muzzle_cyan_00.png
 fx/fx_pickup_burst_00.png
 fx/fx_shadow_blob_00.png
@@ -138,6 +140,7 @@ tiles/tile_floor_tech_stairs_se_00.png
 ui/portraits/ui_portrait_drone_brute_00.png
 ui/portraits/ui_portrait_enemy_melee_00.png
 ui/portraits/ui_portrait_scout_00.png
+ui/portraits/ui_portrait_scout_01.png
 ui/ui_damage_number_crit_ref_00.png
 ui/ui_damage_number_style_ref_00.png
 ui/ui_health_pip_empty_00.png
