@@ -1,9 +1,9 @@
 # Agreed art pack for The-Apology
 # Source of truth: /workspace/game-art/agreed/
 # Repo: public/assets/agreed/
-# Updated: batch 22 — scout idle/attack 02–03 void, brute attack_02, geo_04, flat edge_e/s + corner_se, pillar_01 damaged
-# Brute LOCK: hover pods. Player LOCK: cyan tube, prefer void bg.
-# Soft: attack_03 crouch-ready vs recovery; edge_s reads corner-ish (two trimmed sides); idle silhouette still drifts
+# Updated: batch 23 — flat edge_w/n_01 + corners ne/nw/sw, scout walk 00–01, melee idle_00, footstep_v3_03, minimap boss
+# Brute LOCK: hover pods. Player LOCK: cyan tube void. Melee LOCK: magenta cloak, NO cyan tube.
+# Soft: corner footprints vary (L vs square); edge_w reads fill-like; melee idle_00 alongside idle_v2
 
 drone/drone_attack_se_01.png
 drone/drone_death_se_00.png
@@ -27,6 +27,7 @@ enemies/enemy_scout_melee_death_se_00_v2.png
 enemies/enemy_scout_melee_death_se_01_v2.png
 enemies/enemy_scout_melee_death_se_02_v2.png
 enemies/enemy_scout_melee_hit_se_00_v2.png
+enemies/enemy_scout_melee_idle_se_00.png
 enemies/enemy_scout_melee_idle_se_v2.png
 enemies/enemy_scout_melee_walk_se_00_v2.png
 enemies/enemy_scout_melee_walk_se_01_v2.png
@@ -59,6 +60,7 @@ fx/fx_footstep_v2.png
 fx/fx_footstep_v3.png
 fx/fx_footstep_v3_01.png
 fx/fx_footstep_v3_02.png
+fx/fx_footstep_v3_03.png
 fx/fx_geo_explode_00.png
 fx/fx_geo_explode_01.png
 fx/fx_geo_explode_02.png
@@ -122,6 +124,8 @@ scout/ref/scout_idle_se_01_pre_b21.png
 scout/ref/scout_idle_se_02_pre_b22.png
 scout/ref/scout_idle_se_03_drift.png
 scout/ref/scout_idle_se_03_pre_b22.png
+scout/ref/scout_walk_se_00_pre_b23.png
+scout/ref/scout_walk_se_01_pre_b23.png
 scout/scout_attack_se_00.png
 scout/scout_attack_se_01.png
 scout/scout_attack_se_02.png
@@ -155,17 +159,22 @@ tiles/ref/tile_floor_tech_fill_alt_03.png
 tiles/tile_floor_tech_00.png
 tiles/tile_floor_tech_2x2_seam_ref.png
 tiles/tile_floor_tech_corner_ne.png
+tiles/tile_floor_tech_corner_ne_00.png
 tiles/tile_floor_tech_corner_nw.png
+tiles/tile_floor_tech_corner_nw_00.png
 tiles/tile_floor_tech_corner_se.png
 tiles/tile_floor_tech_corner_se_00.png
 tiles/tile_floor_tech_corner_sw.png
+tiles/tile_floor_tech_corner_sw_00.png
 tiles/tile_floor_tech_edge_e.png
 tiles/tile_floor_tech_edge_e_00.png
 tiles/tile_floor_tech_edge_n.png
 tiles/tile_floor_tech_edge_n_00.png
+tiles/tile_floor_tech_edge_n_01.png
 tiles/tile_floor_tech_edge_s.png
 tiles/tile_floor_tech_edge_s_00.png
 tiles/tile_floor_tech_edge_w.png
+tiles/tile_floor_tech_edge_w_00.png
 tiles/tile_floor_tech_fill_b_00.png
 tiles/tile_floor_tech_fill_b_01.png
 tiles/tile_floor_tech_fill_b_02.png
@@ -193,6 +202,7 @@ ui/ui_health_pips_sheet_00.png
 ui/ui_interact_prompt_00.png
 ui/ui_interact_prompt_active_00.png
 ui/ui_interact_prompt_pressed_00.png
+ui/ui_minimap_boss_00.png
 ui/ui_minimap_enemy_00.png
 ui/ui_minimap_player_00.png
 ui/ui_pickup_glint_00.png
