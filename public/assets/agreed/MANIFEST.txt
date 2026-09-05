@@ -1,9 +1,9 @@
 # Agreed art pack for The-Apology
 # Source of truth: /workspace/game-art/agreed/
 # Repo: public/assets/agreed/
-# Updated: batch 74 — scout attack_20/walk_20, melee death_17/walk_24, brute attack_15, heal_12, barrel_12, portrait scout_15, ramp_14, orbital_25
-# Brute LOCK: 3 hover pods underside tripod + CLEAR concentric BASE glow rings + magenta + circular eye, POD-ONLY ROUNDED disc pods (not taper points), no arms/spikes, no baked trails. Player LOCK: cyan VERTICAL canister tube + SQUARE cyan eyes dark charcoal ROUND helmet hi-bit, emissives eyes+tube lean, pure BLACK void, attack empty off-hand; death tube tipped with body; no tan straps; no skull helmet. Melee LOCK: magenta bold true T visor + cloak + solid purple belt NO cyan tube empty hands idle/walk/hit/death, lean MAGENTA LEDs on shoulders/forearms/knees only as single strips (not dense grids; not chest/upper-leg spill; not cyan; no dense chest/pectoral glyphs), no dropped weapons, no baked hit sparks / no baked sword-tip spark trails; attack empty off-hand. Props: no English dark charcoal. Minimap: SOLID cyan diamond. Orbital: station+planet. Nebula: space/gas. Muzzle: cyan geometric CENTERED radial. Crit: magenta geometric centered radial.
-# Soft: melee death_17 LEDs spill to chest + upper legs (prefer shoulders/forearms/knees only); softs carried fixed
+# Updated: batch 75 — scout hit_20/run_20, melee idle_16/hit_22, brute idle_12, muzzle_13, medkit_13, minimap_11, fill_17, nebula_25
+# Brute LOCK: 3 hover pods underside tripod + CLEAR concentric BASE glow rings + magenta + circular eye, POD-ONLY ROUNDED disc pods (not taper points), no arms/spikes, no baked trails. Player LOCK: cyan VERTICAL canister tube + SQUARE cyan eyes dark charcoal ROUND helmet hi-bit, emissives eyes+tube lean, pure BLACK void, attack empty off-hand; death tube tipped with body; no tan straps; no skull helmet. Melee LOCK: magenta bold true T visor + cloak + solid purple belt NO cyan tube empty hands idle/walk/hit/death, lean MAGENTA LEDs on shoulders/forearms/knees only as SINGLE strips (not multi-strip clusters; not chest/upper-leg spill; not cyan; no dense chest/pectoral glyphs), no dropped weapons, no baked hit sparks / no baked sword-tip spark trails; attack empty off-hand. Props: no English dark charcoal. Minimap: SOLID cyan diamond. Orbital: station+planet. Nebula: space/gas. Muzzle: cyan geometric CENTERED radial. Crit: magenta geometric centered radial.
+# Soft: melee hit_22 lean LEDs denser (multi-strips on shoulders/forearms vs single); soft from 74 fixed (no chest/upper-leg spill)
 drone/drone_attack_se_01.png
 drone/drone_death_se_00.png
 drone/drone_death_se_01.png
@@ -67,6 +67,7 @@ enemies/enemy_drone_brute_idle_se_08.png
 enemies/enemy_drone_brute_idle_se_09.png
 enemies/enemy_drone_brute_idle_se_10.png
 enemies/enemy_drone_brute_idle_se_11.png
+enemies/enemy_drone_brute_idle_se_12.png
 enemies/enemy_scout_melee_attack_se_00.png
 enemies/enemy_scout_melee_attack_se_00_v2.png
 enemies/enemy_scout_melee_attack_se_01.png
@@ -134,6 +135,7 @@ enemies/enemy_scout_melee_hit_se_18.png
 enemies/enemy_scout_melee_hit_se_19.png
 enemies/enemy_scout_melee_hit_se_20.png
 enemies/enemy_scout_melee_hit_se_21.png
+enemies/enemy_scout_melee_hit_se_22.png
 enemies/enemy_scout_melee_idle_se_00.png
 enemies/enemy_scout_melee_idle_se_01.png
 enemies/enemy_scout_melee_idle_se_02.png
@@ -150,6 +152,7 @@ enemies/enemy_scout_melee_idle_se_12.png
 enemies/enemy_scout_melee_idle_se_13.png
 enemies/enemy_scout_melee_idle_se_14.png
 enemies/enemy_scout_melee_idle_se_15.png
+enemies/enemy_scout_melee_idle_se_16.png
 enemies/enemy_scout_melee_idle_se_v2.png
 enemies/enemy_scout_melee_walk_se_00.png
 enemies/enemy_scout_melee_walk_se_00_v2.png
@@ -197,6 +200,7 @@ env/env_nebula_21.png
 env/env_nebula_22.png
 env/env_nebula_23.png
 env/env_nebula_24.png
+env/env_nebula_25.png
 env/env_nebula_backdrop_00.png
 env/env_nebula_backdrop_01.png
 env/env_nebula_backdrop_02.png
@@ -299,6 +303,7 @@ fx/fx_muzzle_flash_09.png
 fx/fx_muzzle_flash_10.png
 fx/fx_muzzle_flash_11.png
 fx/fx_muzzle_flash_12.png
+fx/fx_muzzle_flash_13.png
 fx/fx_pickup_burst_00.png
 fx/fx_pickup_burst_01.png
 fx/fx_pickup_burst_02.png
@@ -380,6 +385,7 @@ props/prop_medkit_09.png
 props/prop_medkit_10.png
 props/prop_medkit_11.png
 props/prop_medkit_12.png
+props/prop_medkit_13.png
 props/prop_pillar_ruin_00.png
 props/prop_pillar_tech_00.png
 props/prop_pillar_tech_01.png
@@ -454,6 +460,7 @@ scout/scout_hit_se_16.png
 scout/scout_hit_se_17.png
 scout/scout_hit_se_18.png
 scout/scout_hit_se_19.png
+scout/scout_hit_se_20.png
 scout/scout_idle_se_00.png
 scout/scout_idle_se_01.png
 scout/scout_idle_se_02.png
@@ -493,6 +500,7 @@ scout/scout_run_se_16.png
 scout/scout_run_se_17.png
 scout/scout_run_se_18.png
 scout/scout_run_se_19.png
+scout/scout_run_se_20.png
 scout/scout_walk_se_00.png
 scout/scout_walk_se_01.png
 scout/scout_walk_se_02.png
@@ -549,6 +557,7 @@ tiles/tile_floor_tech_fill_13.png
 tiles/tile_floor_tech_fill_14.png
 tiles/tile_floor_tech_fill_15.png
 tiles/tile_floor_tech_fill_16.png
+tiles/tile_floor_tech_fill_17.png
 tiles/tile_floor_tech_fill_b_00.png
 tiles/tile_floor_tech_fill_b_01.png
 tiles/tile_floor_tech_fill_b_02.png
@@ -632,6 +641,7 @@ ui/ui_minimap_player_07.png
 ui/ui_minimap_player_08.png
 ui/ui_minimap_player_09.png
 ui/ui_minimap_player_10.png
+ui/ui_minimap_player_11.png
 ui/ui_pickup_glint_00.png
 ui/ui_portrait_drone_brute_02.png
 ui/ui_portrait_drone_brute_03.png
