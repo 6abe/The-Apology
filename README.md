@@ -48,12 +48,12 @@ These filenames are revision keepers, not animation strips. Each state holds one
 | Scout idle | `scout/scout_idle_se_30.png` |
 | Scout walk | `scout/scout_walk_se_33.png` |
 | Scout attack | `scout/scout_attack_se_33.png` |
-| Scout hit | `scout/scout_hit_se_32.png` |
+| Scout hit | `scout/scout_hit_se_33.png` |
 | Scout death | `scout/scout_death_se_29.png` |
 | Brute hover / move / hit | `enemies/enemy_drone_brute_hover_se_31.png` |
 | Brute attack | `enemies/enemy_drone_brute_attack_se_28.png` |
 | Brute death | `enemies/enemy_drone_brute_death_se_04.png` |
-| Floor | `tiles/tile_fill_29.png` |
+| Floor | `tiles/tile_fill_30.png` |
 | Hazard | `tiles/tile_hazard_28.png` |
 | Crate | `props/prop_crate_tech_05.png` |
 | Ammo crate | `props/prop_ammo_crate_25.png` |

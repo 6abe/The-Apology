@@ -8,7 +8,7 @@ export class Clips {
     idle: SpriteSpec.character('scout/scout_idle_se_30.png'),
     walk: SpriteSpec.character('scout/scout_walk_se_33.png'),
     attack: SpriteSpec.character('scout/scout_attack_se_33.png'),
-    hit: SpriteSpec.character('scout/scout_hit_se_32.png'),
+    hit: SpriteSpec.character('scout/scout_hit_se_33.png'),
     dead: SpriteSpec.character('scout/scout_death_se_29.png'),
   };
 
@@ -20,7 +20,7 @@ export class Clips {
     dead: SpriteSpec.character('enemies/enemy_drone_brute_death_se_04.png'),
   };
 
-  static readonly floor = SpriteSpec.square('tiles/tile_fill_29.png', 1024);
+  static readonly floor = SpriteSpec.square('tiles/tile_fill_30.png', 1024);
 
   static readonly crate = SpriteSpec.character('props/prop_crate_tech_05.png');
 
