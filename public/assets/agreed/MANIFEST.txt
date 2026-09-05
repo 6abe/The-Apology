@@ -1,9 +1,9 @@
 # Agreed art pack for The-Apology
 # Source of truth: /workspace/game-art/agreed/
 # Repo: public/assets/agreed/
-# Updated: batch 19 — door locked, terminal boot, dash ghost, hazard tile, boss pip, open crate, ruin vista + attack_00/scout_01/levelup refreshes
+# Updated: batch 19 remainder — save_crystal_01, crit_burst_00, shopkeeper portrait (1–7 already locked)
 # Brute LOCK: hover pods (hit/hover_02/attack_00–01). Prefer hover-language attack.
-# Soft: crate_open has readable SE glyph — optional clean later
+# Soft: crate_open SE glyph; crit_burst magenta-first (cyan optional later)
 
 drone/drone_attack_se_01.png
 drone/drone_death_se_00.png
@@ -49,6 +49,7 @@ env/env_nebula_backdrop_00.png
 env/env_orbital_ring_far.png
 env/env_orbital_vista_00.png
 env/prop_ruin_chunk.png
+fx/fx_crit_burst_00.png
 fx/fx_dash_afterimage_00.png
 fx/fx_dash_streak_00.png
 fx/fx_footstep_v2.png
@@ -93,6 +94,7 @@ props/prop_pillar_ruin_00.png
 props/prop_portal_tech_00.png
 props/prop_portal_tech_01.png
 props/prop_save_crystal_00.png
+props/prop_save_crystal_01.png
 props/prop_shop_stall_00.png
 props/prop_shop_stall_sign_00.png
 props/prop_shopkeeper_stall_00.png
@@ -151,6 +153,7 @@ ui/portraits/ui_portrait_drone_brute_00.png
 ui/portraits/ui_portrait_enemy_melee_00.png
 ui/portraits/ui_portrait_scout_00.png
 ui/portraits/ui_portrait_scout_01.png
+ui/portraits/ui_portrait_shopkeeper_00.png
 ui/ui_boss_pip_00.png
 ui/ui_damage_number_crit_ref_00.png
 ui/ui_damage_number_style_ref_00.png
