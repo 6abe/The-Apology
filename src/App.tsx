@@ -1,7 +1,27 @@
-import type { ReactElement } from 'react';
+import { useState, type ReactElement } from 'react';
 
 import { GameCanvas } from './scene/GameCanvas';
 
 export default function App(): ReactElement {
-  return <GameCanvas />;
+  const [hud, setHud] = useState('HP 4/4 · idle');
+  return (
+    <>
+      <div
+        style={{
+          position: 'fixed',
+          top: 12,
+          left: 14,
+          zIndex: 2,
+          color: '#E8EEF7',
+          font: '14px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace',
+          letterSpacing: '0.04em',
+          pointerEvents: 'none',
+          textShadow: '0 1px 0 #070B12',
+        }}
+      >
+        {hud}
+      </div>
+      <GameCanvas onHud={setHud} />
+    </>
+  );
 }

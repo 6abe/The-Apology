@@ -17,6 +17,10 @@ export class SpriteSpec {
     return new SpriteSpec(SpriteSpec.parseUrl(path), ArtContract.TILE.size, ArtContract.TILE.pivot);
   }
 
+  static square(path: string, px: number): SpriteSpec {
+    return new SpriteSpec(SpriteSpec.parseUrl(path), { w: px, h: px }, { x: px / 2, y: px / 2 });
+  }
+
   get name(): string {
     const file = this.url.split('/').pop() ?? '';
     return file.replace(/\.png$/u, '');
@@ -35,7 +39,7 @@ export class SpriteSpec {
     const y = ArtContract.snap(at[1]);
     const dx = ArtContract.toWorld(this.size.w / 2 - this.pivot.x);
     const dy = ArtContract.toWorld(this.pivot.y - this.size.h / 2);
-    return [x + dx, y + dy, 0];
+    return [x + dx, y + dy, -y * 0.01];
   }
 
   private static parseUrl(path: string): AssetUrl {
