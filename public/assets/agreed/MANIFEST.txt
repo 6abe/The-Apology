@@ -1,5 +1,5 @@
 # The-Apology agreed art pack
-# Count: 899 PNGs (excl ref/)
+# Count: 909 PNGs (excl ref/)
 # Themes: dark charcoal + cyan/magenta; iso SE; hi-bit pixel
 # Scout: ROUND helmet, cyan eyes+tube; attack EMPTY off-hand + RIFLE; death tube tipped
 # Melee: bold true T (not Y/inverted); MAGENTA single-strip LEDs s/f/k knees only (no shin/ankle spill); empty hands idle/walk/hit/death; attack EMPTY off-hand
@@ -95,6 +95,7 @@ enemies/enemy_drone_brute_idle_se_16.png
 enemies/enemy_drone_brute_idle_se_17.png
 enemies/enemy_drone_brute_idle_se_18.png
 enemies/enemy_drone_brute_idle_se_19.png
+enemies/enemy_drone_brute_idle_se_20.png
 enemies/enemy_scout_melee_attack_se_00.png
 enemies/enemy_scout_melee_attack_se_00_v2.png
 enemies/enemy_scout_melee_attack_se_01.png
@@ -190,6 +191,7 @@ enemies/enemy_scout_melee_hit_se_30.png
 enemies/enemy_scout_melee_hit_se_31.png
 enemies/enemy_scout_melee_hit_se_32.png
 enemies/enemy_scout_melee_hit_se_33.png
+enemies/enemy_scout_melee_hit_se_34.png
 enemies/enemy_scout_melee_idle_se_00.png
 enemies/enemy_scout_melee_idle_se_01.png
 enemies/enemy_scout_melee_idle_se_02.png
@@ -214,6 +216,7 @@ enemies/enemy_scout_melee_idle_se_20.png
 enemies/enemy_scout_melee_idle_se_21.png
 enemies/enemy_scout_melee_idle_se_22.png
 enemies/enemy_scout_melee_idle_se_23.png
+enemies/enemy_scout_melee_idle_se_24.png
 enemies/enemy_scout_melee_idle_se_v2.png
 enemies/enemy_scout_melee_walk_se_00.png
 enemies/enemy_scout_melee_walk_se_00_v2.png
@@ -285,6 +288,7 @@ env/env_nebula_33.png
 env/env_nebula_34.png
 env/env_nebula_35.png
 env/env_nebula_36.png
+env/env_nebula_37.png
 env/env_nebula_backdrop_00.png
 env/env_nebula_backdrop_01.png
 env/env_nebula_backdrop_02.png
@@ -415,6 +419,7 @@ fx/fx_muzzle_flash_17.png
 fx/fx_muzzle_flash_18.png
 fx/fx_muzzle_flash_19.png
 fx/fx_muzzle_flash_20.png
+fx/fx_muzzle_flash_21.png
 fx/fx_pickup_burst_00.png
 fx/fx_pickup_burst_01.png
 fx/fx_pickup_burst_02.png
@@ -528,6 +533,7 @@ props/prop_medkit_17.png
 props/prop_medkit_18.png
 props/prop_medkit_19.png
 props/prop_medkit_20.png
+props/prop_medkit_21.png
 props/prop_pillar_ruin_00.png
 props/prop_pillar_tech_00.png
 props/prop_pillar_tech_01.png
@@ -626,6 +632,7 @@ scout/scout_hit_se_24.png
 scout/scout_hit_se_25.png
 scout/scout_hit_se_26.png
 scout/scout_hit_se_27.png
+scout/scout_hit_se_28.png
 scout/scout_idle_se_00.png
 scout/scout_idle_se_01.png
 scout/scout_idle_se_02.png
@@ -681,6 +688,7 @@ scout/scout_run_se_24.png
 scout/scout_run_se_25.png
 scout/scout_run_se_26.png
 scout/scout_run_se_27.png
+scout/scout_run_se_28.png
 scout/scout_walk_se_00.png
 scout/scout_walk_se_01.png
 scout/scout_walk_se_02.png
@@ -753,6 +761,7 @@ tiles/tile_floor_tech_fill_21.png
 tiles/tile_floor_tech_fill_22.png
 tiles/tile_floor_tech_fill_23.png
 tiles/tile_floor_tech_fill_24.png
+tiles/tile_floor_tech_fill_25.png
 tiles/tile_floor_tech_fill_b_00.png
 tiles/tile_floor_tech_fill_b_01.png
 tiles/tile_floor_tech_fill_b_02.png
@@ -860,6 +869,7 @@ ui/ui_minimap_player_15.png
 ui/ui_minimap_player_16.png
 ui/ui_minimap_player_17.png
 ui/ui_minimap_player_18.png
+ui/ui_minimap_player_19.png
 ui/ui_pickup_glint_00.png
 ui/ui_portrait_drone_brute_02.png
 ui/ui_portrait_drone_brute_03.png
