@@ -1,8 +1,9 @@
 # Agreed art pack for The-Apology
 # Source of truth: /workspace/game-art/agreed/
 # Repo: public/assets/agreed/
-# Updated: batch 18 remainder — hover retighten, attack_00, scout_01, levelup ring + prop/UI refreshes
+# Updated: batch 19 — door locked, terminal boot, dash ghost, hazard tile, boss pip, open crate, ruin vista + attack_00/scout_01/levelup refreshes
 # Brute LOCK: hover pods (hit/hover_02/attack_00–01). Prefer hover-language attack.
+# Soft: crate_open has readable SE glyph — optional clean later
 
 drone/drone_attack_se_01.png
 drone/drone_death_se_00.png
@@ -29,6 +30,7 @@ enemies/enemy_scout_melee_walk_se_00_v2.png
 enemies/enemy_scout_melee_walk_se_01_v2.png
 enemies/enemy_scout_melee_walk_se_02_v2.png
 enemies/enemy_scout_melee_walk_se_03_v2.png
+enemies/ref/enemy_drone_brute_attack_se_00_b18.png
 enemies/ref/enemy_scout_melee_attack_se_00.png
 enemies/ref/enemy_scout_melee_attack_se_01.png
 enemies/ref/enemy_scout_melee_death_se_00.png
@@ -40,12 +42,14 @@ enemies/ref/enemy_scout_melee_walk_se_00.png
 enemies/ref/enemy_scout_melee_walk_se_01.png
 enemies/ref/enemy_scout_melee_walk_se_02.png
 enemies/ref/enemy_scout_melee_walk_se_03.png
+env/env_ancient_ruin_vista_00.png
 env/env_ancient_world_vista_00.png
 env/env_capital_ship_far.png
 env/env_nebula_backdrop_00.png
 env/env_orbital_ring_far.png
 env/env_orbital_vista_00.png
 env/prop_ruin_chunk.png
+fx/fx_dash_afterimage_00.png
 fx/fx_dash_streak_00.png
 fx/fx_footstep_v2.png
 fx/fx_footstep_v3.png
@@ -63,6 +67,7 @@ fx/fx_muzzle_cyan_00.png
 fx/fx_pickup_burst_00.png
 fx/fx_shadow_blob_00.png
 fx/fx_shadow_blob_wide_00.png
+fx/ref/fx_levelup_ring_00_b18.png
 packs/player-walk-contact-64.png
 packs/player_walk_00_64.png
 packs/player_walk_01_64.png
@@ -76,7 +81,9 @@ props/prop_chest_relic_open_00.png
 props/prop_console_tech_00.png
 props/prop_crate_tech_00.png
 props/prop_crate_tech_01.png
+props/prop_crate_tech_open_00.png
 props/prop_door_tech_00.png
+props/prop_door_tech_locked_00.png
 props/prop_door_tech_open_00.png
 props/prop_keycard_00.png
 props/prop_light_post_tech_00.png
@@ -90,6 +97,7 @@ props/prop_shop_stall_00.png
 props/prop_shop_stall_sign_00.png
 props/prop_shopkeeper_stall_00.png
 props/prop_terminal_ancient_00.png
+props/prop_terminal_boot_00.png
 props/ref/prop_shopkeeper_idle_se_magenta_00.png
 scout/ref/scout_idle_se_03_drift.png
 scout/scout_attack_se_00.png
@@ -134,13 +142,16 @@ tiles/tile_floor_tech_fill_b_00.png
 tiles/tile_floor_tech_fill_b_01.png
 tiles/tile_floor_tech_fill_b_02.png
 tiles/tile_floor_tech_flat_00.png
+tiles/tile_floor_tech_hazard_00.png
 tiles/tile_floor_tech_platform_raised_00.png
 tiles/tile_floor_tech_ramp_se_00.png
 tiles/tile_floor_tech_stairs_se_00.png
+ui/portraits/ref/ui_portrait_scout_01_b18.png
 ui/portraits/ui_portrait_drone_brute_00.png
 ui/portraits/ui_portrait_enemy_melee_00.png
 ui/portraits/ui_portrait_scout_00.png
 ui/portraits/ui_portrait_scout_01.png
+ui/ui_boss_pip_00.png
 ui/ui_damage_number_crit_ref_00.png
 ui/ui_damage_number_style_ref_00.png
 ui/ui_health_pip_empty_00.png
