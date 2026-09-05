@@ -151,7 +151,8 @@ export class Arena {
     }
     if (actor.phase.name === 'attack') {
       actor.phase = { name: 'attack', age: actor.phase.age + dt, landed: actor.phase.landed };
-      if (actor.phase.age >= 0.08 && actor.phase.age <= 0.42) {
+      if (!actor.phase.landed && actor.phase.age >= 0.08) {
+        actor.phase.landed = true;
         this.strike(actor, [0, 0], REACH, 1);
       }
       if (actor.phase.age > 0.48 && !input.holding) {
@@ -177,6 +178,13 @@ export class Arena {
     drone.cooldown = Math.max(0, drone.cooldown - dt);
     if (drone.phase.name === 'dead') {
       drone.phase = { name: 'dead', age: drone.phase.age + dt };
+      return;
+    }
+    if (drone.phase.name === 'hit') {
+      drone.phase = { name: 'hit', age: drone.phase.age + dt };
+      if (drone.phase.age > 0.22) {
+        drone.phase = { name: 'idle' };
+      }
       return;
     }
     if (drone.phase.name === 'attack') {
@@ -232,9 +240,7 @@ export class Arena {
       }
       return;
     }
-    if (actor.kind === 'scout') {
-      actor.phase = { name: 'hit', age: 0 };
-    }
+    actor.phase = { name: 'hit', age: 0 };
   }
 
   private move(actor: Actor, dx: number, dy: number): void {
