@@ -1,9 +1,9 @@
 # Agreed art pack for The-Apology
 # Source of truth: /workspace/game-art/agreed/
 # Repo: public/assets/agreed/
-# Updated: batch 20 — door open_01, terminal off, dash_01, hazard_01, boss pip empty, crate closed, scout hit_02 + crystal/crit/shopkeeper refreshes
+# Updated: batch 21 — scout idle/attack 00–01 refresh, brute hover_03, geo_explode_03, tech floor_00 + edge_n_00, interact_00, pillar_tech
 # Brute LOCK: hover pods. Player LOCK: cyan tube. Melee LOCK: magenta, no cyan tube.
-# Soft: hazard_01 worn alt (different strip read ok); shopkeeper bust has stall backdrop
+# Soft: idle_00+attack_01 baked floor; idle silhouette drift 00↔01; edge_n_00 reads as raised wall-corner not flat edge
 
 drone/drone_attack_se_01.png
 drone/drone_death_se_00.png
@@ -19,6 +19,7 @@ enemies/enemy_drone_brute_hit_se_00.png
 enemies/enemy_drone_brute_hover_se.png
 enemies/enemy_drone_brute_hover_se_01.png
 enemies/enemy_drone_brute_hover_se_02.png
+enemies/enemy_drone_brute_hover_se_03.png
 enemies/enemy_scout_melee_attack_se_00_v2.png
 enemies/enemy_scout_melee_attack_se_01_v2.png
 enemies/enemy_scout_melee_death_se_00_v2.png
@@ -60,6 +61,7 @@ fx/fx_footstep_v3_02.png
 fx/fx_geo_explode_00.png
 fx/fx_geo_explode_01.png
 fx/fx_geo_explode_02.png
+fx/fx_geo_explode_03.png
 fx/fx_heal_pulse_00.png
 fx/fx_heal_spark_00.png
 fx/fx_hit_spark_00.png
@@ -95,6 +97,7 @@ props/prop_light_post_tech_00.png
 props/prop_loot_cache_00.png
 props/prop_medkit_00.png
 props/prop_pillar_ruin_00.png
+props/prop_pillar_tech_00.png
 props/prop_portal_tech_00.png
 props/prop_portal_tech_01.png
 props/prop_save_crystal_00.png
@@ -107,6 +110,10 @@ props/prop_terminal_boot_00.png
 props/prop_terminal_off_00.png
 props/ref/prop_save_crystal_01_b19.png
 props/ref/prop_shopkeeper_idle_se_magenta_00.png
+scout/ref/scout_attack_se_00_pre_b21.png
+scout/ref/scout_attack_se_01_pre_b21.png
+scout/ref/scout_idle_se_00_pre_b21.png
+scout/ref/scout_idle_se_01_pre_b21.png
 scout/ref/scout_idle_se_03_drift.png
 scout/scout_attack_se_00.png
 scout/scout_attack_se_01.png
@@ -138,6 +145,7 @@ tiles/ref/tile_floor_tech_fill_alt_00.png
 tiles/ref/tile_floor_tech_fill_alt_01.png
 tiles/ref/tile_floor_tech_fill_alt_02.png
 tiles/ref/tile_floor_tech_fill_alt_03.png
+tiles/tile_floor_tech_00.png
 tiles/tile_floor_tech_2x2_seam_ref.png
 tiles/tile_floor_tech_corner_ne.png
 tiles/tile_floor_tech_corner_nw.png
@@ -145,6 +153,7 @@ tiles/tile_floor_tech_corner_se.png
 tiles/tile_floor_tech_corner_sw.png
 tiles/tile_floor_tech_edge_e.png
 tiles/tile_floor_tech_edge_n.png
+tiles/tile_floor_tech_edge_n_00.png
 tiles/tile_floor_tech_edge_s.png
 tiles/tile_floor_tech_edge_w.png
 tiles/tile_floor_tech_fill_b_00.png
@@ -163,6 +172,7 @@ ui/portraits/ui_portrait_enemy_melee_00.png
 ui/portraits/ui_portrait_scout_00.png
 ui/portraits/ui_portrait_scout_01.png
 ui/portraits/ui_portrait_shopkeeper_00.png
+ui/ref/ui_interact_prompt_00_pre_b21.png
 ui/ui_boss_pip_00.png
 ui/ui_boss_pip_empty_00.png
 ui/ui_damage_number_crit_ref_00.png
