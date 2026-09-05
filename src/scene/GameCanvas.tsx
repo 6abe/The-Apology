@@ -12,7 +12,7 @@ export const DEMO = SpriteSpec.character('packs/player_walk_00_64.png');
 export function GameCanvas(): ReactElement {
   return (
     <Canvas gl={IsoCamera.GL} dpr={IsoCamera.dpr()} flat>
-      <OrthographicCamera makeDefault {...IsoCamera.canvasProps(2)} />
+      <OrthographicCamera makeDefault {...IsoCamera.canvasProps(3)} />
       <color attach="background" args={[ArtContract.VOID]} />
       <Suspense fallback={null}>
         <PixelSprite spec={DEMO} at={[0, 0]} />
