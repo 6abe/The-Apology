@@ -1,9 +1,9 @@
 # Agreed art pack for The-Apology
 # Source of truth: /workspace/game-art/agreed/
 # Repo: public/assets/agreed/
-# Updated: batch 49 — scout idle_09/death_08, melee attack_11/walk_13, brute idle_04, pickup_burst_03, barrel_04, portrait melee_06, hazard_07, nebula_12
-# Brute LOCK: hover pods + magenta + circular eye, no baked trails. Player LOCK: cyan single tube void square eyes dark charcoal. Melee LOCK: magenta true T-visor cloak, solid purple belt, NO cyan tube, idle/walk empty hands. Props: no English. Hazard: iso diamond glyph-only.
-# Soft: melee attack_11 deep lunge can read side-on
+# Updated: batch 50 — scout attack_12/walk_12, melee hit_10/death_09, brute hover_10, heal_pulse_04, crate_05, fill_09, ramp_se_06, orbital_13
+# Brute LOCK: hover pods + magenta + circular eye, no baked trails. Player LOCK: cyan single tube void square eyes dark charcoal rounded helmet. Melee LOCK: magenta true T-visor cloak, solid purple belt, NO cyan tube. Props: no English. Fill: pure iso diamond.
+# Soft: attack_12 one-hand rifle grip; walk_12 hooded silhouette + chunkier pixels vs hi-bit helmet family
 drone/drone_attack_se_01.png
 drone/drone_death_se_00.png
 drone/drone_death_se_01.png
@@ -37,6 +37,7 @@ enemies/enemy_drone_brute_hover_se_06.png
 enemies/enemy_drone_brute_hover_se_07.png
 enemies/enemy_drone_brute_hover_se_08.png
 enemies/enemy_drone_brute_hover_se_09.png
+enemies/enemy_drone_brute_hover_se_10.png
 enemies/enemy_drone_brute_idle_se_00.png
 enemies/enemy_drone_brute_idle_se_01.png
 enemies/enemy_drone_brute_idle_se_02.png
@@ -68,6 +69,7 @@ enemies/enemy_scout_melee_death_se_05.png
 enemies/enemy_scout_melee_death_se_06.png
 enemies/enemy_scout_melee_death_se_07.png
 enemies/enemy_scout_melee_death_se_08.png
+enemies/enemy_scout_melee_death_se_09.png
 enemies/enemy_scout_melee_hit_se_00.png
 enemies/enemy_scout_melee_hit_se_00_v2.png
 enemies/enemy_scout_melee_hit_se_01.png
@@ -79,6 +81,7 @@ enemies/enemy_scout_melee_hit_se_06.png
 enemies/enemy_scout_melee_hit_se_07.png
 enemies/enemy_scout_melee_hit_se_08.png
 enemies/enemy_scout_melee_hit_se_09.png
+enemies/enemy_scout_melee_hit_se_10.png
 enemies/enemy_scout_melee_idle_se_00.png
 enemies/enemy_scout_melee_idle_se_01.png
 enemies/enemy_scout_melee_idle_se_02.png
@@ -136,6 +139,7 @@ env/env_orbital_vista_09.png
 env/env_orbital_vista_10.png
 env/env_orbital_vista_11.png
 env/env_orbital_vista_12.png
+env/env_orbital_vista_13.png
 env/prop_ruin_chunk.png
 fx/fx_crit_burst_00.png
 fx/fx_crit_burst_01.png
@@ -167,6 +171,7 @@ fx/fx_heal_pulse_00.png
 fx/fx_heal_pulse_01.png
 fx/fx_heal_pulse_02.png
 fx/fx_heal_pulse_03.png
+fx/fx_heal_pulse_04.png
 fx/fx_heal_spark_00.png
 fx/fx_heal_spark_01.png
 fx/fx_hit_spark_00.png
@@ -211,6 +216,7 @@ props/prop_crate_tech_01.png
 props/prop_crate_tech_02.png
 props/prop_crate_tech_03.png
 props/prop_crate_tech_04.png
+props/prop_crate_tech_05.png
 props/prop_crate_tech_closed_00.png
 props/prop_crate_tech_closed_01.png
 props/prop_crate_tech_open_00.png
@@ -259,6 +265,7 @@ scout/scout_attack_se_08.png
 scout/scout_attack_se_09.png
 scout/scout_attack_se_10.png
 scout/scout_attack_se_11.png
+scout/scout_attack_se_12.png
 scout/scout_death_se_00.png
 scout/scout_death_se_01.png
 scout/scout_death_se_02.png
@@ -315,6 +322,7 @@ scout/scout_walk_se_08.png
 scout/scout_walk_se_09.png
 scout/scout_walk_se_10.png
 scout/scout_walk_se_11.png
+scout/scout_walk_se_12.png
 tiles/tile_floor_tech_00.png
 tiles/tile_floor_tech_2x2_seam_ref.png
 tiles/tile_floor_tech_corner_ne.png
@@ -367,6 +375,7 @@ tiles/tile_floor_tech_stairs_se_01.png
 tiles/tile_floor_tech_stairs_se_02.png
 tiles/tile_floor_tech_stairs_se_03.png
 tiles/tile_ramp_se_05.png
+tiles/tile_ramp_se_06.png
 tiles/tile_stairs_se_04.png
 ui/portraits/ui_portrait_drone_brute_00.png
 ui/portraits/ui_portrait_drone_brute_01.png
@@ -381,6 +390,7 @@ ui/ui_boss_pip_empty_00.png
 ui/ui_damage_number_crit_ref_00.png
 ui/ui_damage_number_style_ref_00.png
 ui/ui_fill_panel_08.png
+ui/ui_fill_panel_09.png
 ui/ui_health_pip_empty_00.png
 ui/ui_health_pip_empty_01.png
 ui/ui_health_pip_full_00.png
