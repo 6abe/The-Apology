@@ -6,6 +6,8 @@
 /workspace/game-art/agreed/enemies/enemy_drone_brute_attack_se.png
 /workspace/game-art/agreed/enemies/enemy_drone_brute_death_se.png
 /workspace/game-art/agreed/enemies/enemy_drone_brute_hover_se.png
+/workspace/game-art/agreed/enemies/enemy_drone_brute_hover_se_01.png
+/workspace/game-art/agreed/enemies/enemy_scout_melee_idle_se.png
 /workspace/game-art/agreed/env/env_capital_ship_far.png
 /workspace/game-art/agreed/env/env_orbital_ring_far.png
 /workspace/game-art/agreed/env/prop_ruin_chunk.png
@@ -13,6 +15,8 @@
 /workspace/game-art/agreed/fx/fx_footstep_v3.png
 /workspace/game-art/agreed/fx/fx_geo_explode_00.png
 /workspace/game-art/agreed/fx/fx_geo_explode_01.png
+/workspace/game-art/agreed/fx/fx_geo_explode_02.png
+/workspace/game-art/agreed/fx/fx_muzzle_cyan_00.png
 /workspace/game-art/agreed/packs/player-walk-contact-64.png
 /workspace/game-art/agreed/packs/player_walk_00_64.png
 /workspace/game-art/agreed/packs/player_walk_01_64.png
@@ -21,8 +25,11 @@
 /workspace/game-art/agreed/palette-proposal.png
 /workspace/game-art/agreed/props/prop_barrel_tech_00.png
 /workspace/game-art/agreed/props/prop_crate_tech_00.png
+/workspace/game-art/agreed/props/prop_crate_tech_01.png
+/workspace/game-art/agreed/props/prop_door_tech_00.png
 /workspace/game-art/agreed/props/prop_pillar_ruin_00.png
 /workspace/game-art/agreed/props/prop_terminal_ancient_00.png
+/workspace/game-art/agreed/scout/ref/scout_idle_se_03_drift.png
 /workspace/game-art/agreed/scout/scout_attack_se_00.png
 /workspace/game-art/agreed/scout/scout_attack_se_01.png
 /workspace/game-art/agreed/scout/scout_attack_se_02.png
@@ -33,6 +40,7 @@
 /workspace/game-art/agreed/scout/scout_hit_se_01.png
 /workspace/game-art/agreed/scout/scout_idle_se_00.png
 /workspace/game-art/agreed/scout/scout_idle_se_01.png
+/workspace/game-art/agreed/scout/scout_idle_se_02.png
 /workspace/game-art/agreed/scout/scout_idle_se_master.png
 /workspace/game-art/agreed/scout/scout_run_se_00.png
 /workspace/game-art/agreed/scout/scout_run_se_01.png
@@ -57,5 +65,7 @@
 /workspace/game-art/agreed/tiles/tile_floor_tech_edge_n.png
 /workspace/game-art/agreed/tiles/tile_floor_tech_edge_s.png
 /workspace/game-art/agreed/tiles/tile_floor_tech_edge_w.png
+/workspace/game-art/agreed/tiles/tile_floor_tech_fill_b_00.png
+/workspace/game-art/agreed/tiles/tile_floor_tech_fill_b_01.png
 /workspace/game-art/agreed/tiles/tile_floor_tech_flat_00.png
 /workspace/game-art/agreed/ui/ui_pickup_glint_00.png
