@@ -1,101 +1,122 @@
-/workspace/game-art/agreed/drone/drone_attack_se_01.png
-/workspace/game-art/agreed/drone/drone_death_se_00.png
-/workspace/game-art/agreed/drone/drone_death_se_01.png
-/workspace/game-art/agreed/drone/drone_hover_se_01.png
-/workspace/game-art/agreed/drone/drone_hover_se_master.png
-/workspace/game-art/agreed/enemies/enemy_drone_brute_attack_se.png
-/workspace/game-art/agreed/enemies/enemy_drone_brute_death_se.png
-/workspace/game-art/agreed/enemies/enemy_drone_brute_hover_se.png
-/workspace/game-art/agreed/enemies/enemy_drone_brute_hover_se_01.png
-/workspace/game-art/agreed/enemies/enemy_scout_melee_attack_se_00.png
-/workspace/game-art/agreed/enemies/enemy_scout_melee_attack_se_01.png
-/workspace/game-art/agreed/enemies/enemy_scout_melee_death_se_00.png
-/workspace/game-art/agreed/enemies/enemy_scout_melee_death_se_01.png
-/workspace/game-art/agreed/enemies/enemy_scout_melee_death_se_02.png
-/workspace/game-art/agreed/enemies/enemy_scout_melee_hit_se_00.png
-/workspace/game-art/agreed/enemies/enemy_scout_melee_idle_se.png
-/workspace/game-art/agreed/enemies/enemy_scout_melee_idle_se_v2.png
-/workspace/game-art/agreed/enemies/enemy_scout_melee_walk_se_00.png
-/workspace/game-art/agreed/enemies/enemy_scout_melee_walk_se_01.png
-/workspace/game-art/agreed/enemies/enemy_scout_melee_walk_se_02.png
-/workspace/game-art/agreed/enemies/enemy_scout_melee_walk_se_03.png
-/workspace/game-art/agreed/env/env_ancient_world_vista_00.png
-/workspace/game-art/agreed/env/env_capital_ship_far.png
-/workspace/game-art/agreed/env/env_orbital_ring_far.png
-/workspace/game-art/agreed/env/prop_ruin_chunk.png
-/workspace/game-art/agreed/fx/fx_dash_streak_00.png
-/workspace/game-art/agreed/fx/fx_footstep_v2.png
-/workspace/game-art/agreed/fx/fx_footstep_v3.png
-/workspace/game-art/agreed/fx/fx_footstep_v3_01.png
-/workspace/game-art/agreed/fx/fx_geo_explode_00.png
-/workspace/game-art/agreed/fx/fx_geo_explode_01.png
-/workspace/game-art/agreed/fx/fx_geo_explode_02.png
-/workspace/game-art/agreed/fx/fx_heal_pulse_00.png
-/workspace/game-art/agreed/fx/fx_hit_spark_00.png
-/workspace/game-art/agreed/fx/fx_levelup_burst_00.png
-/workspace/game-art/agreed/fx/fx_muzzle_cyan_00.png
-/workspace/game-art/agreed/packs/player-walk-contact-64.png
-/workspace/game-art/agreed/packs/player_walk_00_64.png
-/workspace/game-art/agreed/packs/player_walk_01_64.png
-/workspace/game-art/agreed/packs/player_walk_02_64.png
-/workspace/game-art/agreed/packs/player_walk_03_64.png
-/workspace/game-art/agreed/palette-proposal.png
-/workspace/game-art/agreed/props/prop_barrel_tech_00.png
-/workspace/game-art/agreed/props/prop_bed_camp_00.png
-/workspace/game-art/agreed/props/prop_chest_relic_00.png
-/workspace/game-art/agreed/props/prop_chest_relic_open_00.png
-/workspace/game-art/agreed/props/prop_console_tech_00.png
-/workspace/game-art/agreed/props/prop_crate_tech_00.png
-/workspace/game-art/agreed/props/prop_crate_tech_01.png
-/workspace/game-art/agreed/props/prop_door_tech_00.png
-/workspace/game-art/agreed/props/prop_door_tech_open_00.png
-/workspace/game-art/agreed/props/prop_light_post_tech_00.png
-/workspace/game-art/agreed/props/prop_pillar_ruin_00.png
-/workspace/game-art/agreed/props/prop_terminal_ancient_00.png
-/workspace/game-art/agreed/scout/ref/scout_idle_se_03_drift.png
-/workspace/game-art/agreed/scout/scout_attack_se_00.png
-/workspace/game-art/agreed/scout/scout_attack_se_01.png
-/workspace/game-art/agreed/scout/scout_attack_se_02.png
-/workspace/game-art/agreed/scout/scout_attack_se_03.png
-/workspace/game-art/agreed/scout/scout_attack_se_04.png
-/workspace/game-art/agreed/scout/scout_death_se_00.png
-/workspace/game-art/agreed/scout/scout_death_se_01.png
-/workspace/game-art/agreed/scout/scout_death_se_02.png
-/workspace/game-art/agreed/scout/scout_hit_se_00.png
-/workspace/game-art/agreed/scout/scout_hit_se_01.png
-/workspace/game-art/agreed/scout/scout_idle_se_00.png
-/workspace/game-art/agreed/scout/scout_idle_se_01.png
-/workspace/game-art/agreed/scout/scout_idle_se_02.png
-/workspace/game-art/agreed/scout/scout_idle_se_03.png
-/workspace/game-art/agreed/scout/scout_idle_se_master.png
-/workspace/game-art/agreed/scout/scout_run_se_00.png
-/workspace/game-art/agreed/scout/scout_run_se_01.png
-/workspace/game-art/agreed/scout/scout_run_se_02.png
-/workspace/game-art/agreed/scout/scout_run_se_03.png
-/workspace/game-art/agreed/scout/scout_walk_se_00.png
-/workspace/game-art/agreed/scout/scout_walk_se_01.png
-/workspace/game-art/agreed/scout/scout_walk_se_02.png
-/workspace/game-art/agreed/scout/scout_walk_se_03.png
-/workspace/game-art/agreed/scout/scout_walk_se_04.png
-/workspace/game-art/agreed/scout/scout_walk_se_05.png
-/workspace/game-art/agreed/tiles/ref/tile_floor_tech_fill_alt_00.png
-/workspace/game-art/agreed/tiles/ref/tile_floor_tech_fill_alt_01.png
-/workspace/game-art/agreed/tiles/ref/tile_floor_tech_fill_alt_02.png
-/workspace/game-art/agreed/tiles/ref/tile_floor_tech_fill_alt_03.png
-/workspace/game-art/agreed/tiles/tile_floor_tech_2x2_seam_ref.png
-/workspace/game-art/agreed/tiles/tile_floor_tech_corner_ne.png
-/workspace/game-art/agreed/tiles/tile_floor_tech_corner_nw.png
-/workspace/game-art/agreed/tiles/tile_floor_tech_corner_se.png
-/workspace/game-art/agreed/tiles/tile_floor_tech_corner_sw.png
-/workspace/game-art/agreed/tiles/tile_floor_tech_edge_e.png
-/workspace/game-art/agreed/tiles/tile_floor_tech_edge_n.png
-/workspace/game-art/agreed/tiles/tile_floor_tech_edge_s.png
-/workspace/game-art/agreed/tiles/tile_floor_tech_edge_w.png
-/workspace/game-art/agreed/tiles/tile_floor_tech_fill_b_00.png
-/workspace/game-art/agreed/tiles/tile_floor_tech_fill_b_01.png
-/workspace/game-art/agreed/tiles/tile_floor_tech_fill_b_02.png
-/workspace/game-art/agreed/tiles/tile_floor_tech_flat_00.png
-/workspace/game-art/agreed/tiles/tile_floor_tech_stairs_se_00.png
-/workspace/game-art/agreed/ui/ui_damage_number_crit_ref_00.png
-/workspace/game-art/agreed/ui/ui_damage_number_style_ref_00.png
-/workspace/game-art/agreed/ui/ui_pickup_glint_00.png
+# Agreed art pack for The-Apology
+# Source of truth on art box: /workspace/game-art/agreed/
+# Repo path: public/assets/agreed/
+# Updated: batch 14 keepers + melee v2 lock
+#
+# Naming: subject_state[_variant]_frame
+# Perspective: isometric SE default
+# Game sizes: characters/FX 64x64, floor tiles 64x32 (NN from masters)
+# Player CHARACTER LOCK: player_scout_*_v2 (cyan tube backpack)
+# Enemy melee LOCK: enemy_scout_melee_*_v2 (magenta cloak, NO cyan tube). Older non-v2 in enemies/ref/
+# Floor playset: tile_floor_tech_flat_00 + fill_b_* preferred; busy fills = ref only
+
+scout/ref/scout_idle_se_03_drift.png  # ?
+scout/scout_attack_se_00.png  # ?
+scout/scout_attack_se_01.png  # ?
+scout/scout_attack_se_02.png  # ?
+scout/scout_attack_se_03.png  # ?
+scout/scout_attack_se_04.png  # ?
+scout/scout_death_se_00.png  # ?
+scout/scout_death_se_01.png  # ?
+scout/scout_death_se_02.png  # ?
+scout/scout_hit_se_00.png  # ?
+scout/scout_hit_se_01.png  # ?
+scout/scout_idle_se_00.png  # ?
+scout/scout_idle_se_01.png  # ?
+scout/scout_idle_se_02.png  # ?
+scout/scout_idle_se_03.png  # ?
+scout/scout_idle_se_master.png  # ?
+scout/scout_run_se_00.png  # ?
+scout/scout_run_se_01.png  # ?
+scout/scout_run_se_02.png  # ?
+scout/scout_run_se_03.png  # ?
+scout/scout_walk_se_00.png  # ?
+scout/scout_walk_se_01.png  # ?
+scout/scout_walk_se_02.png  # ?
+scout/scout_walk_se_03.png  # ?
+scout/scout_walk_se_04.png  # ?
+scout/scout_walk_se_05.png  # ?
+drone/drone_attack_se_01.png  # ?
+drone/drone_death_se_00.png  # ?
+drone/drone_death_se_01.png  # ?
+drone/drone_hover_se_01.png  # ?
+drone/drone_hover_se_master.png  # ?
+enemies/enemy_drone_brute_attack_se.png  # ?
+enemies/enemy_drone_brute_death_se.png  # ?
+enemies/enemy_drone_brute_hover_se.png  # ?
+enemies/enemy_drone_brute_hover_se_01.png  # ?
+enemies/enemy_scout_melee_attack_se_00_v2.png  # ?
+enemies/enemy_scout_melee_attack_se_01_v2.png  # ?
+enemies/enemy_scout_melee_death_se_00.png  # ?
+enemies/enemy_scout_melee_death_se_01.png  # ?
+enemies/enemy_scout_melee_death_se_02.png  # ?
+enemies/enemy_scout_melee_hit_se_00.png  # ?
+enemies/enemy_scout_melee_idle_se_v2.png  # ?
+enemies/enemy_scout_melee_walk_se_00_v2.png  # ?
+enemies/enemy_scout_melee_walk_se_01_v2.png  # ?
+enemies/enemy_scout_melee_walk_se_02_v2.png  # ?
+enemies/enemy_scout_melee_walk_se_03_v2.png  # ?
+enemies/ref/enemy_scout_melee_attack_se_00.png  # ?
+enemies/ref/enemy_scout_melee_attack_se_01.png  # ?
+enemies/ref/enemy_scout_melee_idle_se.png  # ?
+enemies/ref/enemy_scout_melee_walk_se_00.png  # ?
+enemies/ref/enemy_scout_melee_walk_se_01.png  # ?
+enemies/ref/enemy_scout_melee_walk_se_02.png  # ?
+enemies/ref/enemy_scout_melee_walk_se_03.png  # ?
+props/prop_barrel_tech_00.png  # ?
+props/prop_bed_camp_00.png  # ?
+props/prop_chest_relic_00.png  # ?
+props/prop_chest_relic_open_00.png  # ?
+props/prop_console_tech_00.png  # ?
+props/prop_crate_tech_00.png  # ?
+props/prop_crate_tech_01.png  # ?
+props/prop_door_tech_00.png  # ?
+props/prop_door_tech_open_00.png  # ?
+props/prop_light_post_tech_00.png  # ?
+props/prop_pillar_ruin_00.png  # ?
+props/prop_save_crystal_00.png  # ?
+props/prop_shop_stall_00.png  # ?
+props/prop_terminal_ancient_00.png  # ?
+tiles/ref/tile_floor_tech_fill_alt_00.png  # ?
+tiles/ref/tile_floor_tech_fill_alt_01.png  # ?
+tiles/ref/tile_floor_tech_fill_alt_02.png  # ?
+tiles/ref/tile_floor_tech_fill_alt_03.png  # ?
+tiles/tile_floor_tech_2x2_seam_ref.png  # ?
+tiles/tile_floor_tech_corner_ne.png  # ?
+tiles/tile_floor_tech_corner_nw.png  # ?
+tiles/tile_floor_tech_corner_se.png  # ?
+tiles/tile_floor_tech_corner_sw.png  # ?
+tiles/tile_floor_tech_edge_e.png  # ?
+tiles/tile_floor_tech_edge_n.png  # ?
+tiles/tile_floor_tech_edge_s.png  # ?
+tiles/tile_floor_tech_edge_w.png  # ?
+tiles/tile_floor_tech_fill_b_00.png  # ?
+tiles/tile_floor_tech_fill_b_01.png  # ?
+tiles/tile_floor_tech_fill_b_02.png  # ?
+tiles/tile_floor_tech_flat_00.png  # ?
+tiles/tile_floor_tech_stairs_se_00.png  # ?
+fx/fx_dash_streak_00.png  # ?
+fx/fx_footstep_v2.png  # ?
+fx/fx_footstep_v3.png  # ?
+fx/fx_footstep_v3_01.png  # ?
+fx/fx_geo_explode_00.png  # ?
+fx/fx_geo_explode_01.png  # ?
+fx/fx_geo_explode_02.png  # ?
+fx/fx_heal_pulse_00.png  # ?
+fx/fx_hit_spark_00.png  # ?
+fx/fx_levelup_burst_00.png  # ?
+fx/fx_muzzle_cyan_00.png  # ?
+fx/fx_shadow_blob_00.png  # ?
+ui/ui_damage_number_crit_ref_00.png  # ?
+ui/ui_damage_number_style_ref_00.png  # ?
+ui/ui_interact_prompt_00.png  # ?
+ui/ui_pickup_glint_00.png  # ?
+env/env_ancient_world_vista_00.png  # ?
+env/env_capital_ship_far.png  # ?
+env/env_orbital_ring_far.png  # ?
+env/prop_ruin_chunk.png  # ?
+packs/player-walk-contact-64.png  # ?
+packs/player_walk_00_64.png  # ?
+packs/player_walk_01_64.png  # ?
+packs/player_walk_02_64.png  # ?
+packs/player_walk_03_64.png  # ?
