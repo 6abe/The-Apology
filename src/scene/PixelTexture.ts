@@ -72,7 +72,6 @@ export class PixelTexture {
       return PixelTexture.missing(spec, 'size-mismatch', detail);
     }
     const texture = new Texture(bitmap);
-    // createImageBitmap already flipped; leaving flipY true would invert again.
     texture.flipY = false;
     PixelTexture.applyPixelFilter(texture);
     texture.needsUpdate = true;
