@@ -1,8 +1,8 @@
 # Agreed art pack for The-Apology
 # Source of truth: /workspace/game-art/agreed/
 # Repo: public/assets/agreed/
-# Updated: batch 16 adjusted — clean health pips + enemy melee portrait refresh
-# OWED: enemy_scout_melee_death_se_02_v2 (melee scout end dissolve — NOT brute)
+# Updated: batch 17 — melee death_02_v2 LOCKED, scout death_02, loot/ammo/FX, raised pad, brute hit
+# Player LOCK: scout cyan tube | Enemy melee LOCK: magenta NO cyan tube
 
 drone/drone_attack_se_01.png
 drone/drone_death_se_00.png
@@ -12,12 +12,14 @@ drone/drone_hover_se_master.png
 enemies/enemy_drone_brute_attack_se.png
 enemies/enemy_drone_brute_death_se.png
 enemies/enemy_drone_brute_death_se_01.png
+enemies/enemy_drone_brute_hit_se_00.png
 enemies/enemy_drone_brute_hover_se.png
 enemies/enemy_drone_brute_hover_se_01.png
 enemies/enemy_scout_melee_attack_se_00_v2.png
 enemies/enemy_scout_melee_attack_se_01_v2.png
 enemies/enemy_scout_melee_death_se_00_v2.png
 enemies/enemy_scout_melee_death_se_01_v2.png
+enemies/enemy_scout_melee_death_se_02_v2.png
 enemies/enemy_scout_melee_hit_se_00_v2.png
 enemies/enemy_scout_melee_idle_se_v2.png
 enemies/enemy_scout_melee_walk_se_00_v2.png
@@ -51,6 +53,7 @@ fx/fx_heal_pulse_00.png
 fx/fx_hit_spark_00.png
 fx/fx_levelup_burst_00.png
 fx/fx_muzzle_cyan_00.png
+fx/fx_pickup_burst_00.png
 fx/fx_shadow_blob_00.png
 fx/fx_shadow_blob_wide_00.png
 packs/player-walk-contact-64.png
@@ -58,6 +61,7 @@ packs/player_walk_00_64.png
 packs/player_walk_01_64.png
 packs/player_walk_02_64.png
 packs/player_walk_03_64.png
+props/prop_ammo_cell_00.png
 props/prop_barrel_tech_00.png
 props/prop_bed_camp_00.png
 props/prop_chest_relic_00.png
@@ -68,6 +72,7 @@ props/prop_crate_tech_01.png
 props/prop_door_tech_00.png
 props/prop_door_tech_open_00.png
 props/prop_light_post_tech_00.png
+props/prop_loot_cache_00.png
 props/prop_pillar_ruin_00.png
 props/prop_portal_tech_00.png
 props/prop_portal_tech_01.png
@@ -120,6 +125,7 @@ tiles/tile_floor_tech_fill_b_00.png
 tiles/tile_floor_tech_fill_b_01.png
 tiles/tile_floor_tech_fill_b_02.png
 tiles/tile_floor_tech_flat_00.png
+tiles/tile_floor_tech_platform_raised_00.png
 tiles/tile_floor_tech_ramp_se_00.png
 tiles/tile_floor_tech_stairs_se_00.png
 ui/portraits/ui_portrait_drone_brute_00.png
