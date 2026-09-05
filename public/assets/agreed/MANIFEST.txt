@@ -1,9 +1,9 @@
 # Agreed art pack for The-Apology
 # Source of truth: /workspace/game-art/agreed/
 # Repo: public/assets/agreed/
-# Updated: batch 55 — scout idle_11/death_10, melee hit_12/idle_10, brute attack_09, crit_06, ammo_06, minimap_player_04, hazard_09, nebula_15
-# Brute LOCK: 3 hover pods tripod + magenta + circular eye, no baked trails. Player LOCK: cyan single tube void SQUARE cyan eyes dark charcoal rounded helmet hi-bit, emissives eyes+tube lean, pure BLACK void. Melee LOCK: magenta true T-visor cloak, solid purple belt, NO cyan tube, idle/walk empty hands, lean LEDs. Props: no English + dark charcoal. Fill: pure iso diamond. Minimap: solid cyan diamond on pure black.
-# Soft: minimap_04 hollow diamond vs solid; death_10 tube reads as shoulder strip; nebula_15 more surface/spires than pure space vista
+# Updated: batch 56 — scout attack_14/walk_14, melee death_11/walk_16, brute hover_12, heal_06, barrel_06, portrait scout_09, ramp_08, orbital_16
+# Brute LOCK: 3 hover pods tripod + magenta + circular eye, no baked trails. Player LOCK: cyan VERTICAL canister tube + SQUARE cyan eyes dark charcoal rounded helmet hi-bit, emissives eyes+tube lean, pure BLACK void, attack empty off-hand. Melee LOCK: magenta true T + cloak + solid purple belt NO cyan tube empty hands idle/walk, lean LEDs. Props: no English dark charcoal. Minimap: SOLID cyan diamond pure black. Orbital: space station+planet not ground.
+# Soft: masters trending smoother 3D-render vs hi-bit pixel; melee walk_16 denser magenta coat-edge trim
 drone/drone_attack_se_01.png
 drone/drone_death_se_00.png
 drone/drone_death_se_01.png
@@ -42,6 +42,7 @@ enemies/enemy_drone_brute_hover_se_08.png
 enemies/enemy_drone_brute_hover_se_09.png
 enemies/enemy_drone_brute_hover_se_10.png
 enemies/enemy_drone_brute_hover_se_11.png
+enemies/enemy_drone_brute_hover_se_12.png
 enemies/enemy_drone_brute_idle_se_00.png
 enemies/enemy_drone_brute_idle_se_01.png
 enemies/enemy_drone_brute_idle_se_02.png
@@ -78,6 +79,7 @@ enemies/enemy_scout_melee_death_se_07.png
 enemies/enemy_scout_melee_death_se_08.png
 enemies/enemy_scout_melee_death_se_09.png
 enemies/enemy_scout_melee_death_se_10.png
+enemies/enemy_scout_melee_death_se_11.png
 enemies/enemy_scout_melee_hit_se_00.png
 enemies/enemy_scout_melee_hit_se_00_v2.png
 enemies/enemy_scout_melee_hit_se_01.png
@@ -124,6 +126,7 @@ enemies/enemy_scout_melee_walk_se_12.png
 enemies/enemy_scout_melee_walk_se_13.png
 enemies/enemy_scout_melee_walk_se_14.png
 enemies/enemy_scout_melee_walk_se_15.png
+enemies/enemy_scout_melee_walk_se_16.png
 env/env_ancient_ruin_vista_00.png
 env/env_ancient_world_vista_00.png
 env/env_capital_ship_far.png
@@ -160,6 +163,7 @@ env/env_orbital_vista_12.png
 env/env_orbital_vista_13.png
 env/env_orbital_vista_14.png
 env/env_orbital_vista_15.png
+env/env_orbital_vista_16.png
 env/prop_ruin_chunk.png
 fx/fx_crit_burst_00.png
 fx/fx_crit_burst_01.png
@@ -195,6 +199,7 @@ fx/fx_heal_pulse_02.png
 fx/fx_heal_pulse_03.png
 fx/fx_heal_pulse_04.png
 fx/fx_heal_pulse_05.png
+fx/fx_heal_pulse_06.png
 fx/fx_heal_spark_00.png
 fx/fx_heal_spark_01.png
 fx/fx_hit_spark_00.png
@@ -235,6 +240,7 @@ props/prop_barrel_tech_02.png
 props/prop_barrel_tech_03.png
 props/prop_barrel_tech_04.png
 props/prop_barrel_tech_05.png
+props/prop_barrel_tech_06.png
 props/prop_bed_camp_00.png
 props/prop_chest_relic_00.png
 props/prop_chest_relic_open_00.png
@@ -297,6 +303,7 @@ scout/scout_attack_se_10.png
 scout/scout_attack_se_11.png
 scout/scout_attack_se_12.png
 scout/scout_attack_se_13.png
+scout/scout_attack_se_14.png
 scout/scout_death_se_00.png
 scout/scout_death_se_01.png
 scout/scout_death_se_02.png
@@ -363,6 +370,7 @@ scout/scout_walk_se_10.png
 scout/scout_walk_se_11.png
 scout/scout_walk_se_12.png
 scout/scout_walk_se_13.png
+scout/scout_walk_se_14.png
 tiles/tile_floor_tech_00.png
 tiles/tile_floor_tech_2x2_seam_ref.png
 tiles/tile_floor_tech_corner_ne.png
@@ -420,6 +428,7 @@ tiles/tile_floor_tech_stairs_se_03.png
 tiles/tile_ramp_se_05.png
 tiles/tile_ramp_se_06.png
 tiles/tile_ramp_se_07.png
+tiles/tile_ramp_se_08.png
 tiles/tile_stairs_se_04.png
 tiles/tile_stairs_se_05.png
 ui/portraits/ui_portrait_drone_brute_00.png
@@ -473,4 +482,5 @@ ui/ui_portrait_scout_05.png
 ui/ui_portrait_scout_06.png
 ui/ui_portrait_scout_07.png
 ui/ui_portrait_scout_08.png
+ui/ui_portrait_scout_09.png
 ui/ui_xp_pip_00.png
