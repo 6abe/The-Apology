@@ -1,11 +1,10 @@
 # Agreed art pack for The-Apology
 # Source of truth: /workspace/game-art/agreed/
 # Repo: public/assets/agreed/
-# Updated: batch 15 refined — death_01_v2, cyan shopkeeper+stall, portal, pressed prompt, scout bust
+# Updated: batch 16 — scout death/hit, portal off, stall sign, pressed, health sheet, brute portrait
+# NOTE: enemy melee death_02 still owed (batch16 #2 was brute → enemy_drone_brute_death_se_01)
 #
-# Player LOCK: scout *_v2 cyan tube
-# Enemy melee LOCK: enemy_scout_melee_*_v2 magenta, NO cyan tube
-# Shopkeeper: prefer prop_shopkeeper_stall_00 (cyan); magenta solo in props/ref/
+# Player LOCK: scout cyan tube | Enemy melee LOCK: magenta NO cyan tube
 
 drone/drone_attack_se_01.png
 drone/drone_death_se_00.png
@@ -14,6 +13,7 @@ drone/drone_hover_se_01.png
 drone/drone_hover_se_master.png
 enemies/enemy_drone_brute_attack_se.png
 enemies/enemy_drone_brute_death_se.png
+enemies/enemy_drone_brute_death_se_01.png
 enemies/enemy_drone_brute_hover_se.png
 enemies/enemy_drone_brute_hover_se_01.png
 enemies/enemy_scout_melee_attack_se_00_v2.png
@@ -72,8 +72,10 @@ props/prop_door_tech_open_00.png
 props/prop_light_post_tech_00.png
 props/prop_pillar_ruin_00.png
 props/prop_portal_tech_00.png
+props/prop_portal_tech_01.png
 props/prop_save_crystal_00.png
 props/prop_shop_stall_00.png
+props/prop_shop_stall_sign_00.png
 props/prop_shopkeeper_stall_00.png
 props/prop_terminal_ancient_00.png
 props/ref/prop_shopkeeper_idle_se_magenta_00.png
@@ -122,10 +124,12 @@ tiles/tile_floor_tech_fill_b_02.png
 tiles/tile_floor_tech_flat_00.png
 tiles/tile_floor_tech_ramp_se_00.png
 tiles/tile_floor_tech_stairs_se_00.png
+ui/portraits/ui_portrait_drone_brute_00.png
 ui/portraits/ui_portrait_enemy_melee_00.png
 ui/portraits/ui_portrait_scout_00.png
 ui/ui_damage_number_crit_ref_00.png
 ui/ui_damage_number_style_ref_00.png
+ui/ui_health_pips_sheet_00.png
 ui/ui_interact_prompt_00.png
 ui/ui_interact_prompt_active_00.png
 ui/ui_interact_prompt_pressed_00.png
