@@ -1,9 +1,9 @@
 # Agreed art pack for The-Apology
 # Source of truth: /workspace/game-art/agreed/
 # Repo: public/assets/agreed/
-# Updated: batch 85 — scout idle_21/death_20, melee attack_24/hit_27, brute hover_22, crit_16, ammo_16, portrait melee_17, hazard_19, nebula_30
+# Updated: batch 86 — scout attack_24/walk_24, melee death_21/walk_30, brute attack_19, heal_16, barrel_16, portrait scout_19, ramp_18, orbital_31
 # Brute LOCK: 3 hover pods underside tripod + CLEAR concentric BASE glow rings + magenta + circular eye, POD-ONLY ROUNDED disc pods (not taper points), no arms/spikes, no baked trails. Player LOCK: cyan VERTICAL canister tube + SQUARE cyan eyes dark charcoal ROUND helmet hi-bit, emissives eyes+tube lean, pure BLACK void, attack empty off-hand + RIFLE (not baton/sword); death tube tipped with body; no tan straps; no skull helmet. Melee LOCK: magenta bold true T visor + cloak + solid purple belt NO cyan tube empty hands idle/walk/hit/death, lean MAGENTA LEDs on shoulders/forearms/knees only as SINGLE strips (not multi-strip clusters; not chest/upper-leg/shin spill; not cyan; no dense chest/pectoral glyphs), no dropped weapons, no baked hit sparks / no baked sword-tip spark trails; attack empty off-hand. Props: no English dark charcoal. Minimap: SOLID cyan diamond. Orbital: station+planet. Nebula: space/gas. Muzzle: cyan geometric CENTERED radial. Crit: magenta geometric centered radial.
-# Soft: none new; softs carried fixed (death tube tipped; melee single-strip MAGENTA s/f/k knees only; brute EXACTLY 3 underside tripod)
+# Soft: melee death_21 visor Y/inverted-T (prefer bold true T). Softs carried fixed (RIFLE; single-strip MAGENTA s/f/k knees only; brute EXACTLY 3 underside tripod)
 drone/drone_attack_se_01.png
 drone/drone_death_se_00.png
 drone/drone_death_se_01.png
@@ -29,6 +29,7 @@ enemies/enemy_drone_brute_attack_se_15.png
 enemies/enemy_drone_brute_attack_se_16.png
 enemies/enemy_drone_brute_attack_se_17.png
 enemies/enemy_drone_brute_attack_se_18.png
+enemies/enemy_drone_brute_attack_se_19.png
 enemies/enemy_drone_brute_death_se.png
 enemies/enemy_drone_brute_death_se_00.png
 enemies/enemy_drone_brute_death_se_01.png
@@ -129,6 +130,7 @@ enemies/enemy_scout_melee_death_se_17.png
 enemies/enemy_scout_melee_death_se_18.png
 enemies/enemy_scout_melee_death_se_19.png
 enemies/enemy_scout_melee_death_se_20.png
+enemies/enemy_scout_melee_death_se_21.png
 enemies/enemy_scout_melee_hit_se_00.png
 enemies/enemy_scout_melee_hit_se_00_v2.png
 enemies/enemy_scout_melee_hit_se_01.png
@@ -213,6 +215,7 @@ enemies/enemy_scout_melee_walk_se_26.png
 enemies/enemy_scout_melee_walk_se_27.png
 enemies/enemy_scout_melee_walk_se_28.png
 enemies/enemy_scout_melee_walk_se_29.png
+enemies/enemy_scout_melee_walk_se_30.png
 env/env_ancient_ruin_vista_00.png
 env/env_ancient_world_vista_00.png
 env/env_capital_ship_far.png
@@ -279,6 +282,7 @@ env/env_orbital_vista_27.png
 env/env_orbital_vista_28.png
 env/env_orbital_vista_29.png
 env/env_orbital_vista_30.png
+env/env_orbital_vista_31.png
 env/prop_ruin_chunk.png
 fx/fx_crit_burst_00.png
 fx/fx_crit_burst_01.png
@@ -396,6 +400,7 @@ props/prop_barrel_tech_12.png
 props/prop_barrel_tech_13.png
 props/prop_barrel_tech_14.png
 props/prop_barrel_tech_15.png
+props/prop_barrel_tech_16.png
 props/prop_bed_camp_00.png
 props/prop_chest_relic_00.png
 props/prop_chest_relic_open_00.png
@@ -422,6 +427,7 @@ props/prop_heal_pack_12.png
 props/prop_heal_pack_13.png
 props/prop_heal_pack_14.png
 props/prop_heal_pack_15.png
+props/prop_heal_pack_16.png
 props/prop_keycard_00.png
 props/prop_keycard_01.png
 props/prop_keycard_02.png
@@ -486,6 +492,7 @@ scout/scout_attack_se_20.png
 scout/scout_attack_se_21.png
 scout/scout_attack_se_22.png
 scout/scout_attack_se_23.png
+scout/scout_attack_se_24.png
 scout/scout_death_se_00.png
 scout/scout_death_se_01.png
 scout/scout_death_se_02.png
@@ -602,6 +609,7 @@ scout/scout_walk_se_20.png
 scout/scout_walk_se_21.png
 scout/scout_walk_se_22.png
 scout/scout_walk_se_23.png
+scout/scout_walk_se_24.png
 tiles/tile_floor_tech_00.png
 tiles/tile_floor_tech_2x2_seam_ref.png
 tiles/tile_floor_tech_corner_ne.png
@@ -689,6 +697,7 @@ tiles/tile_ramp_se_14.png
 tiles/tile_ramp_se_15.png
 tiles/tile_ramp_se_16.png
 tiles/tile_ramp_se_17.png
+tiles/tile_ramp_se_18.png
 tiles/tile_stairs_se_04.png
 tiles/tile_stairs_se_05.png
 ui/portraits/ui_portrait_drone_brute_00.png
@@ -772,4 +781,5 @@ ui/ui_portrait_scout_15.png
 ui/ui_portrait_scout_16.png
 ui/ui_portrait_scout_17.png
 ui/ui_portrait_scout_18.png
+ui/ui_portrait_scout_19.png
 ui/ui_xp_pip_00.png
