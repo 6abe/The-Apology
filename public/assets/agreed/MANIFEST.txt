@@ -1,930 +1,985 @@
-# The-Apology agreed art pack
-# Count: 919 PNGs (excl ref/)
-# Themes: dark charcoal + cyan/magenta; iso SE; hi-bit pixel
-# Scout: ROUND helmet, cyan eyes+tube; attack EMPTY off-hand + RIFLE; death tube tipped
-# Melee: bold true T (not Y/inverted); MAGENTA single-strip LEDs s/f/k knees only (no shin/ankle spill); empty hands idle/walk/hit/death; attack EMPTY off-hand
-# Brute: POD-ONLY, EXACTLY 3 underside tripod discs + CLEAR base rings
-# Props: dark charcoal, cyan accents, no English
-# Env: orbital station+planet no engine trails; nebula space/gas only
-# Minimap: SOLID cyan diamond; Muzzle: cyan centered radial; Crit: magenta centered radial
-# Softs carried: scout RIFLE; melee bold true T + s/f/k knees only (no ankle); brute 3-tripod; death tube tipped; no sparks/trails
+# Agreed art pack — The-Apology
+# SHA256 of each PNG under agreed/
 
-drone/drone_attack_se_01.png
-drone/drone_death_se_00.png
-drone/drone_death_se_01.png
-drone/drone_hover_se_01.png
-drone/drone_hover_se_master.png
-enemies/enemy_drone_brute_attack_se.png
-enemies/enemy_drone_brute_attack_se_00.png
-enemies/enemy_drone_brute_attack_se_01.png
-enemies/enemy_drone_brute_attack_se_02.png
-enemies/enemy_drone_brute_attack_se_03.png
-enemies/enemy_drone_brute_attack_se_04.png
-enemies/enemy_drone_brute_attack_se_05.png
-enemies/enemy_drone_brute_attack_se_06.png
-enemies/enemy_drone_brute_attack_se_07.png
-enemies/enemy_drone_brute_attack_se_08.png
-enemies/enemy_drone_brute_attack_se_09.png
-enemies/enemy_drone_brute_attack_se_10.png
-enemies/enemy_drone_brute_attack_se_11.png
-enemies/enemy_drone_brute_attack_se_12.png
-enemies/enemy_drone_brute_attack_se_13.png
-enemies/enemy_drone_brute_attack_se_14.png
-enemies/enemy_drone_brute_attack_se_15.png
-enemies/enemy_drone_brute_attack_se_16.png
-enemies/enemy_drone_brute_attack_se_17.png
-enemies/enemy_drone_brute_attack_se_18.png
-enemies/enemy_drone_brute_attack_se_19.png
-enemies/enemy_drone_brute_attack_se_20.png
-enemies/enemy_drone_brute_attack_se_21.png
-enemies/enemy_drone_brute_attack_se_22.png
-enemies/enemy_drone_brute_attack_se_23.png
-enemies/enemy_drone_brute_death_se.png
-enemies/enemy_drone_brute_death_se_00.png
-enemies/enemy_drone_brute_death_se_01.png
-enemies/enemy_drone_brute_death_se_02.png
-enemies/enemy_drone_brute_death_se_03.png
-enemies/enemy_drone_brute_death_se_04.png
-enemies/enemy_drone_brute_hit_se_00.png
-enemies/enemy_drone_brute_hit_se_01.png
-enemies/enemy_drone_brute_hit_se_02.png
-enemies/enemy_drone_brute_hit_se_03.png
-enemies/enemy_drone_brute_hover_se.png
-enemies/enemy_drone_brute_hover_se_01.png
-enemies/enemy_drone_brute_hover_se_02.png
-enemies/enemy_drone_brute_hover_se_03.png
-enemies/enemy_drone_brute_hover_se_04.png
-enemies/enemy_drone_brute_hover_se_05.png
-enemies/enemy_drone_brute_hover_se_06.png
-enemies/enemy_drone_brute_hover_se_07.png
-enemies/enemy_drone_brute_hover_se_08.png
-enemies/enemy_drone_brute_hover_se_09.png
-enemies/enemy_drone_brute_hover_se_10.png
-enemies/enemy_drone_brute_hover_se_11.png
-enemies/enemy_drone_brute_hover_se_12.png
-enemies/enemy_drone_brute_hover_se_13.png
-enemies/enemy_drone_brute_hover_se_14.png
-enemies/enemy_drone_brute_hover_se_15.png
-enemies/enemy_drone_brute_hover_se_16.png
-enemies/enemy_drone_brute_hover_se_17.png
-enemies/enemy_drone_brute_hover_se_18.png
-enemies/enemy_drone_brute_hover_se_19.png
-enemies/enemy_drone_brute_hover_se_20.png
-enemies/enemy_drone_brute_hover_se_21.png
-enemies/enemy_drone_brute_hover_se_22.png
-enemies/enemy_drone_brute_hover_se_23.png
-enemies/enemy_drone_brute_hover_se_24.png
-enemies/enemy_drone_brute_hover_se_25.png
-enemies/enemy_drone_brute_hover_se_26.png
-enemies/enemy_drone_brute_hover_se_27.png
-enemies/enemy_drone_brute_idle_se_00.png
-enemies/enemy_drone_brute_idle_se_01.png
-enemies/enemy_drone_brute_idle_se_02.png
-enemies/enemy_drone_brute_idle_se_03.png
-enemies/enemy_drone_brute_idle_se_04.png
-enemies/enemy_drone_brute_idle_se_05.png
-enemies/enemy_drone_brute_idle_se_06.png
-enemies/enemy_drone_brute_idle_se_07.png
-enemies/enemy_drone_brute_idle_se_08.png
-enemies/enemy_drone_brute_idle_se_09.png
-enemies/enemy_drone_brute_idle_se_10.png
-enemies/enemy_drone_brute_idle_se_11.png
-enemies/enemy_drone_brute_idle_se_12.png
-enemies/enemy_drone_brute_idle_se_13.png
-enemies/enemy_drone_brute_idle_se_14.png
-enemies/enemy_drone_brute_idle_se_15.png
-enemies/enemy_drone_brute_idle_se_16.png
-enemies/enemy_drone_brute_idle_se_17.png
-enemies/enemy_drone_brute_idle_se_18.png
-enemies/enemy_drone_brute_idle_se_19.png
-enemies/enemy_drone_brute_idle_se_20.png
-enemies/enemy_scout_melee_attack_se_00.png
-enemies/enemy_scout_melee_attack_se_00_v2.png
-enemies/enemy_scout_melee_attack_se_01.png
-enemies/enemy_scout_melee_attack_se_01_v2.png
-enemies/enemy_scout_melee_attack_se_02.png
-enemies/enemy_scout_melee_attack_se_03.png
-enemies/enemy_scout_melee_attack_se_04.png
-enemies/enemy_scout_melee_attack_se_05.png
-enemies/enemy_scout_melee_attack_se_06.png
-enemies/enemy_scout_melee_attack_se_07.png
-enemies/enemy_scout_melee_attack_se_08.png
-enemies/enemy_scout_melee_attack_se_09.png
-enemies/enemy_scout_melee_attack_se_10.png
-enemies/enemy_scout_melee_attack_se_11.png
-enemies/enemy_scout_melee_attack_se_12.png
-enemies/enemy_scout_melee_attack_se_13.png
-enemies/enemy_scout_melee_attack_se_14.png
-enemies/enemy_scout_melee_attack_se_15.png
-enemies/enemy_scout_melee_attack_se_16.png
-enemies/enemy_scout_melee_attack_se_17.png
-enemies/enemy_scout_melee_attack_se_18.png
-enemies/enemy_scout_melee_attack_se_19.png
-enemies/enemy_scout_melee_attack_se_20.png
-enemies/enemy_scout_melee_attack_se_21.png
-enemies/enemy_scout_melee_attack_se_22.png
-enemies/enemy_scout_melee_attack_se_23.png
-enemies/enemy_scout_melee_attack_se_24.png
-enemies/enemy_scout_melee_attack_se_25.png
-enemies/enemy_scout_melee_attack_se_26.png
-enemies/enemy_scout_melee_attack_se_27.png
-enemies/enemy_scout_melee_attack_se_28.png
-enemies/enemy_scout_melee_attack_se_29.png
-enemies/enemy_scout_melee_death_se_00.png
-enemies/enemy_scout_melee_death_se_00_v2.png
-enemies/enemy_scout_melee_death_se_01.png
-enemies/enemy_scout_melee_death_se_01_v2.png
-enemies/enemy_scout_melee_death_se_02.png
-enemies/enemy_scout_melee_death_se_02_v2.png
-enemies/enemy_scout_melee_death_se_03.png
-enemies/enemy_scout_melee_death_se_04.png
-enemies/enemy_scout_melee_death_se_05.png
-enemies/enemy_scout_melee_death_se_06.png
-enemies/enemy_scout_melee_death_se_07.png
-enemies/enemy_scout_melee_death_se_08.png
-enemies/enemy_scout_melee_death_se_09.png
-enemies/enemy_scout_melee_death_se_10.png
-enemies/enemy_scout_melee_death_se_11.png
-enemies/enemy_scout_melee_death_se_12.png
-enemies/enemy_scout_melee_death_se_13.png
-enemies/enemy_scout_melee_death_se_14.png
-enemies/enemy_scout_melee_death_se_15.png
-enemies/enemy_scout_melee_death_se_16.png
-enemies/enemy_scout_melee_death_se_17.png
-enemies/enemy_scout_melee_death_se_18.png
-enemies/enemy_scout_melee_death_se_19.png
-enemies/enemy_scout_melee_death_se_20.png
-enemies/enemy_scout_melee_death_se_21.png
-enemies/enemy_scout_melee_death_se_22.png
-enemies/enemy_scout_melee_death_se_23.png
-enemies/enemy_scout_melee_death_se_24.png
-enemies/enemy_scout_melee_death_se_25.png
-enemies/enemy_scout_melee_hit_se_00.png
-enemies/enemy_scout_melee_hit_se_00_v2.png
-enemies/enemy_scout_melee_hit_se_01.png
-enemies/enemy_scout_melee_hit_se_02.png
-enemies/enemy_scout_melee_hit_se_03.png
-enemies/enemy_scout_melee_hit_se_04.png
-enemies/enemy_scout_melee_hit_se_05.png
-enemies/enemy_scout_melee_hit_se_06.png
-enemies/enemy_scout_melee_hit_se_07.png
-enemies/enemy_scout_melee_hit_se_08.png
-enemies/enemy_scout_melee_hit_se_09.png
-enemies/enemy_scout_melee_hit_se_10.png
-enemies/enemy_scout_melee_hit_se_11.png
-enemies/enemy_scout_melee_hit_se_12.png
-enemies/enemy_scout_melee_hit_se_13.png
-enemies/enemy_scout_melee_hit_se_14.png
-enemies/enemy_scout_melee_hit_se_15.png
-enemies/enemy_scout_melee_hit_se_16.png
-enemies/enemy_scout_melee_hit_se_17.png
-enemies/enemy_scout_melee_hit_se_18.png
-enemies/enemy_scout_melee_hit_se_19.png
-enemies/enemy_scout_melee_hit_se_20.png
-enemies/enemy_scout_melee_hit_se_21.png
-enemies/enemy_scout_melee_hit_se_22.png
-enemies/enemy_scout_melee_hit_se_23.png
-enemies/enemy_scout_melee_hit_se_24.png
-enemies/enemy_scout_melee_hit_se_25.png
-enemies/enemy_scout_melee_hit_se_26.png
-enemies/enemy_scout_melee_hit_se_27.png
-enemies/enemy_scout_melee_hit_se_28.png
-enemies/enemy_scout_melee_hit_se_29.png
-enemies/enemy_scout_melee_hit_se_30.png
-enemies/enemy_scout_melee_hit_se_31.png
-enemies/enemy_scout_melee_hit_se_32.png
-enemies/enemy_scout_melee_hit_se_33.png
-enemies/enemy_scout_melee_hit_se_34.png
-enemies/enemy_scout_melee_idle_se_00.png
-enemies/enemy_scout_melee_idle_se_01.png
-enemies/enemy_scout_melee_idle_se_02.png
-enemies/enemy_scout_melee_idle_se_03.png
-enemies/enemy_scout_melee_idle_se_04.png
-enemies/enemy_scout_melee_idle_se_05.png
-enemies/enemy_scout_melee_idle_se_06.png
-enemies/enemy_scout_melee_idle_se_07.png
-enemies/enemy_scout_melee_idle_se_08.png
-enemies/enemy_scout_melee_idle_se_09.png
-enemies/enemy_scout_melee_idle_se_10.png
-enemies/enemy_scout_melee_idle_se_11.png
-enemies/enemy_scout_melee_idle_se_12.png
-enemies/enemy_scout_melee_idle_se_13.png
-enemies/enemy_scout_melee_idle_se_14.png
-enemies/enemy_scout_melee_idle_se_15.png
-enemies/enemy_scout_melee_idle_se_16.png
-enemies/enemy_scout_melee_idle_se_17.png
-enemies/enemy_scout_melee_idle_se_18.png
-enemies/enemy_scout_melee_idle_se_19.png
-enemies/enemy_scout_melee_idle_se_20.png
-enemies/enemy_scout_melee_idle_se_21.png
-enemies/enemy_scout_melee_idle_se_22.png
-enemies/enemy_scout_melee_idle_se_23.png
-enemies/enemy_scout_melee_idle_se_24.png
-enemies/enemy_scout_melee_idle_se_v2.png
-enemies/enemy_scout_melee_walk_se_00.png
-enemies/enemy_scout_melee_walk_se_00_v2.png
-enemies/enemy_scout_melee_walk_se_01.png
-enemies/enemy_scout_melee_walk_se_01_v2.png
-enemies/enemy_scout_melee_walk_se_02.png
-enemies/enemy_scout_melee_walk_se_02_v2.png
-enemies/enemy_scout_melee_walk_se_03.png
-enemies/enemy_scout_melee_walk_se_03_v2.png
-enemies/enemy_scout_melee_walk_se_04.png
-enemies/enemy_scout_melee_walk_se_05.png
-enemies/enemy_scout_melee_walk_se_06.png
-enemies/enemy_scout_melee_walk_se_07.png
-enemies/enemy_scout_melee_walk_se_08.png
-enemies/enemy_scout_melee_walk_se_09.png
-enemies/enemy_scout_melee_walk_se_10.png
-enemies/enemy_scout_melee_walk_se_11.png
-enemies/enemy_scout_melee_walk_se_12.png
-enemies/enemy_scout_melee_walk_se_13.png
-enemies/enemy_scout_melee_walk_se_14.png
-enemies/enemy_scout_melee_walk_se_15.png
-enemies/enemy_scout_melee_walk_se_16.png
-enemies/enemy_scout_melee_walk_se_17.png
-enemies/enemy_scout_melee_walk_se_18.png
-enemies/enemy_scout_melee_walk_se_19.png
-enemies/enemy_scout_melee_walk_se_20.png
-enemies/enemy_scout_melee_walk_se_21.png
-enemies/enemy_scout_melee_walk_se_22.png
-enemies/enemy_scout_melee_walk_se_23.png
-enemies/enemy_scout_melee_walk_se_24.png
-enemies/enemy_scout_melee_walk_se_25.png
-enemies/enemy_scout_melee_walk_se_26.png
-enemies/enemy_scout_melee_walk_se_27.png
-enemies/enemy_scout_melee_walk_se_28.png
-enemies/enemy_scout_melee_walk_se_29.png
-enemies/enemy_scout_melee_walk_se_30.png
-enemies/enemy_scout_melee_walk_se_31.png
-enemies/enemy_scout_melee_walk_se_32.png
-enemies/enemy_scout_melee_walk_se_33.png
-enemies/enemy_scout_melee_walk_se_34.png
-enemies/enemy_scout_melee_walk_se_35.png
-enemies/enemy_scout_melee_walk_se_36.png
-enemies/enemy_scout_melee_walk_se_37.png
-env/env_ancient_ruin_vista_00.png
-env/env_ancient_world_vista_00.png
-env/env_capital_ship_far.png
-env/env_nebula_11.png
-env/env_nebula_12.png
-env/env_nebula_13.png
-env/env_nebula_14.png
-env/env_nebula_15.png
-env/env_nebula_16.png
-env/env_nebula_17.png
-env/env_nebula_18.png
-env/env_nebula_19.png
-env/env_nebula_20.png
-env/env_nebula_21.png
-env/env_nebula_22.png
-env/env_nebula_23.png
-env/env_nebula_24.png
-env/env_nebula_25.png
-env/env_nebula_26.png
-env/env_nebula_27.png
-env/env_nebula_28.png
-env/env_nebula_29.png
-env/env_nebula_30.png
-env/env_nebula_31.png
-env/env_nebula_32.png
-env/env_nebula_33.png
-env/env_nebula_34.png
-env/env_nebula_35.png
-env/env_nebula_36.png
-env/env_nebula_37.png
-env/env_nebula_backdrop_00.png
-env/env_nebula_backdrop_01.png
-env/env_nebula_backdrop_02.png
-env/env_nebula_backdrop_03.png
-env/env_nebula_backdrop_04.png
-env/env_nebula_backdrop_05.png
-env/env_nebula_backdrop_06.png
-env/env_nebula_backdrop_07.png
-env/env_nebula_backdrop_08.png
-env/env_nebula_backdrop_09.png
-env/env_nebula_backdrop_10.png
-env/env_orbital_ring_far.png
-env/env_orbital_vista_00.png
-env/env_orbital_vista_01.png
-env/env_orbital_vista_02.png
-env/env_orbital_vista_03.png
-env/env_orbital_vista_04.png
-env/env_orbital_vista_05.png
-env/env_orbital_vista_06.png
-env/env_orbital_vista_07.png
-env/env_orbital_vista_08.png
-env/env_orbital_vista_09.png
-env/env_orbital_vista_10.png
-env/env_orbital_vista_11.png
-env/env_orbital_vista_12.png
-env/env_orbital_vista_13.png
-env/env_orbital_vista_14.png
-env/env_orbital_vista_15.png
-env/env_orbital_vista_16.png
-env/env_orbital_vista_17.png
-env/env_orbital_vista_18.png
-env/env_orbital_vista_19.png
-env/env_orbital_vista_20.png
-env/env_orbital_vista_21.png
-env/env_orbital_vista_22.png
-env/env_orbital_vista_23.png
-env/env_orbital_vista_24.png
-env/env_orbital_vista_25.png
-env/env_orbital_vista_26.png
-env/env_orbital_vista_27.png
-env/env_orbital_vista_28.png
-env/env_orbital_vista_29.png
-env/env_orbital_vista_30.png
-env/env_orbital_vista_31.png
-env/env_orbital_vista_32.png
-env/env_orbital_vista_33.png
-env/env_orbital_vista_34.png
-env/env_orbital_vista_35.png
-env/env_orbital_vista_36.png
-env/env_orbital_vista_37.png
-env/env_orbital_vista_38.png
-env/prop_ruin_chunk.png
-fx/fx_crit_burst_00.png
-fx/fx_crit_burst_01.png
-fx/fx_crit_burst_02.png
-fx/fx_crit_burst_03.png
-fx/fx_crit_hit_04.png
-fx/fx_crit_hit_05.png
-fx/fx_crit_hit_06.png
-fx/fx_crit_hit_07.png
-fx/fx_crit_hit_08.png
-fx/fx_crit_hit_09.png
-fx/fx_crit_hit_10.png
-fx/fx_crit_hit_11.png
-fx/fx_crit_hit_12.png
-fx/fx_crit_hit_13.png
-fx/fx_crit_hit_14.png
-fx/fx_crit_hit_15.png
-fx/fx_crit_hit_16.png
-fx/fx_crit_hit_17.png
-fx/fx_crit_hit_18.png
-fx/fx_crit_hit_19.png
-fx/fx_crit_hit_20.png
-fx/fx_crit_hit_21.png
-fx/fx_dash_afterimage_00.png
-fx/fx_dash_afterimage_01.png
-fx/fx_dash_afterimage_02.png
-fx/fx_dash_afterimage_03.png
-fx/fx_dash_afterimage_04.png
-fx/fx_dash_streak_00.png
-fx/fx_dash_streak_01.png
-fx/fx_footstep_v2.png
-fx/fx_footstep_v3.png
-fx/fx_footstep_v3_01.png
-fx/fx_footstep_v3_02.png
-fx/fx_footstep_v3_03.png
-fx/fx_footstep_v3_04.png
-fx/fx_geo_explode_00.png
-fx/fx_geo_explode_01.png
-fx/fx_geo_explode_02.png
-fx/fx_geo_explode_03.png
-fx/fx_geo_explode_04.png
-fx/fx_geo_explode_05.png
-fx/fx_geo_explode_06.png
-fx/fx_geo_explode_07.png
-fx/fx_heal_pulse_00.png
-fx/fx_heal_pulse_01.png
-fx/fx_heal_pulse_02.png
-fx/fx_heal_pulse_03.png
-fx/fx_heal_pulse_04.png
-fx/fx_heal_pulse_05.png
-fx/fx_heal_pulse_06.png
-fx/fx_heal_pulse_07.png
-fx/fx_heal_spark_00.png
-fx/fx_heal_spark_01.png
-fx/fx_hit_spark_00.png
-fx/fx_hit_spark_01.png
-fx/fx_levelup_burst_00.png
-fx/fx_levelup_burst_01.png
-fx/fx_levelup_burst_02.png
-fx/fx_levelup_ring_00.png
-fx/fx_muzzle_cyan_00.png
-fx/fx_muzzle_cyan_01.png
-fx/fx_muzzle_cyan_02.png
-fx/fx_muzzle_cyan_03.png
-fx/fx_muzzle_flash_04.png
-fx/fx_muzzle_flash_05.png
-fx/fx_muzzle_flash_06.png
-fx/fx_muzzle_flash_07.png
-fx/fx_muzzle_flash_08.png
-fx/fx_muzzle_flash_09.png
-fx/fx_muzzle_flash_10.png
-fx/fx_muzzle_flash_11.png
-fx/fx_muzzle_flash_12.png
-fx/fx_muzzle_flash_13.png
-fx/fx_muzzle_flash_14.png
-fx/fx_muzzle_flash_15.png
-fx/fx_muzzle_flash_16.png
-fx/fx_muzzle_flash_17.png
-fx/fx_muzzle_flash_18.png
-fx/fx_muzzle_flash_19.png
-fx/fx_muzzle_flash_20.png
-fx/fx_muzzle_flash_21.png
-fx/fx_pickup_burst_00.png
-fx/fx_pickup_burst_01.png
-fx/fx_pickup_burst_02.png
-fx/fx_pickup_burst_03.png
-fx/fx_shadow_blob_00.png
-fx/fx_shadow_blob_wide_00.png
-packs/player-walk-contact-64.png
-packs/player_walk_00_64.png
-packs/player_walk_01_64.png
-packs/player_walk_02_64.png
-packs/player_walk_03_64.png
-palette-proposal.png
-props/prop_ammo_cell_00.png
-props/prop_ammo_cell_01.png
-props/prop_ammo_cell_02.png
-props/prop_ammo_cell_03.png
-props/prop_ammo_crate_04.png
-props/prop_ammo_crate_05.png
-props/prop_ammo_crate_06.png
-props/prop_ammo_crate_07.png
-props/prop_ammo_crate_08.png
-props/prop_ammo_crate_09.png
-props/prop_ammo_crate_10.png
-props/prop_ammo_crate_11.png
-props/prop_ammo_crate_12.png
-props/prop_ammo_crate_13.png
-props/prop_ammo_crate_14.png
-props/prop_ammo_crate_15.png
-props/prop_ammo_crate_16.png
-props/prop_ammo_crate_17.png
-props/prop_ammo_crate_18.png
-props/prop_ammo_crate_19.png
-props/prop_ammo_crate_20.png
-props/prop_ammo_crate_21.png
-props/prop_barrel_tech_00.png
-props/prop_barrel_tech_01.png
-props/prop_barrel_tech_02.png
-props/prop_barrel_tech_03.png
-props/prop_barrel_tech_04.png
-props/prop_barrel_tech_05.png
-props/prop_barrel_tech_06.png
-props/prop_barrel_tech_07.png
-props/prop_barrel_tech_08.png
-props/prop_barrel_tech_09.png
-props/prop_barrel_tech_10.png
-props/prop_barrel_tech_11.png
-props/prop_barrel_tech_12.png
-props/prop_barrel_tech_13.png
-props/prop_barrel_tech_14.png
-props/prop_barrel_tech_15.png
-props/prop_barrel_tech_16.png
-props/prop_barrel_tech_17.png
-props/prop_barrel_tech_18.png
-props/prop_barrel_tech_19.png
-props/prop_barrel_tech_20.png
-props/prop_bed_camp_00.png
-props/prop_chest_relic_00.png
-props/prop_chest_relic_open_00.png
-props/prop_console_tech_00.png
-props/prop_crate_tech_00.png
-props/prop_crate_tech_01.png
-props/prop_crate_tech_02.png
-props/prop_crate_tech_03.png
-props/prop_crate_tech_04.png
-props/prop_crate_tech_05.png
-props/prop_crate_tech_closed_00.png
-props/prop_crate_tech_closed_01.png
-props/prop_crate_tech_open_00.png
-props/prop_door_tech_00.png
-props/prop_door_tech_01.png
-props/prop_door_tech_locked_00.png
-props/prop_door_tech_open_00.png
-props/prop_door_tech_open_01.png
-props/prop_heal_pack_08.png
-props/prop_heal_pack_09.png
-props/prop_heal_pack_10.png
-props/prop_heal_pack_11.png
-props/prop_heal_pack_12.png
-props/prop_heal_pack_13.png
-props/prop_heal_pack_14.png
-props/prop_heal_pack_15.png
-props/prop_heal_pack_16.png
-props/prop_heal_pack_17.png
-props/prop_heal_pack_18.png
-props/prop_heal_pack_19.png
-props/prop_heal_pack_20.png
-props/prop_keycard_00.png
-props/prop_keycard_01.png
-props/prop_keycard_02.png
-props/prop_light_post_tech_00.png
-props/prop_loot_cache_00.png
-props/prop_loot_cache_01.png
-props/prop_loot_cache_02.png
-props/prop_medkit_00.png
-props/prop_medkit_01.png
-props/prop_medkit_02.png
-props/prop_medkit_03.png
-props/prop_medkit_04.png
-props/prop_medkit_05.png
-props/prop_medkit_06.png
-props/prop_medkit_07.png
-props/prop_medkit_08.png
-props/prop_medkit_09.png
-props/prop_medkit_10.png
-props/prop_medkit_11.png
-props/prop_medkit_12.png
-props/prop_medkit_13.png
-props/prop_medkit_14.png
-props/prop_medkit_15.png
-props/prop_medkit_16.png
-props/prop_medkit_17.png
-props/prop_medkit_18.png
-props/prop_medkit_19.png
-props/prop_medkit_20.png
-props/prop_medkit_21.png
-props/prop_pillar_ruin_00.png
-props/prop_pillar_tech_00.png
-props/prop_pillar_tech_01.png
-props/prop_portal_tech_00.png
-props/prop_portal_tech_01.png
-props/prop_save_crystal_00.png
-props/prop_save_crystal_01.png
-props/prop_save_crystal_02.png
-props/prop_save_crystal_03.png
-props/prop_shop_stall_00.png
-props/prop_shop_stall_sign_00.png
-props/prop_shopkeeper_stall_00.png
-props/prop_terminal_ancient_00.png
-props/prop_terminal_boot_00.png
-props/prop_terminal_off_00.png
-props/prop_terminal_on_00.png
-scout/scout_attack_se_00.png
-scout/scout_attack_se_01.png
-scout/scout_attack_se_02.png
-scout/scout_attack_se_03.png
-scout/scout_attack_se_04.png
-scout/scout_attack_se_05.png
-scout/scout_attack_se_06.png
-scout/scout_attack_se_07.png
-scout/scout_attack_se_08.png
-scout/scout_attack_se_09.png
-scout/scout_attack_se_10.png
-scout/scout_attack_se_11.png
-scout/scout_attack_se_12.png
-scout/scout_attack_se_13.png
-scout/scout_attack_se_14.png
-scout/scout_attack_se_15.png
-scout/scout_attack_se_16.png
-scout/scout_attack_se_17.png
-scout/scout_attack_se_18.png
-scout/scout_attack_se_19.png
-scout/scout_attack_se_20.png
-scout/scout_attack_se_21.png
-scout/scout_attack_se_22.png
-scout/scout_attack_se_23.png
-scout/scout_attack_se_24.png
-scout/scout_attack_se_25.png
-scout/scout_attack_se_26.png
-scout/scout_attack_se_27.png
-scout/scout_attack_se_28.png
-scout/scout_death_se_00.png
-scout/scout_death_se_01.png
-scout/scout_death_se_02.png
-scout/scout_death_se_03.png
-scout/scout_death_se_04.png
-scout/scout_death_se_05.png
-scout/scout_death_se_06.png
-scout/scout_death_se_07.png
-scout/scout_death_se_08.png
-scout/scout_death_se_09.png
-scout/scout_death_se_10.png
-scout/scout_death_se_11.png
-scout/scout_death_se_12.png
-scout/scout_death_se_13.png
-scout/scout_death_se_14.png
-scout/scout_death_se_15.png
-scout/scout_death_se_16.png
-scout/scout_death_se_17.png
-scout/scout_death_se_18.png
-scout/scout_death_se_19.png
-scout/scout_death_se_20.png
-scout/scout_death_se_21.png
-scout/scout_death_se_22.png
-scout/scout_death_se_23.png
-scout/scout_death_se_24.png
-scout/scout_death_se_25.png
-scout/scout_hit_se_00.png
-scout/scout_hit_se_01.png
-scout/scout_hit_se_02.png
-scout/scout_hit_se_03.png
-scout/scout_hit_se_04.png
-scout/scout_hit_se_05.png
-scout/scout_hit_se_06.png
-scout/scout_hit_se_07.png
-scout/scout_hit_se_08.png
-scout/scout_hit_se_09.png
-scout/scout_hit_se_10.png
-scout/scout_hit_se_11.png
-scout/scout_hit_se_12.png
-scout/scout_hit_se_13.png
-scout/scout_hit_se_14.png
-scout/scout_hit_se_15.png
-scout/scout_hit_se_16.png
-scout/scout_hit_se_17.png
-scout/scout_hit_se_18.png
-scout/scout_hit_se_19.png
-scout/scout_hit_se_20.png
-scout/scout_hit_se_21.png
-scout/scout_hit_se_22.png
-scout/scout_hit_se_23.png
-scout/scout_hit_se_24.png
-scout/scout_hit_se_25.png
-scout/scout_hit_se_26.png
-scout/scout_hit_se_27.png
-scout/scout_hit_se_28.png
-scout/scout_idle_se_00.png
-scout/scout_idle_se_01.png
-scout/scout_idle_se_02.png
-scout/scout_idle_se_03.png
-scout/scout_idle_se_04.png
-scout/scout_idle_se_05.png
-scout/scout_idle_se_06.png
-scout/scout_idle_se_07.png
-scout/scout_idle_se_08.png
-scout/scout_idle_se_09.png
-scout/scout_idle_se_10.png
-scout/scout_idle_se_11.png
-scout/scout_idle_se_12.png
-scout/scout_idle_se_13.png
-scout/scout_idle_se_14.png
-scout/scout_idle_se_15.png
-scout/scout_idle_se_16.png
-scout/scout_idle_se_17.png
-scout/scout_idle_se_18.png
-scout/scout_idle_se_19.png
-scout/scout_idle_se_20.png
-scout/scout_idle_se_21.png
-scout/scout_idle_se_22.png
-scout/scout_idle_se_23.png
-scout/scout_idle_se_24.png
-scout/scout_idle_se_25.png
-scout/scout_idle_se_26.png
-scout/scout_idle_se_master.png
-scout/scout_run_se_00.png
-scout/scout_run_se_01.png
-scout/scout_run_se_02.png
-scout/scout_run_se_03.png
-scout/scout_run_se_04.png
-scout/scout_run_se_05.png
-scout/scout_run_se_06.png
-scout/scout_run_se_07.png
-scout/scout_run_se_08.png
-scout/scout_run_se_09.png
-scout/scout_run_se_10.png
-scout/scout_run_se_11.png
-scout/scout_run_se_12.png
-scout/scout_run_se_13.png
-scout/scout_run_se_14.png
-scout/scout_run_se_15.png
-scout/scout_run_se_16.png
-scout/scout_run_se_17.png
-scout/scout_run_se_18.png
-scout/scout_run_se_19.png
-scout/scout_run_se_20.png
-scout/scout_run_se_21.png
-scout/scout_run_se_22.png
-scout/scout_run_se_23.png
-scout/scout_run_se_24.png
-scout/scout_run_se_25.png
-scout/scout_run_se_26.png
-scout/scout_run_se_27.png
-scout/scout_run_se_28.png
-scout/scout_walk_se_00.png
-scout/scout_walk_se_01.png
-scout/scout_walk_se_02.png
-scout/scout_walk_se_03.png
-scout/scout_walk_se_04.png
-scout/scout_walk_se_05.png
-scout/scout_walk_se_06.png
-scout/scout_walk_se_07.png
-scout/scout_walk_se_08.png
-scout/scout_walk_se_09.png
-scout/scout_walk_se_10.png
-scout/scout_walk_se_11.png
-scout/scout_walk_se_12.png
-scout/scout_walk_se_13.png
-scout/scout_walk_se_14.png
-scout/scout_walk_se_15.png
-scout/scout_walk_se_16.png
-scout/scout_walk_se_17.png
-scout/scout_walk_se_18.png
-scout/scout_walk_se_19.png
-scout/scout_walk_se_20.png
-scout/scout_walk_se_21.png
-scout/scout_walk_se_22.png
-scout/scout_walk_se_23.png
-scout/scout_walk_se_24.png
-scout/scout_walk_se_25.png
-scout/scout_walk_se_26.png
-scout/scout_walk_se_27.png
-scout/scout_walk_se_28.png
-tiles/tile_floor_tech_00.png
-tiles/tile_floor_tech_2x2_seam_ref.png
-tiles/tile_floor_tech_corner_ne.png
-tiles/tile_floor_tech_corner_ne_00.png
-tiles/tile_floor_tech_corner_nw.png
-tiles/tile_floor_tech_corner_nw_00.png
-tiles/tile_floor_tech_corner_se.png
-tiles/tile_floor_tech_corner_se_00.png
-tiles/tile_floor_tech_corner_se_01.png
-tiles/tile_floor_tech_corner_sw.png
-tiles/tile_floor_tech_corner_sw_00.png
-tiles/tile_floor_tech_edge_e.png
-tiles/tile_floor_tech_edge_e_00.png
-tiles/tile_floor_tech_edge_n.png
-tiles/tile_floor_tech_edge_n_00.png
-tiles/tile_floor_tech_edge_n_01.png
-tiles/tile_floor_tech_edge_s.png
-tiles/tile_floor_tech_edge_s_00.png
-tiles/tile_floor_tech_edge_w.png
-tiles/tile_floor_tech_edge_w_00.png
-tiles/tile_floor_tech_fill_00.png
-tiles/tile_floor_tech_fill_01.png
-tiles/tile_floor_tech_fill_02.png
-tiles/tile_floor_tech_fill_03.png
-tiles/tile_floor_tech_fill_04.png
-tiles/tile_floor_tech_fill_05.png
-tiles/tile_floor_tech_fill_06.png
-tiles/tile_floor_tech_fill_07.png
-tiles/tile_floor_tech_fill_10.png
-tiles/tile_floor_tech_fill_11.png
-tiles/tile_floor_tech_fill_12.png
-tiles/tile_floor_tech_fill_13.png
-tiles/tile_floor_tech_fill_14.png
-tiles/tile_floor_tech_fill_15.png
-tiles/tile_floor_tech_fill_16.png
-tiles/tile_floor_tech_fill_17.png
-tiles/tile_floor_tech_fill_18.png
-tiles/tile_floor_tech_fill_19.png
-tiles/tile_floor_tech_fill_20.png
-tiles/tile_floor_tech_fill_21.png
-tiles/tile_floor_tech_fill_22.png
-tiles/tile_floor_tech_fill_23.png
-tiles/tile_floor_tech_fill_24.png
-tiles/tile_floor_tech_fill_25.png
-tiles/tile_floor_tech_fill_b_00.png
-tiles/tile_floor_tech_fill_b_01.png
-tiles/tile_floor_tech_fill_b_02.png
-tiles/tile_floor_tech_flat_00.png
-tiles/tile_floor_tech_hazard_00.png
-tiles/tile_floor_tech_hazard_01.png
-tiles/tile_floor_tech_hazard_02.png
-tiles/tile_floor_tech_hazard_03.png
-tiles/tile_floor_tech_hazard_04.png
-tiles/tile_floor_tech_hazard_05.png
-tiles/tile_floor_tech_hazard_06.png
-tiles/tile_floor_tech_hazard_07.png
-tiles/tile_floor_tech_hazard_08.png
-tiles/tile_floor_tech_hazard_09.png
-tiles/tile_floor_tech_platform_raised_00.png
-tiles/tile_floor_tech_ramp_nw_00.png
-tiles/tile_floor_tech_ramp_se_00.png
-tiles/tile_floor_tech_ramp_se_01.png
-tiles/tile_floor_tech_ramp_se_02.png
-tiles/tile_floor_tech_ramp_se_03.png
-tiles/tile_floor_tech_ramp_se_04.png
-tiles/tile_floor_tech_stairs_se_00.png
-tiles/tile_floor_tech_stairs_se_01.png
-tiles/tile_floor_tech_stairs_se_02.png
-tiles/tile_floor_tech_stairs_se_03.png
-tiles/tile_hazard_10.png
-tiles/tile_hazard_11.png
-tiles/tile_hazard_12.png
-tiles/tile_hazard_13.png
-tiles/tile_hazard_14.png
-tiles/tile_hazard_15.png
-tiles/tile_hazard_16.png
-tiles/tile_hazard_17.png
-tiles/tile_hazard_18.png
-tiles/tile_hazard_19.png
-tiles/tile_hazard_20.png
-tiles/tile_hazard_21.png
-tiles/tile_hazard_22.png
-tiles/tile_hazard_23.png
-tiles/tile_hazard_24.png
-tiles/tile_ramp_se_05.png
-tiles/tile_ramp_se_06.png
-tiles/tile_ramp_se_07.png
-tiles/tile_ramp_se_08.png
-tiles/tile_ramp_se_09.png
-tiles/tile_ramp_se_10.png
-tiles/tile_ramp_se_11.png
-tiles/tile_ramp_se_12.png
-tiles/tile_ramp_se_13.png
-tiles/tile_ramp_se_14.png
-tiles/tile_ramp_se_15.png
-tiles/tile_ramp_se_16.png
-tiles/tile_ramp_se_17.png
-tiles/tile_ramp_se_18.png
-tiles/tile_ramp_se_19.png
-tiles/tile_ramp_se_20.png
-tiles/tile_ramp_se_21.png
-tiles/tile_ramp_se_22.png
-tiles/tile_stairs_se_04.png
-tiles/tile_stairs_se_05.png
-ui/portraits/ui_portrait_drone_brute_00.png
-ui/portraits/ui_portrait_drone_brute_01.png
-ui/portraits/ui_portrait_enemy_melee_00.png
-ui/portraits/ui_portrait_enemy_melee_01.png
-ui/portraits/ui_portrait_scout_00.png
-ui/portraits/ui_portrait_scout_01.png
-ui/portraits/ui_portrait_scout_02.png
-ui/portraits/ui_portrait_shopkeeper_00.png
-ui/ui_boss_pip_00.png
-ui/ui_boss_pip_empty_00.png
-ui/ui_damage_number_crit_ref_00.png
-ui/ui_damage_number_style_ref_00.png
-ui/ui_fill_panel_08.png
-ui/ui_fill_panel_09.png
-ui/ui_health_pip_empty_00.png
-ui/ui_health_pip_empty_01.png
-ui/ui_health_pip_full_00.png
-ui/ui_health_pip_full_01.png
-ui/ui_health_pips_sheet_00.png
-ui/ui_interact_prompt_00.png
-ui/ui_interact_prompt_active_00.png
-ui/ui_interact_prompt_pressed_00.png
-ui/ui_minimap_boss_00.png
-ui/ui_minimap_boss_01.png
-ui/ui_minimap_boss_02.png
-ui/ui_minimap_boss_03.png
-ui/ui_minimap_enemy_00.png
-ui/ui_minimap_enemy_01.png
-ui/ui_minimap_enemy_02.png
-ui/ui_minimap_player_00.png
-ui/ui_minimap_player_01.png
-ui/ui_minimap_player_02.png
-ui/ui_minimap_player_03.png
-ui/ui_minimap_player_04.png
-ui/ui_minimap_player_05.png
-ui/ui_minimap_player_06.png
-ui/ui_minimap_player_07.png
-ui/ui_minimap_player_08.png
-ui/ui_minimap_player_09.png
-ui/ui_minimap_player_10.png
-ui/ui_minimap_player_11.png
-ui/ui_minimap_player_12.png
-ui/ui_minimap_player_13.png
-ui/ui_minimap_player_14.png
-ui/ui_minimap_player_15.png
-ui/ui_minimap_player_16.png
-ui/ui_minimap_player_17.png
-ui/ui_minimap_player_18.png
-ui/ui_minimap_player_19.png
-ui/ui_pickup_glint_00.png
-ui/ui_portrait_drone_brute_02.png
-ui/ui_portrait_drone_brute_03.png
-ui/ui_portrait_drone_brute_04.png
-ui/ui_portrait_drone_brute_05.png
-ui/ui_portrait_enemy_melee_02.png
-ui/ui_portrait_enemy_melee_03.png
-ui/ui_portrait_enemy_melee_04.png
-ui/ui_portrait_enemy_melee_05.png
-ui/ui_portrait_enemy_melee_06.png
-ui/ui_portrait_enemy_melee_07.png
-ui/ui_portrait_melee_08.png
-ui/ui_portrait_melee_09.png
-ui/ui_portrait_melee_10.png
-ui/ui_portrait_melee_11.png
-ui/ui_portrait_melee_12.png
-ui/ui_portrait_melee_13.png
-ui/ui_portrait_melee_14.png
-ui/ui_portrait_melee_15.png
-ui/ui_portrait_melee_16.png
-ui/ui_portrait_melee_17.png
-ui/ui_portrait_melee_18.png
-ui/ui_portrait_melee_19.png
-ui/ui_portrait_melee_20.png
-ui/ui_portrait_melee_21.png
-ui/ui_portrait_melee_22.png
-ui/ui_portrait_scout_03.png
-ui/ui_portrait_scout_04.png
-ui/ui_portrait_scout_05.png
-ui/ui_portrait_scout_06.png
-ui/ui_portrait_scout_07.png
-ui/ui_portrait_scout_08.png
-ui/ui_portrait_scout_09.png
-ui/ui_portrait_scout_10.png
-ui/ui_portrait_scout_11.png
-ui/ui_portrait_scout_12.png
-ui/ui_portrait_scout_13.png
-ui/ui_portrait_scout_14.png
-ui/ui_portrait_scout_15.png
-ui/ui_portrait_scout_16.png
-ui/ui_portrait_scout_17.png
-ui/ui_portrait_scout_18.png
-ui/ui_portrait_scout_19.png
-ui/ui_portrait_scout_20.png
-ui/ui_portrait_scout_21.png
-ui/ui_portrait_scout_22.png
-ui/ui_portrait_scout_23.png
-ui/ui_xp_pip_00.png
+348ac11a97e90706ddf4e26f45c4c9860d97b17b35f24b802749b81fad286573  drone/drone_attack_se_01.png
+de145850cdfe455223b4f3a0f720dfde4f0bfc4b382224ab3843448116ba7cff  drone/drone_death_se_00.png
+59bbf73db35be732acdf663002de6111e6fb855aa47c354425685e90091b4a58  drone/drone_death_se_01.png
+2dce81d83b397d9e5ee3db9462f48cba1e9f6252cc19e90a4de4ce61b660b793  drone/drone_hover_se_01.png
+218d9c6179da43ab711ae18f30816dc6783f31b96c02361d419917e1d26e0532  drone/drone_hover_se_master.png
+9d94afed7546b4dd07bc1f93f8e90cab19d35bd2e6f6de8624c193568567d102  enemies/enemy_drone_brute_attack_se.png
+e2fc80ee9c4b2a9e0207a980837521caf5ae6733073de5eea7fc6ab9fb0849b1  enemies/enemy_drone_brute_attack_se_00.png
+e24dcb0c089984fdbe7a22760c1e8acde019f1fc73dd650da01e2c2cba032535  enemies/enemy_drone_brute_attack_se_01.png
+c9c85c5a4acac97f87e5bc87cf795b4c0d9360461a7bc1dd3f55290d478cfe40  enemies/enemy_drone_brute_attack_se_02.png
+2cf49f493d942389931e43e790cdee1b4a7508b8f75bf269e9799fe0eed59a87  enemies/enemy_drone_brute_attack_se_03.png
+f7367f26095f350c6b3bf993a0df27966532ac1818de71a3f1cd85bd3f43bbe2  enemies/enemy_drone_brute_attack_se_04.png
+699d46944f8dcb71659486bce00bf15af169851a3ba13ba9d8b191f1630499ab  enemies/enemy_drone_brute_attack_se_05.png
+f3eaca89b700674c4d3b7329d3d41f00cd3f56a478b51c61987c067151e399a8  enemies/enemy_drone_brute_attack_se_06.png
+565857964ce847ca07d75fbf6091c9b8b9295fa0d01835c862b5d8944c5b2c9a  enemies/enemy_drone_brute_attack_se_07.png
+8160316620175be28484eeade3dbd891a9583ff6bc55e45a2294ad2890f41b75  enemies/enemy_drone_brute_attack_se_08.png
+6e1d9fac9fabf302bb65a1415b4750ec618169baa9d558656915e2e62bee8cc7  enemies/enemy_drone_brute_attack_se_09.png
+63edd347f0dc1b2ce4d4f0a8c1793e7b3867dd70b50196bd82006acc129c2690  enemies/enemy_drone_brute_attack_se_10.png
+b598926b5a8cfb79f67c9894fec32a9be147dba803cb5d2c232140ea44bf3744  enemies/enemy_drone_brute_attack_se_11.png
+f941b9e059ccb954437c6459c545e105eb527ed8215dee1ef2ef686e2e23e049  enemies/enemy_drone_brute_attack_se_12.png
+a9fcf759f50bbb2e8c0128e528518cd82cf9356ba13e9c749538fa8324c7ac6a  enemies/enemy_drone_brute_attack_se_13.png
+861a44addd8b35ff9aa035be9ac6b2f0af43bd6352e82e1f04a1865f68d5ce5c  enemies/enemy_drone_brute_attack_se_14.png
+0b077f5119e1c6185aa0ea6c2f8169e4c9ac4a0de99cf89aca5507739a529db1  enemies/enemy_drone_brute_attack_se_15.png
+35c59f1a3be2d3246ec9628a0a336ad4fdf6efaa1781175834c2a6fda85ac157  enemies/enemy_drone_brute_attack_se_16.png
+e5faecc62bcd47b444380e32504387e59ae7bd673b768fe02b2d0e3e3cb4c314  enemies/enemy_drone_brute_attack_se_17.png
+2cabe72a4ddb5a11d378a2212312c0ce101632cff92de9360383ec17c3525381  enemies/enemy_drone_brute_attack_se_18.png
+65bacf712be4569fc51819366cd39bc99f1c884bca131e8c0887f26361a345e3  enemies/enemy_drone_brute_attack_se_19.png
+45e8e18ea33865e77e2fbedb119968c695d6146ce7e5324814a16493f2940eb3  enemies/enemy_drone_brute_attack_se_20.png
+f436499d9a7732d414053ee66c3bc7dbadf04902aabf320dbbcaa17df2e6a092  enemies/enemy_drone_brute_attack_se_21.png
+23cbd0156c35288c808fe494b6ae723327552aa9ad6a9c7af06174a1fbedc63f  enemies/enemy_drone_brute_attack_se_22.png
+dca7f0ca76f29dd3ef4abeaede13b90211c3ebf8f7dfa331f7bd3e15f8ec60fa  enemies/enemy_drone_brute_attack_se_23.png
+1abe5945c5ae984fcda520c0731716ac0fef761b403925099db1743781d8997b  enemies/enemy_drone_brute_attack_se_24.png
+dca8f01b8cc563d4b4956b39b77ee17249a38fe2387b2cb502335899e23786c0  enemies/enemy_drone_brute_death_se.png
+26a4db3f67e9cf73ebb6c57dfa053cfe52a20257f9359a476c386a62893bc64a  enemies/enemy_drone_brute_death_se_00.png
+7cf956456c76c967f20c6d4d15846993c1d2494845cee6f62a7a24830678bb3e  enemies/enemy_drone_brute_death_se_01.png
+3dbb06c1641d2491f9bd5fa30697a3390cc61ec7eb6921bacf1a1700b585adbd  enemies/enemy_drone_brute_death_se_02.png
+5dc4e788d4fc4fa1b4bac2c1eae90214da03c2744464c79024b0a83754bb0534  enemies/enemy_drone_brute_death_se_03.png
+8154f509f30049fc4bb72e76bd8d40579c4e6b2d0d009be0713026d52fcb8bd6  enemies/enemy_drone_brute_death_se_04.png
+faad71d354a51c62c866f10c29798b316ff74fe8d3b83c791d60c096ac7b4769  enemies/enemy_drone_brute_hit_se_00.png
+c8b72cbfc1d381608e4a830c6b50d2adb1bff87a79975f2d6bc8323c6e196663  enemies/enemy_drone_brute_hit_se_01.png
+be37d75b1f9e413a62e5a1ee25062ba1c73e4599d187bdebe151a04de48e30c7  enemies/enemy_drone_brute_hit_se_02.png
+f949c08a33e54789e642289f2a3ddaf2f5247b5e99975d4bf23dc2a36bdf3d52  enemies/enemy_drone_brute_hit_se_03.png
+cc1c34c7accf3df583fdeab20ae32d91a47d05a11fd7dad78c88630401178cd6  enemies/enemy_drone_brute_hover_se.png
+0d0c6bf39e14d1b825ac03f04326145ca3a0219c5d87a313547c6919c4db9d53  enemies/enemy_drone_brute_hover_se_01.png
+2f6c0406f218f9d855eff801a914a8a3fccf87f87375914b47a836970f89aa8a  enemies/enemy_drone_brute_hover_se_02.png
+4563f8774ecb3a14a62776010a50ed8a05b04eba2e68cb9cc3b513f4126197c1  enemies/enemy_drone_brute_hover_se_03.png
+c6131d80c29251a3eba6bf93371ceb8bb4dab15fa3d668a86a3859d4639e34ed  enemies/enemy_drone_brute_hover_se_04.png
+195da88ab7dfeea68a882b1a52c7bfe6aee6c1eb6f821fb7dea9f55d40ab0bf4  enemies/enemy_drone_brute_hover_se_05.png
+0dd094afda1dc78d28666e6c15745bf5fa3d259d2475ba96aabeaa913fefbfa3  enemies/enemy_drone_brute_hover_se_06.png
+60c8a373ebcb1f7b9e04d61e664582e4868343f4c65edbf047d2297aec9b2479  enemies/enemy_drone_brute_hover_se_07.png
+a736d6848970e347e212117b2cbf2f5de98a5cf96186271e06e281c3e93b7193  enemies/enemy_drone_brute_hover_se_08.png
+153281dca8a3a010ce1f2238dad9b69632cc266818e744364141b83256a88379  enemies/enemy_drone_brute_hover_se_09.png
+f2b5e6ccb3e43afec58838796b5598dc08d327af82698eba5e30d006515a498e  enemies/enemy_drone_brute_hover_se_10.png
+2492290ac452c5aed8f96aaa72b66fe195df86b50b8bea89d2b5dddf90612357  enemies/enemy_drone_brute_hover_se_11.png
+d07b17fc3ad3a2cf6dbb5d95d85b5160eff043d26b4eabc70b8888447ec3064c  enemies/enemy_drone_brute_hover_se_12.png
+0a5acc6c66e134277046b917b9505a3d27e32ab9e20ecb697e859f4f6b8a98d2  enemies/enemy_drone_brute_hover_se_13.png
+80243293052a65597336025e8551d507cb3e7a78eb8510603f855b3ef124ba47  enemies/enemy_drone_brute_hover_se_14.png
+b2461b27dc5c09385b8fb81e22d73013db6a1807463d060f4039e2aca37f8b19  enemies/enemy_drone_brute_hover_se_15.png
+38efc5fb60a7d92bf20534f566c7e8adf7d39b72db4b0c89f503bb9a89b24bad  enemies/enemy_drone_brute_hover_se_16.png
+aa9a3614fbd035b841ea9b15a255761b7cca290351866c19c876b13a3d76bba8  enemies/enemy_drone_brute_hover_se_17.png
+016164bbfbd9829adde3f2c048f3ed605a5a330e45d76ae6f1d2caab7558c75f  enemies/enemy_drone_brute_hover_se_18.png
+44d670643c453d35342c8e4d8984b9d975a773212e673932e4cd752c33b7bf56  enemies/enemy_drone_brute_hover_se_19.png
+62adeeb9f827a08967c1d97eaeea11574d8bfec65bd06fea77f236e0c8161c6e  enemies/enemy_drone_brute_hover_se_20.png
+0d74736d322403aab59de834a39f001f64934b0b81e1c648a717b45e325f930e  enemies/enemy_drone_brute_hover_se_21.png
+7652b159a8ede81678b26fdef99116eff84cf441ac2b143ccf41086ec3401899  enemies/enemy_drone_brute_hover_se_22.png
+5482cc83c7953656b99e3fe65118e604d5860b9b39a92bf0558f586ff3c172a6  enemies/enemy_drone_brute_hover_se_23.png
+63c15f7b1d4d168d582131267b94788732bf853aa06aba5c329b19b28b2ff88a  enemies/enemy_drone_brute_hover_se_24.png
+971452335052a8517a74448eba87f99ed848a48ff420d1e12fc2bd909f5ba8d5  enemies/enemy_drone_brute_hover_se_25.png
+0c90788f6c09d16906336c6c7e1e089e9dac10e2c4fb720a979f9c85806607de  enemies/enemy_drone_brute_hover_se_26.png
+cc626949bc978b98fbf217daa4fe37b6f84c8be5dea75080705119d24c955f55  enemies/enemy_drone_brute_hover_se_27.png
+2254a301b94b6d54c75ea04d026c4881750a9d6da0e02b67ab7bf7b6bf587504  enemies/enemy_drone_brute_idle_se_00.png
+463b19d04bb9d1836217f07d0f3cac8a353a95856e50b82c93647a543ee7819c  enemies/enemy_drone_brute_idle_se_01.png
+58344e33f800c888725b1d6b7360837b307669d877e6ec3c27d08f3a88c8e69e  enemies/enemy_drone_brute_idle_se_02.png
+7b0c871564fc20facf1ff1b67f7d63ca6426878237d99109f55b5e9cc13baa24  enemies/enemy_drone_brute_idle_se_03.png
+aec18afce946ab1973e93528881d2159b39b9186104250fa208bc3830797730b  enemies/enemy_drone_brute_idle_se_04.png
+69e34e60288f6789017a75699d7199dde009d22565dbaecd305c8548437880f9  enemies/enemy_drone_brute_idle_se_05.png
+15ccff72717b6ba1492712d6177f46eeb0f6d7b0585eed66a29c6336b6e85c5d  enemies/enemy_drone_brute_idle_se_06.png
+d6555dc105565e7fff75ad29ffaf218eaf6f867a1a175be5b118c1dee24921fa  enemies/enemy_drone_brute_idle_se_07.png
+d1b71901dab43fc698ad031221b5511b093b9b821544e524c098ae932cd512e4  enemies/enemy_drone_brute_idle_se_08.png
+6885b17e6d71cd604da0f166df0c8db97f863daa9967563b9c2740e5b76a52ef  enemies/enemy_drone_brute_idle_se_09.png
+62459ed6d61015881f1eefd62a2811b26ed9b831447711a6adaef3a880b568fe  enemies/enemy_drone_brute_idle_se_10.png
+42bc4aa39f401280697ccc05591e1a11d272100511e730988eccf0addc7fe747  enemies/enemy_drone_brute_idle_se_11.png
+8ff427209bc167caafc93328aff9485aa3de86fca30effb8daf3fe9a49e80154  enemies/enemy_drone_brute_idle_se_12.png
+686a415a48ed6d066cc4636e404a55087fa09946ec7f8f08b3e21bfffba52fff  enemies/enemy_drone_brute_idle_se_13.png
+4a83295d39a8e5ca938e6d8a23daf44c883647253299f627bb0f077eea0f9600  enemies/enemy_drone_brute_idle_se_14.png
+7598404d6f811868c684f1540f3f45a7563ba37f920278a2d9716d76de555a3a  enemies/enemy_drone_brute_idle_se_15.png
+367b04c2607bc55d25e5a8c345bcb971a21aa9feb08350916594a158d4cd1c86  enemies/enemy_drone_brute_idle_se_16.png
+b545b1043e1c59463010a8410d1af36f264d896f5de9307ce74a6e3eae2c2040  enemies/enemy_drone_brute_idle_se_17.png
+124952f5da8fbd057f802d9fa44b4f8e36cf95ea6879901dbde3826dbfe19135  enemies/enemy_drone_brute_idle_se_18.png
+511a19b3dc8e5c5c6723342043acff819fca9610fcb779962d5497cf40260aef  enemies/enemy_drone_brute_idle_se_19.png
+b7934160622c889768466298fb230c95ff291337aa17cc8bfc4bcd7be385e1b2  enemies/enemy_drone_brute_idle_se_20.png
+4f1792e3e1c811737e69c86489eb872ccb260ba82a9a75259897f1dad0edcdd5  enemies/enemy_scout_melee_attack_se_00.png
+c24882f3c4ce300e18222fde5fd3e32f5988aab38e6050115f296a69f752d878  enemies/enemy_scout_melee_attack_se_00_v2.png
+8d3e2fc7a2823477c09c642e274b3aa0f826b74b6626e64a165f263cc72c0d86  enemies/enemy_scout_melee_attack_se_01.png
+1cd886dde3748414fb374741802912986f3dffe331f841e692a027cbc6ee7122  enemies/enemy_scout_melee_attack_se_01_v2.png
+1f0ec467414b51b380d14c27630739dcb5fae40b1767b21792f02c272053aba2  enemies/enemy_scout_melee_attack_se_02.png
+8f60d9866c377b6d330a68c820f33252c55ed1719603e6d35d64a26260733c35  enemies/enemy_scout_melee_attack_se_03.png
+c57c3b488cdce5852b8fc1db9d9b095c8d6c97d1478164bce0f7f2037f609c37  enemies/enemy_scout_melee_attack_se_04.png
+1bc9a87944556784fb43740dc362745acf7151bd4a9873ca566537e1156a91bf  enemies/enemy_scout_melee_attack_se_05.png
+86eb291afc1427e3630b60dcfa52256328466236a54cc75a94c55d6978dfe1b2  enemies/enemy_scout_melee_attack_se_06.png
+cfa28108cf0385a6498199535a1b78023b5d2e6587c82e8b6f45f9d18a5739b6  enemies/enemy_scout_melee_attack_se_07.png
+08f57bd3d4d848e466c2056847463610db4300f9403ae72b486181d94741b94c  enemies/enemy_scout_melee_attack_se_08.png
+2820b37ce628b442008ae1307d8599d18003f25e69287ef89662afd04c312dff  enemies/enemy_scout_melee_attack_se_09.png
+1b3ffa2f66385968ce4c58c02e8b477375f7021fa87358f4324a17204fd631c4  enemies/enemy_scout_melee_attack_se_10.png
+303efaa4b08e7fedb30a1e8e245f9ed063927c46ee33a342dc61341ff711b61d  enemies/enemy_scout_melee_attack_se_11.png
+b78a8b782bfb63d8bc8f7675fcdec610843c521e8c4653cf2f43ea5ea1f9d19d  enemies/enemy_scout_melee_attack_se_12.png
+41989cd16605bfcd2becaf0031699938cf35f41e146074c29365f692d8470ff6  enemies/enemy_scout_melee_attack_se_13.png
+e352893b8df928554185adfd5c7c2ac446e6ec43e9cf3f396693e74ddd6aabe1  enemies/enemy_scout_melee_attack_se_14.png
+900bb0872c47b92bcee590e91f09764ba5d2f69473ba970cf951b86ab91538b3  enemies/enemy_scout_melee_attack_se_15.png
+9ef8b6bfd19a889f3e31c179df2ea472a3ca9ba91d81135ffda63f787191ed51  enemies/enemy_scout_melee_attack_se_16.png
+16e35e7bc25ff5100f5cd78290e36a2048793dabd809c3fded683978f115f763  enemies/enemy_scout_melee_attack_se_17.png
+ab89f0b6d0e5e4db2255dee0b85b9736099d70ec23f75fd40527dcd90ddc54bb  enemies/enemy_scout_melee_attack_se_18.png
+84576bf5540d9f753f6f7e737df7f6c6dc35b2a8c38457aaab351a8a5c5d9db3  enemies/enemy_scout_melee_attack_se_19.png
+34601749cc871a839f019d7ecd67e53a2a8117bfe250cf14c33d2fcdf76830f5  enemies/enemy_scout_melee_attack_se_20.png
+0fcaf947a9cbcbc3976d5e09667448bce7526cdd5322186e3f912fae3f64e926  enemies/enemy_scout_melee_attack_se_21.png
+285305ee36400c5f9a0057400c34a750443449e18788946fa900bcc70f297e28  enemies/enemy_scout_melee_attack_se_22.png
+29560842d946773a7da4298a550af44bb8627e5e98a430f40a1c6c65ab4f97f2  enemies/enemy_scout_melee_attack_se_23.png
+10670978d3ebb0c33d02c654453c08696d934906b42a6b10fd95687ee112529d  enemies/enemy_scout_melee_attack_se_24.png
+7cb087b71d29023eba1e2b2ae7a7b813ed4306a09efd1536b1ccb8ef687d7a6d  enemies/enemy_scout_melee_attack_se_25.png
+75796cee0505a7e527109f0ae4cca24d6dd78d5017a18a1d21fc67b1b26a8923  enemies/enemy_scout_melee_attack_se_26.png
+3d7d3c8e070f45272bd02053a0cd79062a541d43b70b1dae004807519e7a4c02  enemies/enemy_scout_melee_attack_se_27.png
+90d7f2df2d2412a4e4e75c705ca84fff2ed55827b2b9bf28db915226197d371d  enemies/enemy_scout_melee_attack_se_28.png
+bd701f4b3aef7d16d3b4b9eaad5a0347145f732847fb1de39a66c1f4d0958ee7  enemies/enemy_scout_melee_attack_se_29.png
+b8c7887c659fbdaaea1c61b448fb7d9233c5fb94fb1212d707f2a508497639b4  enemies/enemy_scout_melee_death_se_00.png
+757f4a86a5792c8fb8d23419b6e7e1e2ae0662661c445da95a52fe5a454104e2  enemies/enemy_scout_melee_death_se_00_v2.png
+630ef7c8ab6abbdce7bc8164537df6bb5422f2ff0339cf16db873433daea5e25  enemies/enemy_scout_melee_death_se_01.png
+cf195ad8e871b57d238a75295c3e33d5a82e0c73eb205d6369e2e4bcd0a5cd47  enemies/enemy_scout_melee_death_se_01_v2.png
+8021604745f5666c23d795fac262073a4d3ac83bfe941a18238e00f1a6153455  enemies/enemy_scout_melee_death_se_02.png
+fbdfd38b101977825b152a0555225ca0159cc2caa56c2e7ffe2cab7ad7cecebb  enemies/enemy_scout_melee_death_se_02_v2.png
+2832e850fc54eba3741a56541eb24f29327e5e25258e8b62050ba50c17054369  enemies/enemy_scout_melee_death_se_03.png
+5e8bcafef9d355a13723abefc574a1333870756948d824fc8fe0fb95f0fa5214  enemies/enemy_scout_melee_death_se_04.png
+88ee74038a434f1b252e9504288250127e0fd27680124fbb6f7b498a62d38943  enemies/enemy_scout_melee_death_se_05.png
+37c22797afcdb7abae51579ed38450aa5cf7ba6708e8d4f316eaea2ec16fdc95  enemies/enemy_scout_melee_death_se_06.png
+0cdb4f3ab206e1486d78b9cf00f3a86eaa692a26a3633e32f730bcf45ea95a9a  enemies/enemy_scout_melee_death_se_07.png
+30f3bec595276d67e41cfd15aade33d1c7923164a8e582d9dc47a344a9308332  enemies/enemy_scout_melee_death_se_08.png
+c16c7f3f8f145abc697b74a4a209267a20927bf26448ca9ccf1f55910da3bce9  enemies/enemy_scout_melee_death_se_09.png
+76838edbc78a5eb02cb25177df304196960a99b46b8bc2d9eafac7c96d45c858  enemies/enemy_scout_melee_death_se_10.png
+71131e9ab84753f3003471188c8b10cd71812f4f9284e4209211394f5b194c9a  enemies/enemy_scout_melee_death_se_11.png
+7923491daf9850574c167cd1f25ec0a6fd51ebe48b4711ba3526b887fc1f6bd9  enemies/enemy_scout_melee_death_se_12.png
+fb3ea3611923ae3e471b61dcdd894cc48f6ad355c72910624ee428c034712fa1  enemies/enemy_scout_melee_death_se_13.png
+886b145486222613d9df9e9464ce5a33fc5e97ea75a2dfa91e98ddd88cc32e2a  enemies/enemy_scout_melee_death_se_14.png
+df59f8f11728a8560d2bcb2fedb937ec2108961a4d2433888d2cb8565058995d  enemies/enemy_scout_melee_death_se_15.png
+8f5355db2c8292ef4e2147c8198beb3e1d57f2b21a655223ed7b467e8e98d3b9  enemies/enemy_scout_melee_death_se_16.png
+41652c4cf8a02056c3cd54130161c93a01cc44c6211e205f217e0ef9d7db2684  enemies/enemy_scout_melee_death_se_17.png
+361d81e24134dd90ae40905a2b763c0aa479b60c6329d9188ff656eae1dea85e  enemies/enemy_scout_melee_death_se_18.png
+d1f3228838e2d543e1e78e43da6aeea91d6ec3ea02bbfd36ce14dd2edfe7859a  enemies/enemy_scout_melee_death_se_19.png
+501f9a31648c4ad87858b90c9d30a733afacdce9564fa746763092bd98ede986  enemies/enemy_scout_melee_death_se_20.png
+56054062f35b46653f50e1615c56050099c23c65318b19886087dc4234fdcd07  enemies/enemy_scout_melee_death_se_21.png
+0355fb96289f2cc3e01223adc81e923fcfdf3d2a5fc0ae1a5c65189c87ef6bc9  enemies/enemy_scout_melee_death_se_22.png
+50a7c4fcd8df8298ec0f56701cab71596b3a5151c5632b521216321338c19bc0  enemies/enemy_scout_melee_death_se_23.png
+f0c5ef094bbfec9788cdc893acbd45ae4c36e6ab6a8a61dc14ae351637e9e92e  enemies/enemy_scout_melee_death_se_24.png
+36f2e681ae0aa6e380f6afb8e022361a86f9308a84d8271545ac211f4b44bb2a  enemies/enemy_scout_melee_death_se_25.png
+b23633ff534732688b3b6e58c46883d2963711a59b83770c203982e9378cff50  enemies/enemy_scout_melee_death_se_26.png
+ad86ae60714884385714625bc21f9cec0f0576874c77ece2c6bf49892b07d12a  enemies/enemy_scout_melee_hit_se_00.png
+dc22ccccdce5ab768ca5e31919519b7ce57dea39ae76900a081c44c2473e297c  enemies/enemy_scout_melee_hit_se_00_v2.png
+117f3cc3190ddc74694541f6fa508cc2dd7f0267a5da1364d62961b3a08f40e7  enemies/enemy_scout_melee_hit_se_01.png
+5eb82a4a39147398ad7a752c18d14e04c134e0847f2b46e570d10a3f9415cd74  enemies/enemy_scout_melee_hit_se_02.png
+23ca4b9e835973020b8281fbe4feaee51fa6b6166f3cddf71f3d4ffc91ba31a8  enemies/enemy_scout_melee_hit_se_03.png
+fe29661e3668815b697fb49395b4d52eb08cd454a1b502ee4b8fc0ee61396934  enemies/enemy_scout_melee_hit_se_04.png
+1d72e4a9730c92be083ccf8d7c85decfd140a5d887819d642505452cbe688c0c  enemies/enemy_scout_melee_hit_se_05.png
+d5de50d6d037175be5dfe40e2fe89f68b5ea73aa6a665e5bbeffdb2c15ad0743  enemies/enemy_scout_melee_hit_se_06.png
+a8f6abf10c4af5895ee577427802576770452eeba1fd7235982ef2889bd37f57  enemies/enemy_scout_melee_hit_se_07.png
+f7790f036e502b66ea9cfc8dc08fa7df271983d8624ee0aec65726c2c4ed66b3  enemies/enemy_scout_melee_hit_se_08.png
+829bba7504d88281792b455e0c7be7d0ace7ff8e300d827cc752e05e45adba95  enemies/enemy_scout_melee_hit_se_09.png
+9f1031a3d2eea6e700fd6db1dfec4ba87c324bcb85f8b2313437432427575be0  enemies/enemy_scout_melee_hit_se_10.png
+c24b2c7815b3c43a6ba0343bd5195f6e2be4234b46f6c4a84b19abbf3876a732  enemies/enemy_scout_melee_hit_se_11.png
+3a01e262f8a9a8aa50dd2a54ae08554f7858b9810586332a362617d122b75ed3  enemies/enemy_scout_melee_hit_se_12.png
+a40c6b42a49ba82423be77e1353ad0c91497fabfe6aadd45071d242af68bf90e  enemies/enemy_scout_melee_hit_se_13.png
+6f854533af684268a88fd953982ce828281c9bf2887a81d64d4d325fb978c381  enemies/enemy_scout_melee_hit_se_14.png
+8b4ddf53ebec202b1de320149920166126683551a7f0b0b7cea9d1f313278fa6  enemies/enemy_scout_melee_hit_se_15.png
+829f28d12b7a1dbd03d2cb5fdc221a08c6084a8732b2d5107dfc03d3bc56d2e4  enemies/enemy_scout_melee_hit_se_16.png
+0825296bc5bfe67d25e1c583636eabebeef0d7c26f9fdbfabf445df7b399d6ea  enemies/enemy_scout_melee_hit_se_17.png
+06011517d5913eda026d5ca750b6ae8821c2f18b7bf67589a76b5091863acbfe  enemies/enemy_scout_melee_hit_se_18.png
+0563c1e8b73164a947c534f858c05d828d9a42a3106d75ec99a886da6b30820b  enemies/enemy_scout_melee_hit_se_19.png
+ffe8853684ca83424edd740f53becb05a926fa8445474a0972e93ca146012dd9  enemies/enemy_scout_melee_hit_se_20.png
+be6f9ab66159e2ee5c2190239d6a6b519212b2a36a44657ad7110475e0253068  enemies/enemy_scout_melee_hit_se_21.png
+9b94df52c035e5421642158de0f7661f65632fdc2123ea2ee14bb80ca4cb39ba  enemies/enemy_scout_melee_hit_se_22.png
+e2b26d31177e5c898f0ae4844caea40749a84e5ff5a693c1a90365dd66f9d638  enemies/enemy_scout_melee_hit_se_23.png
+ab24b0fd9172b485f749634e22fd3fff4dbb960316edd846733f9425bcc65072  enemies/enemy_scout_melee_hit_se_24.png
+886f0170cfdfaf928912269f75569aa7db9188e4db94d93f704751d3e9c3e3a3  enemies/enemy_scout_melee_hit_se_25.png
+dfb71b57071d50f7ccfc8a7f220ca50b368a58190562ceb4ef52d00bf6cf5be0  enemies/enemy_scout_melee_hit_se_26.png
+e690d39e572056b4e574a13391e7fba6fd020e66ba8d8369cdea4ec24c423c86  enemies/enemy_scout_melee_hit_se_27.png
+70df92ba0328165a129500ed2770755fe024f3498607e29bc5e2bc7a3a2b95d7  enemies/enemy_scout_melee_hit_se_28.png
+cbed453ae580b7a171ba20e3dbfb00b519aea5ff9671109796a2f97fc6f40d13  enemies/enemy_scout_melee_hit_se_29.png
+44fd20e040a51419f81b998e3fae0de4d3308e5fc2f034ebc521ee7374d272df  enemies/enemy_scout_melee_hit_se_30.png
+1f89173a6a5756cf6452d063e8cfa23f95b2f34276cae66f921e281e60d5d517  enemies/enemy_scout_melee_hit_se_31.png
+87537202e4b99977d0fb8d96c94fa95d730553b844dcfbf117ef9244e3174fc8  enemies/enemy_scout_melee_hit_se_32.png
+f352b68d641dc4486457fa1ecac2b0758fc41497e57bc2acc20054e09ab8c58d  enemies/enemy_scout_melee_hit_se_33.png
+4b20e3060173f960e63fc8fbc0465498900f8a7eb2736d370ce332f4a6eff7ea  enemies/enemy_scout_melee_hit_se_34.png
+9563996734e646ddf94b084d3b39c77e09800a792f5fc3e7eb8eaf62936c88c1  enemies/enemy_scout_melee_hit_se_35.png
+59b3b084a0743516dec94334e7ad59dae46a920145dbb7c6689835fdb0659627  enemies/enemy_scout_melee_idle_se_00.png
+59b928511717358a3c468c9c71214426195c6be15552a0bce23a340b52468ed2  enemies/enemy_scout_melee_idle_se_01.png
+3a2a5161a0342346904f1654cceafe794616202203962dbf358a9e6097821283  enemies/enemy_scout_melee_idle_se_02.png
+6538c39c98c245a2a4c1b9bdd5415e520d045f7e499a4d7aa973e38789b446ce  enemies/enemy_scout_melee_idle_se_03.png
+d4f395de69d48c6b26b3bb446dcdb7120c508d48cdedca1bb7d0d1a34591d3be  enemies/enemy_scout_melee_idle_se_04.png
+6191b236156803eede007e2e0f352585ea1452e5195a0447d1ee38afd0b2656a  enemies/enemy_scout_melee_idle_se_05.png
+795896b46f8474df3294639842a85c0f94217bbd3756f45a7025143042d88ab0  enemies/enemy_scout_melee_idle_se_06.png
+a1ddc0302a16dcc201dcd5772a4f03b70b197f76558660503ccf6690234d09cb  enemies/enemy_scout_melee_idle_se_07.png
+79090e40cb1a6027e8d7f2015e6a8def12f1dae99dc9b46c87f011534fef40eb  enemies/enemy_scout_melee_idle_se_08.png
+da716130d5257cf1226a24745be190c77d77a05ac550116e939ecbee98e75965  enemies/enemy_scout_melee_idle_se_09.png
+38d18bd567f701cbc9d6731c0c28c3c4846f3b4960ce2eca1a1d1fcc891a8648  enemies/enemy_scout_melee_idle_se_10.png
+e716578ac09a607f4c6905f7d8821366571be9e8606a75850313014ae11a7ce5  enemies/enemy_scout_melee_idle_se_11.png
+064d70dae917f94f9e6efdf3814d7c7479de85257f6e66073218c8d4061e891a  enemies/enemy_scout_melee_idle_se_12.png
+82feb197515ad17311a926f22bea0c01939570204c3ee1748f49b9b2e9a2ddef  enemies/enemy_scout_melee_idle_se_13.png
+87bb26c53a7fbb6b3927b99cb188bd3d9ef5fc77f98a22a561ed03bcdc4b2983  enemies/enemy_scout_melee_idle_se_14.png
+b53a7f05baebfcf7a77c0f0fa6321e376647783066d38d5fbfa169afad4c6c16  enemies/enemy_scout_melee_idle_se_15.png
+ecf6f1d2d21be7b82493ca443251feccbb757431f67e76b66c83afa04a9d3774  enemies/enemy_scout_melee_idle_se_16.png
+b3f3c1b6f1b9c14fa24460a5f10d9adb4bbfb8de2a9b8937dbf75874af228a70  enemies/enemy_scout_melee_idle_se_17.png
+98268ff464ce7dee045d3f274e7f3834e1f171a5bf73da5228df3c7b02ce608f  enemies/enemy_scout_melee_idle_se_18.png
+9719715bcb46e56540bf39a59cd0271426240b1c3e34bb1bae4ba15db569d307  enemies/enemy_scout_melee_idle_se_19.png
+069304b9e5d5d4d90c7a438b2a1e42b6abc633a8813a7e69c1315a454e391b3a  enemies/enemy_scout_melee_idle_se_20.png
+fff3aefd838fb191d6a6970bcfacf73523529e39fd295aaccaaed6a2ecc5a286  enemies/enemy_scout_melee_idle_se_21.png
+eab6d6780a5292a4f974cc5ed5744c9d3967369cd75be5ff800e0db142f5a724  enemies/enemy_scout_melee_idle_se_22.png
+556c9b39ec0429ac723e16d87fadb8945ebbb5a2c9ac17f7da80f3beb0ea01df  enemies/enemy_scout_melee_idle_se_23.png
+6d88deb5f26a7b2719f45185e4d0aa385939982298afa9bf586a2325ca98a28a  enemies/enemy_scout_melee_idle_se_24.png
+2a8dcf2091996acc7d1a1c4574e87bad9a63534d6e5c0a59e0eb54170ebe9b37  enemies/enemy_scout_melee_idle_se_v2.png
+511fe599d144ccc6580defb71232171385d2553d47cb3020efe6c587422320fd  enemies/enemy_scout_melee_walk_se_00.png
+f0b4c9192c83922c32d78cd65fc58002b38118a78ddafcdeddb08060a1706dcb  enemies/enemy_scout_melee_walk_se_00_v2.png
+450d168a6cde9178c32726558c4b8f2084a0beb1a7c36da290b69e0f419fe72b  enemies/enemy_scout_melee_walk_se_01.png
+d821d739d44a41ae11ad54a8c232b2774eece84960d55979e778f186907ce686  enemies/enemy_scout_melee_walk_se_01_v2.png
+7afd58001fedaa1f85571a28a701b4b9bc83efc6d83113b41e8f0b014eb6e85b  enemies/enemy_scout_melee_walk_se_02.png
+4b37556c1c5d7f1d438a27de671b5f50e6d9a2231f4520f64400feeb7759a0a1  enemies/enemy_scout_melee_walk_se_02_v2.png
+9f86d7d23c50c9dbed213fe82c6c555e4d0eb6c707b69fef2e5f34b0135aa28d  enemies/enemy_scout_melee_walk_se_03.png
+5af503b4c20170503b4053f71ba95222de66a799daa085159090540f4b1f22b5  enemies/enemy_scout_melee_walk_se_03_v2.png
+b6a3e0c4f555098c611b93b4db3e42e99e1fde55c106ae445c6be13b9868bfde  enemies/enemy_scout_melee_walk_se_04.png
+2d72e64c9d5dca42973697b9b070365549977c061151fd5d058890eb32865540  enemies/enemy_scout_melee_walk_se_05.png
+3ed82574845f17a74e8cd25e8eda8d02df9b3eb48bfe898bba85ed1498984c94  enemies/enemy_scout_melee_walk_se_06.png
+2ea0afcc42d4f9362c8e87f97bff1b909b08689ae0277663f23fe7299fb3e58e  enemies/enemy_scout_melee_walk_se_07.png
+b977a22ca5a1643079b1d73d751462af4eaacb70220926cc4b518feefe47fca2  enemies/enemy_scout_melee_walk_se_08.png
+ad8d69fe8804970981747fd58ee53560b311ab58588d197d7451e3190b3e30d0  enemies/enemy_scout_melee_walk_se_09.png
+48bdf68f2b09c457e49c73b6c5af08d8fedc4552ad430a6c14376e539441556a  enemies/enemy_scout_melee_walk_se_10.png
+e20890b05313fdbe13f57b2c9ac133c1c54f1e1350834a4a3867d880516a1775  enemies/enemy_scout_melee_walk_se_11.png
+ac81662915751255ae702154bcf4ab38a3ad6b85da96ddbb391734ec6522c83f  enemies/enemy_scout_melee_walk_se_12.png
+80678223d9dc0d3ea67c0c5c89a6a415f34241a99720e2b50b60bce21e23ea3a  enemies/enemy_scout_melee_walk_se_13.png
+b67ea63edf1b8ebe0736a8e6fd8dc7354ad197af4ab0b3301f67d9dfeae7100f  enemies/enemy_scout_melee_walk_se_14.png
+67a36ef07ba08792faa5405de1daf9aa8f7abf693f9f3165cd4ca0b6c4aaf58a  enemies/enemy_scout_melee_walk_se_15.png
+b4af95c5ad56b72504ced5a7a91e1e03b1f01f01042f867c0bad9ad949e808fa  enemies/enemy_scout_melee_walk_se_16.png
+41d1d5d77afd95ea18313659e5618c5e72dbc6c0cba7ebdd44a053fbf5a83168  enemies/enemy_scout_melee_walk_se_17.png
+9115acb7267305d2b9aa869ccf146d65a5d4bd790d277b59b36fbe9bc2db724a  enemies/enemy_scout_melee_walk_se_18.png
+e1446b83caf6f7ca79b034f74d773ea3d7a84128b95f6bbda71926c51d4fb0ce  enemies/enemy_scout_melee_walk_se_19.png
+9f96cf8e5c01ecab1a5d2f1a458192bf709e9f1c6f0509652a929332bd40e22b  enemies/enemy_scout_melee_walk_se_20.png
+8eb85b80da1e9d94543770be4f717d6e57f23c59f2d736dd9dce27baa7915e50  enemies/enemy_scout_melee_walk_se_21.png
+1524e3457c6c4a7d9417c0f651e3afadc947383359d5853889a8996ee30cbcd4  enemies/enemy_scout_melee_walk_se_22.png
+040435dc192e29fe5950d679de3f5677973931570b0fc7d7787d80a36f862fcb  enemies/enemy_scout_melee_walk_se_23.png
+eccce30ed69b0e085e0273bc3c6e27524fb4681a8a6e465c7445419f43602163  enemies/enemy_scout_melee_walk_se_24.png
+b5f1e635ad30ee421e900e4801008b357b7b12f46fef3ebbbee7c060ad647260  enemies/enemy_scout_melee_walk_se_25.png
+2a428eb81aa56f4fe6c75e092b66dd4bea938d30ee7f01cae66633b6b536cf54  enemies/enemy_scout_melee_walk_se_26.png
+7012aee1de1051fb8b046e8d28f7a276191d1cbd161ca0c10c9704874322374a  enemies/enemy_scout_melee_walk_se_27.png
+b7ccf48e12d6174445f45a16e4cafc0717b40603531abf6a946dd7e7b202368e  enemies/enemy_scout_melee_walk_se_28.png
+13df099ad74c56b12db53bae659012777e40d36106623cf2c850266295edc20c  enemies/enemy_scout_melee_walk_se_29.png
+10cd7fcf2c75b50bbfd070f74f53f2d8a4e3567581e28028184d238844c457d6  enemies/enemy_scout_melee_walk_se_30.png
+6e5f32b145637fda29976cb8b7b5d4c5877c90e11f587a5229fa33f79210e771  enemies/enemy_scout_melee_walk_se_31.png
+c5b3155a61ea8b1da58b892c51857ee6fad34e3786deb81537845e7fea05de9b  enemies/enemy_scout_melee_walk_se_32.png
+a07db797d21778204f8194472886e03b33ecf298751a7a8828fae8dcac5b90e3  enemies/enemy_scout_melee_walk_se_33.png
+fcfb5df9abf5798f0768b8f3fb94132cc7f2f9e216dbcc216540731045b1b2cd  enemies/enemy_scout_melee_walk_se_34.png
+aa260d06f276b7805eca9f654bd475979715e7eb3594166203bce39de6b6a8d5  enemies/enemy_scout_melee_walk_se_35.png
+dbf638a6b0e8d6db65f5e8f5215a37c0ac68cce4f559eb3c90c7cde927b2c01b  enemies/enemy_scout_melee_walk_se_36.png
+166ad592342ec603afe7b183eedacc0a091685eb030816e6192122fbcc697a2d  enemies/enemy_scout_melee_walk_se_37.png
+197409685018367af059319b18fc93e7bf1fae137c9f2084a898b6bb82da47c9  enemies/ref/enemy_drone_brute_attack_se_00_b18.png
+3b0acd87aaa22ef775109fb05599640a3c42bcc5f88e252e088b993daf9f618b  enemies/ref/enemy_drone_brute_attack_se_00_pre_b25.png
+7012b5c33e957f2fa4f34db72691fa53fb96ff238ab89180ab35e4a9a39e3e9c  enemies/ref/enemy_drone_brute_attack_se_01_pre_b26.png
+7462b1e81017de845a11459754b28fc221ada5e8d6a6cefce20723d4e650cda9  enemies/ref/enemy_drone_brute_death_se_01_pre_b30.png
+18745606c0a134c59047d7e1a5cecec60dea0f715a3fce774bcd9586a5dae49c  enemies/ref/enemy_drone_brute_hit_se_00_pre_b27.png
+7d3659ff942927c672c7a79f7528d4c11fb2f9de75c7531e184880ef6889c06e  enemies/ref/enemy_scout_melee_attack_se_00.png
+671577a9c346d3c82d8322db63427ce307878bf253a7c23cc5df20b1130cc4ea  enemies/ref/enemy_scout_melee_attack_se_01.png
+1403ae28a4d4b0dd712d5f364f7fc9c279c6e212a1944db014c3f3f686082a3d  enemies/ref/enemy_scout_melee_death_se_00.png
+6d5d1c748639f025929ceec733c97c9d2eb7e3020f6f887dc066134e750be554  enemies/ref/enemy_scout_melee_death_se_01.png
+eabd41bbf46651a8b58751dbb51d607731c25acc420b6a52d2a7991477faffd1  enemies/ref/enemy_scout_melee_death_se_02.png
+3724030c8cebe655303e2cd4307290423cf240d49dbab5505b62f60456684fa0  enemies/ref/enemy_scout_melee_hit_se_00.png
+d809d77faa3f1e648a71e50db1ce5f98d9058d503ae71180e2be03eb5bcd1d4b  enemies/ref/enemy_scout_melee_idle_se.png
+93646604dd37d38f6120f36d13b1b958b1fb74ad1206c9e7b73483a50306f588  enemies/ref/enemy_scout_melee_walk_se_00.png
+de77a256c1bb44feeb8453fe77b7e7041cd37ba57e120ac4bcdf3cd7994d3f8f  enemies/ref/enemy_scout_melee_walk_se_01.png
+899810d490820a74092cc9f0418ff548d282291059c89e6a951d8dff14584605  enemies/ref/enemy_scout_melee_walk_se_02.png
+2e36d257f2435398d168d406de9308e36e67bd0e2dab6a04dc0969333ea39e52  enemies/ref/enemy_scout_melee_walk_se_03.png
+d01a7c72cbcd5216e02afa6eac0bc667e2847a6f5636f6b2f1f7494b5ade123e  env/env_ancient_ruin_vista_00.png
+b96823399952e25eda21b56596dd6f6e630453fd65162beef55c2562f1147b40  env/env_ancient_world_vista_00.png
+5c6589a11b7f0763e71f65ae07abc8667be8f5edeb5ee0411d8bf690c9112804  env/env_capital_ship_far.png
+2485a2d5286300ac06579c0d86235650a5e843ca4dd7a1710438a5aa127cafd5  env/env_nebula_11.png
+f04b7daecb3ae62337615ce2588b86f446c99ef0894e5336a4294c10cb0a523e  env/env_nebula_12.png
+d2ab87c0d20194eaee712f992ee6e3707814212225dcb9393d3dced17d1bcd02  env/env_nebula_13.png
+c45790f94a8bb62a1fde75260c6838b3c517ac3b53ab0d2a341c4c99c61e826c  env/env_nebula_14.png
+c6d88f68d3bb5f123b9522b6a105e6e87fe0252b59783b92f8488d8d63b9929a  env/env_nebula_15.png
+c23623179d8e058af1f128f7b59a6477ac1fca7d144cad4bcc4e5bc4aa3811f2  env/env_nebula_16.png
+eb20034e8d4c5665733d162f5720541b801d3d87359da931ed6067b97efc5888  env/env_nebula_17.png
+d05e715da02042b72f3e524826fdf11308dba01a22424e4f520d06b364fcee4a  env/env_nebula_18.png
+ca57aa0a985596b0289c1b47c7ed122a8d12476fc11db2ccf853d9a788499d9e  env/env_nebula_19.png
+85189791816967a8b6c55e7282dfd30c218ac8dd9210152983dac690d6d48b51  env/env_nebula_20.png
+6f6cd7ab1d497630ce3d21054fcf2fc436df3b884f06a09a57bff6f20225d6ac  env/env_nebula_21.png
+e02248a00f5d0a4b73354ad680ed7354ff67e2422a5ae8bb41db4ff8ee8ea46a  env/env_nebula_22.png
+738a6e0e051eba04742aef283d57f3e5fa60712f89846fadd986d81d52e67d7d  env/env_nebula_23.png
+23f624d77701c7b09e998335c879d03a2a2c01294e7965b7c8d6d4cf767be690  env/env_nebula_24.png
+9e357f21318375fdc60c3b660f0e3670e579e97bf618eba39029d5453e158f17  env/env_nebula_25.png
+588ec8cc3e0a2e5dfbbcb3df18a2a8258684eb6824cb2b98844b88afe394287b  env/env_nebula_26.png
+59bbdc6d339fb1e41f042eaaeafc137a7b39c99737967ca85c2348a71583d90a  env/env_nebula_27.png
+b00f33053af6d6713a02c514d8e5f84388b26747e1ab82e60ec79903cb082e2b  env/env_nebula_28.png
+e169bc468eecd9cf84c24111f77c4105c22e2fda3b32b3d2416b72ea20a23068  env/env_nebula_29.png
+f3465290d61fc9e491fff0140283897adf40c8f5de6e272aef00f78adb18dd14  env/env_nebula_30.png
+c81b67c200232e5bddb7224980c0ca67e78ce231c60ff1e46de3e6a5c01d1653  env/env_nebula_31.png
+cb10eb85ac4db7af55b955ad455579ba2c014d3591efbb2142635c1e1af6703f  env/env_nebula_32.png
+9f08570cd96b3e4e32163e7d5131cb565b528f175725013ce37c38ad0a351aa7  env/env_nebula_33.png
+aa6af34a2cfe30628625059f2522c6f7f1459a26ffa2d75de58aaa04596f06ec  env/env_nebula_34.png
+9f08182130d2352d8e6e24c3d31853a8880c3c92c892120178240d2d0b702374  env/env_nebula_35.png
+beb1838e70c64036c3f0ebb3a6a457be80dadaee85562f3aac2459a2afa6ce5e  env/env_nebula_36.png
+025f3e12ef85324665a4b590a4c0db04c95eac48f15fcf7eb39096f332453a5c  env/env_nebula_37.png
+dc21444b4d3416637c420b6bf8439d091d5a8b0e5cdf997234900065b23cc9f5  env/env_nebula_38.png
+79590eb56c9cdde470405c028e44dbd8dc485fb5e0f6f693f340f8a5ee2fa1f5  env/env_nebula_backdrop_00.png
+b78d00d6b3772a1fd5a9c86236cc13084e317f060735b86ce9b951300a267979  env/env_nebula_backdrop_01.png
+1d619495871c59c67569561a038f668b70380b22e56f68ef1e398de1f1248c2d  env/env_nebula_backdrop_02.png
+7ede9104c3c578cbe42f768e21faf52d79a372f814615fbcb5ec60b96ae5c5a6  env/env_nebula_backdrop_03.png
+cfa7c826f198a92e150e0c093ed20847d4497370a43c2246b301f62111419355  env/env_nebula_backdrop_04.png
+3b0bc6ca30b918e62a2b29795056cfcb51eb233efb674e2226ffc7707c1274c2  env/env_nebula_backdrop_05.png
+51789c9533bca6d589f4a2fb66834e62a843cd64c12f8ecae904283b533fc020  env/env_nebula_backdrop_06.png
+b1ab7f95d43ca9434d38e7baab75b4a42add9449c8d7726371aea2b3c50afdd6  env/env_nebula_backdrop_07.png
+50cc312b37291ba62582ad37b64975f67778c16dacda654b300ca75c63a8c8af  env/env_nebula_backdrop_08.png
+c7474a9850058b6cf236ce17553d16896c398922f5e56f50c99b67880bb74523  env/env_nebula_backdrop_09.png
+f3c38fa462984ed7b8123590ce65a3b85c1bf4b21dfebe86f2ec59f5a97974e9  env/env_nebula_backdrop_10.png
+ad1af333ef728e5c597b8e0ae69f4ba5dd7856f5d4894e5fff12f54c881045c2  env/env_orbital_ring_far.png
+ea9352e4d9cf4a6a1a2131438a175e432ba43e1d54ec6838bbd371611fef9ebb  env/env_orbital_vista_00.png
+0d33c150d376a47281d53c0d4f6e9d6b0431f0ea1a8310f89cc41fb6d10baffa  env/env_orbital_vista_01.png
+13a765ed3dbc0337739821d008c0755312fb111e703a5d9f11d27ab02286ebc8  env/env_orbital_vista_02.png
+60fe8761ef98c47360e36b0a1b5325da7799ee06574cddca3c745468d8683f4d  env/env_orbital_vista_03.png
+3f28b9353bd78607120f4c27e5f22a16012c3c6181c62541acd8e76657f3560f  env/env_orbital_vista_04.png
+2f107fecd439c4bc38767c943ed6341b2074ea2be27306d05db1a6cf82f22948  env/env_orbital_vista_05.png
+9e12aa5cb17601c05330f26a6672b7d87522fc6a0079cdc962234c8958e69ff2  env/env_orbital_vista_06.png
+cb7dc9c6f9a7fa44c951aa01522a5d33529922e6a19ecf7b732107fe8425eb68  env/env_orbital_vista_07.png
+0d28d4e7b8d13abe4fa952a06d30e8166affbe82bef406ff1a7c3e52a9b1922e  env/env_orbital_vista_08.png
+d65b0a039a4d27dfe396b0de2a0b0464bbc68bc581f050c998cb01dbbee576d9  env/env_orbital_vista_09.png
+4a3d2be28e0ede7c3f1e1768beff4c7a3a46d48ace8c53dd5db496e9fd4272f3  env/env_orbital_vista_10.png
+2b1f4993ac042bcf10d2983e642ee1543aa0548ecc4addf9b41034a39f458002  env/env_orbital_vista_11.png
+67a1f4a3023f1a0a69e91ec2a60b00baf4ced455393adc4d0ce48395a60f9b71  env/env_orbital_vista_12.png
+04b85d5a9bb09e60b9fd565689856eec0002e2399d043713a904ef4a1cd59334  env/env_orbital_vista_13.png
+d6cf115912d709e5515f2ba173b33a41e202d04d08253e2cc322cc1ad4747942  env/env_orbital_vista_14.png
+b4bf2c95fdbbe316a87ac31b53fff20eaa8a1580918fd873d06434401a9b216a  env/env_orbital_vista_15.png
+3fa1b2cfa5cafeefeb9967c0701de0b15f6b4e71cac825f4133f22e25bf26b69  env/env_orbital_vista_16.png
+f6708d4d4d4ca313442e89537f1e78c5e522c1549f15e083c67e81e70719d880  env/env_orbital_vista_17.png
+b17e71fc581ee4fecb8b415db1cc6532cd2d7f12832098f57846a15729eb7dfe  env/env_orbital_vista_18.png
+d8cf91eb22ba0ec857698e0e8329e7966cef31f7b009719b77b6539e364f6c9f  env/env_orbital_vista_19.png
+dd98c2c368771f650f8551d47e58aefd7f64730266b704acd93e7d6b8b6577ba  env/env_orbital_vista_20.png
+abf58b8f1188816279dd8971bdd5685d5aef3b99afa19bebad1ea41ab1f2510d  env/env_orbital_vista_21.png
+61ac97cded6687d3aa9db8558f9d0acd40ff281bcf5f1fc75d2cdb9f1ec3cba8  env/env_orbital_vista_22.png
+a48539bc2562ba01708124480938984c83fb8593cf1b2886f946979513f5cfa6  env/env_orbital_vista_23.png
+88d28f775f67b1466dc3a126fb4eb9611cd56bdf048866f8233c8c278553adba  env/env_orbital_vista_24.png
+ba22fd8a19dd4df488598e038ae2088d7a4eca318635422e8917f26c4b2d946d  env/env_orbital_vista_25.png
+f50716121e39d91c10fc69dc83922e257df043bb11e095556d795d1b4b9865ec  env/env_orbital_vista_26.png
+9d97c1ad0bac5f2537d8f5d6df5d960f4db18eac95f268ae4fcd4d4c1c0802f1  env/env_orbital_vista_27.png
+f4fecf3a60683f7d751b8b684a69409e1457314350efcd46c975e27eaa7a466c  env/env_orbital_vista_28.png
+5d2d3b64b36393415bd126370e3cfacdf0d62b0b0006c48b1de35140fe3ae893  env/env_orbital_vista_29.png
+ba147f03145ec6af982e313fa38186071f3eaaa8b83cb544635974d2f176dfe4  env/env_orbital_vista_30.png
+69b673edf76cd25d2f9594d2c8eed545dbf5a436016e49e447f64056b3985f08  env/env_orbital_vista_31.png
+3734e93c120819b5c92f70c96378fea3ab90b3fe74b3edf9534687aa71830bf1  env/env_orbital_vista_32.png
+8b6a78bc353461bc4a0a35584d311b72daa4b77e85f16bb714e68cfdb91f4ee6  env/env_orbital_vista_33.png
+eff9d9d31e0fadd55456c86e86ba8daee8b9d48717cad16f491ebb5e9deb4452  env/env_orbital_vista_34.png
+dff5f95dbb60a4a6721f2a06d789bdf003886c7e241287bc147738688d11003b  env/env_orbital_vista_35.png
+395a63f11328b8c6ea55020d01a538138b4e23abd6c19b91197aab341b4abddb  env/env_orbital_vista_36.png
+9eb24ea52ba36a33863c9a7027b059187e473f07fdedb75d37b9ef401570ea0e  env/env_orbital_vista_37.png
+3c34c41d974785f274edbf369e17225c98f51c5522234cb2c8bf1cda88537c46  env/env_orbital_vista_38.png
+5e0137c98c2549403deba31878f5ee118b31e61555b87224d73045b1a3eeb62d  env/prop_ruin_chunk.png
+e2b810c65ead411f71a9517410e67c769aa93fc6940692a88dc1225f7c3f5b7b  fx/fx_crit_burst_00.png
+00f832eb416fa8a9b7faa3a8c12cc1b5fbb2b7037a968bdc4736da22a45e54da  fx/fx_crit_burst_01.png
+62f488e3c927e7732f3e747d1c58641fc7ceddb8008e9e2db75d18b1569ba6d4  fx/fx_crit_burst_02.png
+224fb48b48af2aecefe9cfd831d0030ff84b2b107ac80af8df784fc736718bc0  fx/fx_crit_burst_03.png
+7322f5e5c09237b3623e0c06e15a0a856018f2a1accee4fbced0344ca9199b0b  fx/fx_crit_hit_04.png
+5fc6172a62168ed750b897112fa16766f69b8b8e4fe906c74f470cfc9dbc25d0  fx/fx_crit_hit_05.png
+c964cf3fb735524065797582438e9f9091aa86859e5e23f8e4e92773dee73ed8  fx/fx_crit_hit_06.png
+f34d5814dafc8a210fe77fe0e0e223ab5d6cbe5cd47c1d81dc641c3fb4f013a1  fx/fx_crit_hit_07.png
+532fdbe02fc73fb6df6f3fa782fa16c9e099f18221adf358f45caf0004257fc5  fx/fx_crit_hit_08.png
+6cf1c4328e15a72806324c1a452bde76cb17249fcdd1804862fa03ec74c016fc  fx/fx_crit_hit_09.png
+4e35e704e33bbde4468e657ebc7900cabfd9d4cbdc633edba9cf7739c21c7b9b  fx/fx_crit_hit_10.png
+bd926d1c050feda9e4f19d7b09cc3808021d484ae59e810bfa9c3fddecba1941  fx/fx_crit_hit_11.png
+2fd180948f8398355b3f7fb6502292ce8144c0d4640e416bca44d302ea6769a6  fx/fx_crit_hit_12.png
+468304961f6c75c557f53b6cea01ff3400c65c420288fa782f67bb49b1c0bc01  fx/fx_crit_hit_13.png
+dc32b8730913a31408df59ed932b370233cc76fe4d98f73331d85dc351c75cac  fx/fx_crit_hit_14.png
+93343a72fe95e9726e22fc61b5d670a4eed62322efa07835dfe46cdfd3a4383e  fx/fx_crit_hit_15.png
+a7dfe4f2dcee3505293f19260cc840e70af54677ae7a9a98a907f3253d95f3e4  fx/fx_crit_hit_16.png
+4a09dc0d3a38c1b7de75d26148f8349d6920e0354db040c17a73eeec137f7358  fx/fx_crit_hit_17.png
+9e9b8aef591ea21fd84c3ebc12e41795ffb80b8045ee1d540ffed7691517b52a  fx/fx_crit_hit_18.png
+a48f7a47d3fcad2b1d8ecd95f4c6ee054f8be9a2a4db10688129f37176d74c6b  fx/fx_crit_hit_19.png
+cb9c730027a67f0dab54e397e17bced74a0ef3a5de96fcf800ecd26fe5b6c4ef  fx/fx_crit_hit_20.png
+db5b2b5a01859d5db461777b25e0659e9fc1cf9ada47d20383ba3720768f17cc  fx/fx_crit_hit_21.png
+642d2e042a10be65fc1e0917201cfed7de78d14dfc073800f7e30711e22c1980  fx/fx_dash_afterimage_00.png
+1e81d2e123b6a420b7d6346bd7d1e5da7d0299e6b2de5777b34a10f281052454  fx/fx_dash_afterimage_01.png
+72378f107723bb78a4c9759dc40682dd5adf85c2ac5804f98a30d27a75cfad34  fx/fx_dash_afterimage_02.png
+83db9ad9a79e5f36f7c259d738d2dc57dfec8ffbf78829c6c0c5301ca9585754  fx/fx_dash_afterimage_03.png
+25a60c6d08ddcd37404fd79a70bf0d1da2511dc4ee0a75506137bc377e57a6e5  fx/fx_dash_afterimage_04.png
+e097ad7bfc1a29f721516d393bee198ce0f0847b45cadfbebafa5d8396daa685  fx/fx_dash_streak_00.png
+07f6dd3f21ea1fdd9f736ae77da89e942ee8592daebbfd93303e9eb75725b90d  fx/fx_dash_streak_01.png
+ca21ebd0287203d164879ae072f45cd14c3bc3e63906c2bcd42bb0229a527afd  fx/fx_footstep_v2.png
+e1447b54574272fe1b7d6be81bd890b2921ce689b678f31e498cb0addc34bebb  fx/fx_footstep_v3.png
+8c6204ceff896b7bb849820abfde2ff8c616a55c88c906efbef61502e53ac4f8  fx/fx_footstep_v3_01.png
+ee8d086761fa78350480ea56e9d4f0518fab8328207f71b50d2047fb9cd285b8  fx/fx_footstep_v3_02.png
+77898114036af8fd803752c635f9e3c69b9fcb16025d2f1a6aa8d9c9dea3e6cf  fx/fx_footstep_v3_03.png
+b7936b2d6bef9daae2b94a59ac9cfb036e2ce21bc33dbb476cdbcea91088af7c  fx/fx_footstep_v3_04.png
+6d01b89f66ff6dcb5a4fb25e4e1ec50d9f4915052395c8e93b998033dc353668  fx/fx_geo_explode_00.png
+9d168c154ded908d57a1c01e0411494e0856feaabb23d42db5b365a31e8799ab  fx/fx_geo_explode_01.png
+36b06743ce3ebef726eb3bd6ef38fa7bc61068137dbe1ba510f5dae6a61bd1df  fx/fx_geo_explode_02.png
+77b4f3cc4e78ed754c571ddbb0cd9f3463ba9f1185f819240be6c44a621ea200  fx/fx_geo_explode_03.png
+aa0e7695e89a14b13168766a8e848faf977b09c14537b515ebc519174aa12624  fx/fx_geo_explode_04.png
+18dd9b5a45c48ec4cac22f63ed9dd8b271747219011482b076c41aa3751df6ce  fx/fx_geo_explode_05.png
+990c93f70060ec23e67532470053d4d6d6001abaca249e4689dd0f784785b85f  fx/fx_geo_explode_06.png
+3117ba46bf583811f9f9b53643e2ea7ee693e7f3439d7bed89b69691463a1e51  fx/fx_geo_explode_07.png
+48a6def692f2802e812d11e52563d7d513dba6e1a6becdf8abfa05dd1300102a  fx/fx_heal_pulse_00.png
+b850b1d7d18180afea2f920eaf18773536741a74c32397589f1dcd3d69a4e1b4  fx/fx_heal_pulse_01.png
+fa19d132e6da444cc7aa438565500b7360219f4e21b952f903a62ab436466f3a  fx/fx_heal_pulse_02.png
+da76605d9b5a5eb87a8cf60907324ed006e4f55d1bf26515fa65d1159c9b6f49  fx/fx_heal_pulse_03.png
+ad83489a8f14ec94207725aa111feb4635dcc4d3ee556130391740bfb35a6257  fx/fx_heal_pulse_04.png
+c3b35c2e219a94fdc137d883fb91ad773e23fcea96cbb235124d6479ce7658ef  fx/fx_heal_pulse_05.png
+86d5b103403a5c1b7530d71a9b3c87c58210aea7bf19b7bb9cbd7a66d796e684  fx/fx_heal_pulse_06.png
+20c3816ac39df181f86c8f9751ae96de1d71663502058c58f25ad40ce0754e59  fx/fx_heal_pulse_07.png
+884d09636d798516ad8076335a4f032c24777be1add1a1383542415edc7fd271  fx/fx_heal_spark_00.png
+93260c19f82a7dce944945b9eb79d87d8c533506ac9bad9cff0e517d866d3a46  fx/fx_heal_spark_01.png
+b6fa713d7b93fef103cdc1fdbd720bdf28472a981535f11158f6091b8515f4ac  fx/fx_hit_spark_00.png
+333294c13ce0589272568006d08f1e1e60b65cb9cc5070a70a8dc65f5e27e7a4  fx/fx_hit_spark_01.png
+c1be2f48f8950bc3637a11dbdfc854867e9379e4d9430b9f55c8ef95058e2644  fx/fx_levelup_burst_00.png
+44eff60045acf6b2974ca76e1d5140d3e661d94e012f307500125362ff3f47a0  fx/fx_levelup_burst_01.png
+b6af4607e720b0c619253d592afa85f170451519955253a60d9ac25f090ac2a6  fx/fx_levelup_burst_02.png
+6e7461539126a478d32f5d082eed44b4df80c7efc45fa8137ed87542b9fd8037  fx/fx_levelup_ring_00.png
+713f2abd7a78855351021f6d38fbf3927be20438c8c1ee49108605c66ad59844  fx/fx_muzzle_cyan_00.png
+c37dc46530076a4631361737687a894f0a3adc357110b2ec8979b0164fcca19b  fx/fx_muzzle_cyan_01.png
+ea33af9d0e1899dbc55d612c811336860d7aabca307617658d6fd22f1a174e8b  fx/fx_muzzle_cyan_02.png
+1432f85bbdca2eddb0e0878523d4fcd2c8780f82295e418260a10e20519da818  fx/fx_muzzle_cyan_03.png
+f685e53cb9e83f1ba284cbff36795324edfee97b6e74c7ff94f1886123d19c5f  fx/fx_muzzle_flash_04.png
+b2da5b5ff6f00fbdbf20ad8b74c88ee90f7cb46d17e2c63d954f31c116e3ff42  fx/fx_muzzle_flash_05.png
+4973d6f0611e6d256ad83f5ebcfd2434612b32fafd60f09c38a41f2c24d07278  fx/fx_muzzle_flash_06.png
+5527b1e519479927487e3281e32b1b0490e6014f00eb31d5c2759ad11ae0534d  fx/fx_muzzle_flash_07.png
+37eb09cc48b4f37e4ccc0e41e8001e12d6c4f042e9a4b7dee3cf6e141235253d  fx/fx_muzzle_flash_08.png
+100cd5303936b3fce5edb08a503b83d26778e7ace54b567c3921c8ab193f0ca0  fx/fx_muzzle_flash_09.png
+74c7be0eddefbe98330fc94e118ae8cc7cba39d9dc067bcc7d5909f70f0b6405  fx/fx_muzzle_flash_10.png
+70c581f12f7d1eff8f8c5a3575ae4ea149b0d6695ca0a044ef7d3e468cc55005  fx/fx_muzzle_flash_11.png
+1b7dac5df7f9e21f1e6c5adc73606d59994942c34d66f4e5408427f03ce52e20  fx/fx_muzzle_flash_12.png
+e59644745bec14af0f5d4b378adc2b79813c1eb309e9b8eb2bf2c9ca3b71e97e  fx/fx_muzzle_flash_13.png
+ff9b87cefcd4ca28f14516af5c6d08d8a7c84c291c4637a58f20440b20a89743  fx/fx_muzzle_flash_14.png
+b9974ac526176db850da95883d95d8b30bb62fbb4b4f79e32ebc5d6096fba0e9  fx/fx_muzzle_flash_15.png
+b8dec41242bbd35a270dfd02c48b2ef2b68199b66da7a5a4e0c6196986d4d252  fx/fx_muzzle_flash_16.png
+68ce1d7d6a6e48bce6b8d558a04104b85d2edf834ab7000e8a5c0feebee84356  fx/fx_muzzle_flash_17.png
+a6fb4481f0b0f083df76ae72007540055a612f5fe9d085702ce0b9e38ad3d936  fx/fx_muzzle_flash_18.png
+4be92ba69be4ca8f0a433fb1e79e4b776dbbaf8c2c49e25005c677312c76112a  fx/fx_muzzle_flash_19.png
+dfa46788fc9b576c1c2ac697c95ab32481944f4608cbec013b1d2d5c30c3949c  fx/fx_muzzle_flash_20.png
+0735b258c0af4727444b732a24a64dcabfdbf34b2a7337c81a0b00ea2eac340e  fx/fx_muzzle_flash_21.png
+7fdaf79299173338c3f0621432d3a9abd7463e331e8cf520be596460650b2010  fx/fx_pickup_burst_00.png
+5e3415611061971197fba67218274268b7cd814b5167e6f4025b1bb6c27723fd  fx/fx_pickup_burst_01.png
+e5cf41560c638d8589aff26f99e7df63e3ec157f626c9fc1dcc9175d072cab77  fx/fx_pickup_burst_02.png
+d2378e840c9fb0129350f1de435d4070c2238f366d3f691091b10fd51ab5bc2f  fx/fx_pickup_burst_03.png
+f5527d6f87566568d61a2d30ca59c95dbde853d2b9cae6f9ac5c787322d04eef  fx/fx_shadow_blob_00.png
+50a3966d12e51399e35e59849b04b5fdb84caacc2a54ef3f681c5e17fd613604  fx/fx_shadow_blob_wide_00.png
+0c9f04e3dc68264cbec0141b19c6de277ceab9b85735501256944ce76514d636  fx/ref/fx_crit_burst_00_b19.png
+7523cd1003b204411a929b235b126606210fed3d3145613b529bcc9ebf2b51c8  fx/ref/fx_heal_pulse_00_pre_b24.png
+6525d24cedfa88dd836b8c77ff889dc2c1a3ff3264373961db2512f90faf6bf4  fx/ref/fx_levelup_burst_00_pre_b27.png
+d7bedd71bf97f342d3fad0b2a0db2f2d227a43039c4c8b0aab29a414b66223b7  fx/ref/fx_levelup_ring_00_b18.png
+1f35a80d3ca5f583d0b2d0169a9ab2e4b6a4084e547ee7b81cbc47e7ab2de8ab  packs/player-walk-contact-64.png
+49f85e7d3203aa6f7d0bac5f89897e3af3159569505eea2eccd9c2985a140aa5  packs/player_walk_00_64.png
+df5a5ba4cffed95939572993010e7b870e33002955c6fc37de396567f6054844  packs/player_walk_01_64.png
+f2290daa528d4ac4561c43772bdff4e0b8a1415ab3be96aaef5850954ac4500e  packs/player_walk_02_64.png
+d942154c6f65e9a950ee7c0037ff5d2ebcdc693e2bbff04f114d4df02e808307  packs/player_walk_03_64.png
+cdb8d9ef1cbb2e53e090312c9df59b05372eebec42edefcbd6ea97e8dbf79204  palette-proposal.png
+5f2f19fad957240d4567cf957ac2ac5c5908baf32641032318e3ad4f230a6c76  props/prop_ammo_cell_00.png
+de77dcafbe5cf781f8aba4d19a3a695a631c129681796251f132231023074c1d  props/prop_ammo_cell_01.png
+3b34c0f5094c3a15f0364f2266fbffae88821e8401e626aa13e8191ebe141efb  props/prop_ammo_cell_02.png
+24af25ae4568b30b51e68d7c7b2e1d3282d20a66bd39ef35e1d6f57e5f42cfdb  props/prop_ammo_cell_03.png
+3a1e39d37dde4c0865fd1510ee90c096163414a037d4d58b138b4ebf9c88a8c4  props/prop_ammo_crate_04.png
+c3dfbf17b32fdaf749ac1421e7106a71f9e5bbd7ee15c2b6f27ebfb16ded9542  props/prop_ammo_crate_05.png
+f73eab9346d5c11ef8b4aadb68e983434c97aa762987f4c2b9ab38de13c9febc  props/prop_ammo_crate_06.png
+0fd50b644c7a4aacde6a14fb8c352b8195b694026dbf9558b60e2141e45c861d  props/prop_ammo_crate_07.png
+2a2687f1aa57941fc7499dc17c3367d2de5129e0e18ba42c4383684d76398952  props/prop_ammo_crate_08.png
+8d3f00dd0cf9095292ff8c48462ec9c1fec3eff888196f14a9e782abdfb7b833  props/prop_ammo_crate_09.png
+5856164c96daf3fc97ed3f2e660716d3b48b0048142e60a5b23a7681d69099d8  props/prop_ammo_crate_10.png
+160e7e4c9c369f378b2e74609f54b517185780da28d108bae022355f8f28adb1  props/prop_ammo_crate_11.png
+ebb5f4273d1bc55133bb4291961d8382ab7f8b3d656f43855e5d9ce375a660ff  props/prop_ammo_crate_12.png
+107fc485f5ecdef778bfc56c59cff7feee876263c16ff1b19e66a81ceb908823  props/prop_ammo_crate_13.png
+f8384626b3afd092ef9ceed44f94272043b627c0e890fe959ce1edf43c2e48af  props/prop_ammo_crate_14.png
+fadfe175a1ba5ae931d3fd7461bee108818fb740eb6305cfe58555da5ba93897  props/prop_ammo_crate_15.png
+57a3a54685134efe533ff6bdc61adfade92ee510c33b5e7223a83c7679fd254e  props/prop_ammo_crate_16.png
+7858c2a9454817567106b0aced956355957ce84299bc406c0a3004c4ca69b086  props/prop_ammo_crate_17.png
+d04cca4ff57afa01d6e145ef399abc45fe266ca2a2b129fe120978fb823f32f7  props/prop_ammo_crate_18.png
+f7487239808f5e870fcce9d19d273fab3dc25f746ed37637026bd3ae6f00bf97  props/prop_ammo_crate_19.png
+68ebf2fa7fad807c8cb7b6f0e7b4137ef0d07c977765147a487536bb3f93de58  props/prop_ammo_crate_20.png
+5c7da304ab245f37e5d2fca8e47e3161beb518c7505c3cb73f6dac6fe30ebd83  props/prop_ammo_crate_21.png
+fd01f95c64170b7969bfb5872548fc4f7f93e9338ac0fdb4d00b9f9dad4f5f35  props/prop_barrel_tech_00.png
+31e2d8349ff3d6db893e39f2ad0c9ad166d9d31c959cbbf66d01f85678349f0a  props/prop_barrel_tech_01.png
+07f06cba105ae24c7bbc25ba4af1aef7ee50b8be9ec4a712986f89dfd365fbd6  props/prop_barrel_tech_02.png
+8aeb6cfc02b37683a875ce27779d7847ea118f388fa6340ebc976d97848981ae  props/prop_barrel_tech_03.png
+c39b1b3b952adc2fea9c248bd41008949956d2cd4e764c21974fd1bacc6b26f5  props/prop_barrel_tech_04.png
+4407eec963e197ff3269a76b757beadeede831405dcde44a9e630ec5636335d7  props/prop_barrel_tech_05.png
+d3da1b38bf0b9591f313587a6f31323c60739b900a828ea745a8ed4b1d6d7a0e  props/prop_barrel_tech_06.png
+0534f4c91f1bb5245604b2002801ab5f2fff696c6175887e1ba18262c519a638  props/prop_barrel_tech_07.png
+3690a064eafe799d16b4c3baf20c69e18c1bef037e828d3184666853019e7e2d  props/prop_barrel_tech_08.png
+a688183326177393373918787514f7545550723d4aa3a79f115237f69807b435  props/prop_barrel_tech_09.png
+df464595f82ec5600e903d22299f98d014d292d1268a0da3fd0dd85d0809d13a  props/prop_barrel_tech_10.png
+9ea069c39afe1065c9eb535108e888776096da4db7bab5a743b8fe31f2a8c0cb  props/prop_barrel_tech_11.png
+d70b3081af47ae8b354e092a9b66958050a1d869f69420263babbdad77d14ef5  props/prop_barrel_tech_12.png
+2888773c4686f136a12c91cc334ebb711c984cbd0d11ec89dfb82776a36026b8  props/prop_barrel_tech_13.png
+2219c97fc9ea9aa6519838ba35a19136e0ba0f21de7fd44bf2eec1fbcecce4fb  props/prop_barrel_tech_14.png
+e4814fefdd685db746c587e1b88e20beb8d9e5529bb9e93541d16454eebd6b85  props/prop_barrel_tech_15.png
+6db5d846a311be6f781674493ed4887fbb23da4004df01c5e18cf4d844f0545b  props/prop_barrel_tech_16.png
+1365cb2226a214d596e49d770dc4ca5b9b1e4a44920562047727c11a2b495cf8  props/prop_barrel_tech_17.png
+901208f266c2c1ef96e677ef5d3f3ade919bd6df99e48331ab7da9e9f63b7816  props/prop_barrel_tech_18.png
+1f49ff380fd1b91b73fe566e351ef2b3d2c3a9c7992422e9699157549c678692  props/prop_barrel_tech_19.png
+32efc220c63fedb5890d15dfa30fd7718dbf30070d1e882291afbb28c008bb1d  props/prop_barrel_tech_20.png
+0f6ef82ed0ee323003056f7478ca6434fdfaadd984b3fc928867b8bc082816c2  props/prop_barrel_tech_21.png
+948112c3468dc40b0807c4c312c925759cfcfaaeb2f36954c66d8c4a91f9f2df  props/prop_bed_camp_00.png
+97ebb7d0f5899ed4c9996098d8eb89df61d95fb02b4a907dc862ce165e4de886  props/prop_chest_relic_00.png
+d094af18109afff7b37f960437a8e06755c71ad29f2752d1f12268dcb5a818a3  props/prop_chest_relic_open_00.png
+3bdacdd86072aa55a50f1293f49fce9956b37acdb577b08ab62139c5758ee3bf  props/prop_console_tech_00.png
+7ba036113a6f74f92d61ada57e3fea632d6314e41435f5e1b5905509c2d519b3  props/prop_crate_tech_00.png
+1de439164e160c683d99e89540b8dda82cf497f505b090e3a33fd9771098fedf  props/prop_crate_tech_01.png
+4cfd486836f7a0664d294b8b34f6430b9c99c154b4d27aea33d1570ff148cb6d  props/prop_crate_tech_02.png
+daa4b581ac0b6462fc872556d61361ddc1db76cb7d960624d9e68624f2ffa537  props/prop_crate_tech_03.png
+2a301bc057fe01220919483d318416713f9128a93014cae59952142094b843c4  props/prop_crate_tech_04.png
+9ffb6cc09808a7dec5e6e62564a33b976604128e980eca417c68f546711e008d  props/prop_crate_tech_05.png
+9620c00dcf11f74ebb5e49495bde4c37cd06b67ee841f4d34e97f25306a53fec  props/prop_crate_tech_closed_00.png
+af1edf13841d924162961be55944ae4cd25cc7921630aabba2af7b68d330b53b  props/prop_crate_tech_closed_01.png
+d839d291e1a4a0f068aaec8ceffb014ce0abae0e704a23d65ab31f7fca438f99  props/prop_crate_tech_open_00.png
+c4c9a269aece2bdf9fa3bbdea3b0540fec1275cf70d64d5f1cafc962570656f0  props/prop_door_tech_00.png
+cb7fc82791f8e77dbc86033f8a2ee16344cc72d534efb7082f19ff4f818b2b2f  props/prop_door_tech_01.png
+809e2dda9b74cf6618af52d15bc3922cd5d67552fd2dc59382b1c7fb65e4aa09  props/prop_door_tech_locked_00.png
+d4eb4480781bcce76f92c2feb72be7cb29c34cb0dca600382dc51fc2614007e8  props/prop_door_tech_open_00.png
+c61060a6215201d1027ff2afbff2ed5949214cd07ca4d70f32d9196859380e0f  props/prop_door_tech_open_01.png
+863b3df94e89879cce3ee530b91ef1661a1a20c525951368a0014b1404522112  props/prop_heal_pack_08.png
+d8b46ad54484f561446be200bdf006f7408db91bddb6d4265a7fc8325a7aecd9  props/prop_heal_pack_09.png
+756bdb9109bb6e2c02d58585a9179950643297f791194605e47346ea5d0ae4b1  props/prop_heal_pack_10.png
+e2dc8979613e5d09779ba28f0542a3e64f6fdd36a6ea8c0ddebd78db3a16ec8d  props/prop_heal_pack_11.png
+8a57c97203c595997659a90a7efad55e0653e944055a6919177d3aeea2f9e4d2  props/prop_heal_pack_12.png
+bf7b8803996537e08811d8f58e8f54c3e165afdc81edb338bb0012587ea7c79b  props/prop_heal_pack_13.png
+39f5d006a823c272225f10f2e7c9577a5a7200256d320936da30448f6144f445  props/prop_heal_pack_14.png
+3f4d178b08f0942cf337304610e0e12faed92fd6e48f85dfff94021425b9ac2c  props/prop_heal_pack_15.png
+101d9adb20eec65c3bdfe3fd18a30e724e47fe8e41f376adf64bcab38e466e24  props/prop_heal_pack_16.png
+916fad6bcfd696b44064c86e85129e5bc82eaf1466800820347ff2dfffe8ce23  props/prop_heal_pack_17.png
+1f106a4ce17f70b26f96aa7a5456c1e64d8dc57dc1912da3dd976556030ecc2a  props/prop_heal_pack_18.png
+8238683de3305963c0525b1d9467c54c0da470c2cd00a7ca9aedc6f30d16d574  props/prop_heal_pack_19.png
+5538e68564d2ece1a868d63b0b2d375291031cadd462da082187a76549d26608  props/prop_heal_pack_20.png
+da833d43a523149ff8c845516f4b8eb84b51de89f09221cda43469a102a7cd4f  props/prop_heal_pack_21.png
+5a24777f5399f444bdaf0fcae588f53fae10f7be376137523263465fcb9c21f9  props/prop_keycard_00.png
+f0e4ec78c92981ff372f2871e7cdf4b7dbbe5d9b9c67c006644f25b659ecedf7  props/prop_keycard_01.png
+6b5172fc63657dd91f275fee62d26cfb467d1446be497cc96b86dee5bf69ea25  props/prop_keycard_02.png
+2309a3e584379750397da75e12bef53a458806775de809e3df9fac85732e1cd9  props/prop_light_post_tech_00.png
+378754d4fc9be5a54966102ccea17d59a678c86f1a30fbee3a1170aeb852dee2  props/prop_loot_cache_00.png
+c7df364b070d7291a165e807bb9339d035a4fcbfd6838fb9cf31ed5b287eb7ce  props/prop_loot_cache_01.png
+4f6351471b1be422047873cb4e3c75da2d6b09435914f0b4d9154a98e65ed386  props/prop_loot_cache_02.png
+7ff1aacb89c1c09f769e1e2d92513a3134e312fd54b16035b2727e404e9032ad  props/prop_medkit_00.png
+117b853a9b0749343d92d20c313059ab787741d2bf1976a224aa19fc0cb86f18  props/prop_medkit_01.png
+3f20915756fee28a28c4cf4c95624b61f56de812a0a4f91056a9cb982b582266  props/prop_medkit_02.png
+bd500334053b54ad95d339b9d26a3cf9c3ca00d55ace08cec81977982c4bf527  props/prop_medkit_03.png
+6bf928543c988ea2a05f8a13f4d8a345d0a8a50f2bf295ab8d404986e2f46062  props/prop_medkit_04.png
+de7ef1a3aa201fec60aaf6d644c2d053626fc45ae4d210fff4fa43b630d97d47  props/prop_medkit_05.png
+27fe75fec7c22192d19abba582c425c20b7763aef9ea0f21a1f4e82f4d3c9783  props/prop_medkit_06.png
+b4567d760fbd323cbdc721bed7d6691444656160450f24bea9dd48af4ef801e8  props/prop_medkit_07.png
+be87f057123d7a96f08306a2c1ba6b5a045c19c6be78f350032bbd06b71c8d53  props/prop_medkit_08.png
+fe722bd6a1d44de727da88bcc89b1d6d0228341fee169ec2483e8bcda78a87bc  props/prop_medkit_09.png
+497c07b4e91bfff5eb21d1c0e66333b50cf73b9f2ddf4e80cc3a14899021b134  props/prop_medkit_10.png
+1e74fefe88a8400f59b72be8d9725399e0021a2ae8879e0ab8b74c98c96c3c83  props/prop_medkit_11.png
+2c3bc99c9f30d5ab603b6c8972136bd157080a4b61bf2af507b6c622e6beb180  props/prop_medkit_12.png
+f544334019e8a5b355444376c3beb277563ac1f5c1520730afa517ed4348c323  props/prop_medkit_13.png
+ac755d61bb959fa3a2453b0c629b6c31d4d1d590e8932dcb7ac70a6c5d0c3807  props/prop_medkit_14.png
+ba7b8c6d2a820f7f1ed5bcec4f934abe1e2f9aff721b0c91c480ba09b12668d3  props/prop_medkit_15.png
+f118d9c65f4df0ecc96c6e7b329ccca6a052fb46262a17c48e49bf93076eb7a5  props/prop_medkit_16.png
+67f4dbbe4533cc3f192d5141caa25d99516df165d5dc94dd0457fa42eb4faebd  props/prop_medkit_17.png
+67f4065b14239f2cb67015bf9f6b61a01f2455b35d2aad5f4a3f795cd0b30a02  props/prop_medkit_18.png
+ecca9a7965f7e59c502bc33707e2b7830092280312cbfb315881eb28b7f0d1e2  props/prop_medkit_19.png
+a964b3ecd60123132d020b251d7ce56183d2c54c313ab8f3fd5969de247032ca  props/prop_medkit_20.png
+555247f790c6f7f73f00bf0d6f4d0c38942be3cd8f1e3b1eb93f49fdfc3c6aee  props/prop_medkit_21.png
+ebbbf855342435e60b013e44c2912cd1ff42452c25ba1a018c16d1f38e358d65  props/prop_pillar_ruin_00.png
+597c2b3ce788ca65a21eb9500039203a0b3ae198ef19c2ef0b74fbb9601b6b05  props/prop_pillar_tech_00.png
+0100b6da387575285beee9ecad28bf4b785dca96d5e0d666426b9a7929423c64  props/prop_pillar_tech_01.png
+70d513160b14aee24a8d46c96f211b4f8eddbf7f6cbb68fcc6669a2e9651237a  props/prop_portal_tech_00.png
+0f74fb8798b1c98528873554ccaf7896c4d650410c5c72d33bc4fa1b2404da76  props/prop_portal_tech_01.png
+53ec44b6089208d661f85a34be3d2a53148d6e4b6eb6dd83c7627e78fb91bca8  props/prop_save_crystal_00.png
+acff286c12ac1b8759c55a4f490fc67a440f4c02fb95f21878da932cc8ab564c  props/prop_save_crystal_01.png
+fede59712e4de4fcac0d8f3c60fb245c86c4c7342c4b10ba01b229bae26a4c67  props/prop_save_crystal_02.png
+d742691a471019b5952a2b3bb955d46a40895f03df1c8f4073127db359088ee4  props/prop_save_crystal_03.png
+2c0645647926954eb0308829dcb963a5f9a8dbe8d90e7af7c573483049cfa90b  props/prop_shop_stall_00.png
+53ca2401c83ffd598cea343a758f2fccc5c16f474e07c7228fbcabf4bdb41c12  props/prop_shop_stall_sign_00.png
+00bc0954c848761098e4fc3801f62f176f87b584313e34f4d4799d6e0bef6991  props/prop_shopkeeper_stall_00.png
+3fb804f0f18c5c1589b58b1c25ebd3b347a4136ad667f2dfdfd18d22610ac6de  props/prop_terminal_ancient_00.png
+2b8546b5e719d78d31345bf87a4c1e99cf0bf876c3eda0f1555660c3fc8c7597  props/prop_terminal_boot_00.png
+c57b1fdbc8e313b3fbbbf198b750299c63f1468da8f07addfea3c73a5474b97b  props/prop_terminal_off_00.png
+ea640d4bf1ab04965e840470071f05326545d1c43924909c986ac6dac341a549  props/prop_terminal_on_00.png
+9c84aca602b914002fa39738507198c124e5dbcb704a1acefe5ba1f172896bdf  props/ref/prop_crate_tech_open_00_pre_b25.png
+4280267f5c8349d6fc733b3ea4e0a3f1b2847d4d43fd834ed4a8b2aaf93484ac  props/ref/prop_save_crystal_01_b19.png
+0e7ad81349b2241dde340df4bb44e17c16baa60d6a6524ffde247e0424d41478  props/ref/prop_shopkeeper_idle_se_magenta_00.png
+aa619a213b8c24e901569246cf10515389d6af4088c2ea427a458af9e167c4c8  props/ref/prop_terminal_off_00_pre_b31.png
+0c25b50ca2f548d0b2be4c2a4dcb81502a2068752b8daea482ad129eb1a06b26  scout/ref/scout_attack_se_00_pre_b21.png
+ba19f4e61cbdbd3146c6a65f41ffd6b3ac0a75202bf1834a203c6cec15cdbc5b  scout/ref/scout_attack_se_01_pre_b21.png
+e743c3bc40487f1a844df38b098873baf8acbc5e0cb15a63cc9635121b791410  scout/ref/scout_attack_se_02_pre_b22.png
+619605802dccd1c00dda38877a3070aebaecdf7fb0978b7d592d8a99b5334760  scout/ref/scout_attack_se_03_pre_b22.png
+b0887bc84c0f483ae5ce5ea22784629ece03b9dd45dfe0d7acc33a9dc586d1f7  scout/ref/scout_attack_se_04_pre_b26.png
+e327754c7eff52af351c1436bbb2cfd31de2cf7023b74429ddae942d5364ccf5  scout/ref/scout_death_se_00_pre_b27.png
+3aa0a60b853eed3ea1cecfd068cbc9d85d62ffd2ac5c7edb7da579367be04ca3  scout/ref/scout_death_se_01_pre_b28.png
+eb1dbe6010eb0207cce3392ccaa3ddfa65367d8e206d3f4e42d03bf359006c00  scout/ref/scout_death_se_02_pre_b29.png
+97bf9f6953c3f5497055ecc7465eda5addb58f82a684b4c2ff3748e7cd7f0a33  scout/ref/scout_idle_se_00_pre_b21.png
+5558bb12332b10ff918eede2bfd607f7ee986022d9b633ed5b24eeee2783b0bd  scout/ref/scout_idle_se_01_pre_b21.png
+42cf58e75e4da8aeb746b0b0e6ea77f2e8d890c85b2309ad4971f34dcf41947e  scout/ref/scout_idle_se_02_pre_b22.png
+9d80b603e4cf287f373eaecefce5b171622c9b27336979ca70dbd96cae5f29b9  scout/ref/scout_idle_se_02_pre_b26.png
+d072397677c95bbc1f90b4c7da600f17ec6e9e30a6e3b4a668800e1a1d2a7456  scout/ref/scout_idle_se_03_drift.png
+473aca2b2f507e5eaef3f35dc6abe5d893bae71a6cd2eb0905eb8812d2f5e184  scout/ref/scout_idle_se_03_pre_b22.png
+4a2e03943efcea502203a38c602393d95156ef2ee04e6b38c19a31644c1ca8d6  scout/ref/scout_idle_se_03_pre_b30.png
+ffc0f9178675acd14f3b8d79ee0f622be99a972b5847bad2b8ebc2b945fe054e  scout/ref/scout_walk_se_00_pre_b23.png
+e2be4bd985511faa2062d09769530526bcf70b49f63c8e2a4acfe9bd281b5a79  scout/ref/scout_walk_se_01_pre_b23.png
+c0188f7167d81f21bedc2770c9a7c5b6e5fe1680f75028786c20dae4a75b88c0  scout/ref/scout_walk_se_02_pre_b24.png
+b67fc9ae06c7c725401ab37116b0d9deede26894a369207fb44ab504bd964ec5  scout/ref/scout_walk_se_03_pre_b24.png
+8f1b8c41c6692bd7952ae688c19fda7d2060d7ba89646e14fc477d9fff684348  scout/ref/scout_walk_se_04_pre_b25.png
+4fe5109e4189e635e5a58ab623f233c6af63c95ad6928046f07fa7300cbe26f3  scout/ref/scout_walk_se_05_pre_b25.png
+029b8af805885dea01b46b6f137e639aaca7dced8a0502568c21341ce800b1c4  scout/scout_attack_se_00.png
+28f1e4b7285f939ce3c0e0266e7f5049f079f40deec038bd9fb96a672f352819  scout/scout_attack_se_01.png
+9810915b950ceaab15ad4c1a98289e5bf458b26e7ff5dc1d8a87e0cc08bc0d9c  scout/scout_attack_se_02.png
+b308b4c896bd82eb287a16b93e5f3778ba00ec0f226982bb60c76c6f18fb3b61  scout/scout_attack_se_03.png
+17ae4d91a98f4db03de37d1def7235e64418d53db6c586ae0184051afb05c31d  scout/scout_attack_se_04.png
+f305fde4fd9416e121c1946e10d74845c5d7d3c3e385eb87a2c82cbd43af2235  scout/scout_attack_se_05.png
+cce8af9092e364c9b5103584731f4e8620f1f32d44803dad4dd22189b3a421f1  scout/scout_attack_se_06.png
+8826a9b9c4f2a89ec6e8ceb525147567d1dca65ef455c4415a5645dc791f97e9  scout/scout_attack_se_07.png
+a4182c711b5d904def9a145155128140d5078fc82439ddfdcf4d3acca2c1968a  scout/scout_attack_se_08.png
+50a67b20ae3a7ab5163ccb765ea4ba8b890c8d6dc6505d5b3c737f03cc3ed0eb  scout/scout_attack_se_09.png
+62642b579658e76beae64d86e981b108216e797a06ebcde3fb77a640fb5627c7  scout/scout_attack_se_10.png
+6ba643dfb1078760dcd9a84ef85386f047c409a0c4d4e13bd912f2f78e5e3e29  scout/scout_attack_se_11.png
+05663d7e3aa208705783a33bc06f06e49215084d27f07fd8500934e00a9857bd  scout/scout_attack_se_12.png
+9e91612b4ac8d37eafb1c8a4835239c378656faf1ea228dc4a7ad3af6d4abac4  scout/scout_attack_se_13.png
+afaf7876753aaf5a7129de538ad4da295db3995868bcc2961ec4439208352d74  scout/scout_attack_se_14.png
+c97e9fbb91fd31f89dbdd60139bdb100761533be6e29e38ecfd18c506b80d572  scout/scout_attack_se_15.png
+151213140e2ef4aa230467308e63503b73e8723b657365bf8ea20708fe530911  scout/scout_attack_se_16.png
+2d8a448335c2d243dd2c15e70f4646588d6cc9d68b2429dfe4291c1a70e1ca01  scout/scout_attack_se_17.png
+3b30dc1dd44d9fb24aeb2983841de41ddd7b9e3d80c77b95e25d22d20709375c  scout/scout_attack_se_18.png
+41bc62087afaf603396fd4e8b5acf08230b80439044d9f089959cc6da90bb35c  scout/scout_attack_se_19.png
+9db716a407a71c0e7a0818da4e8a2992f8a53b22fc3a3c1bb5f007fececec907  scout/scout_attack_se_20.png
+375acd9fb5df736fa8a1772d5af91435b1b715ff5497b26a16dddf2aca1593c0  scout/scout_attack_se_21.png
+f0a2d84aef93543a86e553b13db92c03c8584e8771c559cd8c9e1eb3e980986c  scout/scout_attack_se_22.png
+0b00f435728c755ba592e011105010825bc26050c9b28a4eb746dd8d0cec6b4e  scout/scout_attack_se_23.png
+07d13e9767f88d03557ce8a6c74f82a6baee19c3af321ea9322999a4d9a5cc28  scout/scout_attack_se_24.png
+da81b994679e8b50654f387db737862be43dad2b70ca28126901299ee16819ad  scout/scout_attack_se_25.png
+4773d4cf6a68d29e296876d4f0df15967b4a05addf82f6078929070b0088712b  scout/scout_attack_se_26.png
+8ba65f85c4224a8e60c0189eab84aabccfbe73d881d67fb68c570a67128a408d  scout/scout_attack_se_27.png
+c8f222c32b6e4bd717bd7fd0be010cf62b92e3730691dbc070386a9db4b45b75  scout/scout_attack_se_28.png
+8d0a6daa7f0f8e2322fc474951b2fcfb7af62dc6b0d1d4eb584b55010843c34e  scout/scout_attack_se_29.png
+3577ca0cb3f6a3463e94c433427662c8edc0bcd4a9f621df2f2cc1c12b0a861a  scout/scout_death_se_00.png
+7ae6d68231a1e28f11e034f4167a2f6a75da0111419503b7524b3ac56e003259  scout/scout_death_se_01.png
+a58802b1c3b27b1c29674dd51a96f8c82ff7a614a1fdcc65a12031d2cc278a19  scout/scout_death_se_02.png
+3a591d71c9b18c5af4fe319d49b37467ce464ec863a3a4c763fc015940524ae5  scout/scout_death_se_03.png
+a8c5b971a1173bb2279096548f68608ca3a789405f01bec3ab9d6928bdcf3f1b  scout/scout_death_se_04.png
+2e65cf47a7e2432d7140fd83bf95d54b08308bee1ca8709893767cc6a06717a8  scout/scout_death_se_05.png
+8679b8b8de7aedeb5af604445c90c6ac1d26384732f15e22ed67709b7bcbe806  scout/scout_death_se_06.png
+19e9eaaf2955a95e8ae37d4f5ba861368bec7129fe3498777694a5836e12388d  scout/scout_death_se_07.png
+c10315791d9e24291ea30662db0e6933d4b9098f5d88d4f68f371bd375918997  scout/scout_death_se_08.png
+81671f7819de621bb380b8e54bc61e24adc9d30f44384a4aa4c60f7dfe155bba  scout/scout_death_se_09.png
+14c102b9cb310cb1d9108769258b919f471630eef43cb4e3423c0dd2d6134349  scout/scout_death_se_10.png
+76dfe35b8ba77b449211f5aedd31587ac660567aceff98e49681d89412ad4068  scout/scout_death_se_11.png
+349a999d238ab9a3b0fd431a65cc50410855829ea693276c7fd59b105ebbcf26  scout/scout_death_se_12.png
+d174575285899dfab51bab06c2112662891fa0bcc2de7b5290ee2a1c354c3a79  scout/scout_death_se_13.png
+519fab386a7d04efa2723acf94010fcb9bcfd6e297c1540a48ac1836610eaeb8  scout/scout_death_se_14.png
+bea52fae9df9cf3ff14083ebb7164c7276428a23ac6feb8e911829265864cebb  scout/scout_death_se_15.png
+7713d45c8cc7f6fdc543aafe8c6eff2a869a9719aece889e3c2fbec54ca0b033  scout/scout_death_se_16.png
+f5efefacc250729cf282ea973de626d30b201b352ad06fa5702903177492e3d8  scout/scout_death_se_17.png
+e361b07abe05ecd709ffad93d1e250725f69a1a3f18243da0bb6620dd151e58e  scout/scout_death_se_18.png
+4766338260016073d210efb0a15050baa98133510d71f3589567dd2493139790  scout/scout_death_se_19.png
+bdad63d9b5d38831b2941eb45b8f618e6b54675b0305647ac891b07ce8396e83  scout/scout_death_se_20.png
+3f7063ba18903897029bf284d70ace4afb9e54693772f417772d0153563724f5  scout/scout_death_se_21.png
+b2f666f8069212810131ca70e857b2758fe3a38e299ce46c592b29c08b8f655f  scout/scout_death_se_22.png
+7a2ea5da678c838b57d0cbf7479a8343009cd2cf0f6cf5cad28621fc18c476db  scout/scout_death_se_23.png
+eeae7567970ffce2f329b9cec26cb480ffa307e8f15c17f3e407ab7b21534ea7  scout/scout_death_se_24.png
+911278153db929b5be08766ffe2677e16f7dd8b7b6cb8665081b0d0ad6197b1e  scout/scout_death_se_25.png
+faddc5ab1108de22d56dc95505d9983b7e781e199bd14c10144a5d62815a0027  scout/scout_hit_se_00.png
+39a124b06b2b6544dd721dcb4080afccd41e023f56f34fde6f01cf842d8f598e  scout/scout_hit_se_01.png
+66d256a857a91b657deb8353b6a182a9e0d3b4fb5611841655e20f0c5afac832  scout/scout_hit_se_02.png
+917bd9a09fcfb1b5df5475575c8cb8ec597fe5e3883e76326886ca46ed07abf4  scout/scout_hit_se_03.png
+58a609e2982bb7f718d30dbfc93867f6c474eee00712270de0b2ed8f9ec22518  scout/scout_hit_se_04.png
+359e540dabd63a16f82d599a8ca18b26ef71b28b8a70d1afcb75555449bf0ae3  scout/scout_hit_se_05.png
+c2f0c7ac5e5a5ae068d6a76ff95b28b336426f41dd0e59fceac67719cce2c7a7  scout/scout_hit_se_06.png
+e4b1fc9b11d2148bb02a47231a632a5feaaaa95fa063b773c6d33ee20c2ee499  scout/scout_hit_se_07.png
+0bb4534f80c8ea77657cf17b27972a2102d4da38a83ab1855fce512ebce2b70c  scout/scout_hit_se_08.png
+bb9a0c348b1cd29db3cf662cba01c8a22b9d73a32e967a353cf612271a66a9b8  scout/scout_hit_se_09.png
+3c41b8fc7da0ea9632230a1567ab45cf18cf1c947172da9f608d9de13778578b  scout/scout_hit_se_10.png
+0c3a3de7e4a0ab20dcd80a2c48b641dc737d0c317656cd37d890ff00c3cf80e0  scout/scout_hit_se_11.png
+f420340d58371329eab91382091d09177c9eeced58b031c6036d3cb2aca24691  scout/scout_hit_se_12.png
+06f2fff419b414669617619cef7070c75d379c95e256ce13353a14a9c36a5d73  scout/scout_hit_se_13.png
+45b2b6ed7824afdd46ff6dd317dc053e6bb5725ac35950f84b028d312ddd565f  scout/scout_hit_se_14.png
+7bdc1784d3d8b56c96304674c95d0dc4abea40529183936fe3321676ae1338da  scout/scout_hit_se_15.png
+23bb95fe1c1fb763c35abd82bc57b7bb68ed41b96e6aa98138c775672f200081  scout/scout_hit_se_16.png
+c9b45175bb892d33fb46d35b34d62315584f74789371edebd11beaaeb9f05047  scout/scout_hit_se_17.png
+08c4babcbe58191340ca342987d7672209388099ea925966f8f8a68e6927b48f  scout/scout_hit_se_18.png
+22d480bff7c1a9d0de5a45e760179f6c9da45b8d3c4ac509732a88cb1b8bea10  scout/scout_hit_se_19.png
+f89eaef91bbb16efd03b0d33cef5f9c046a792484e24e98d23f5c1db6fd0520a  scout/scout_hit_se_20.png
+d38c87f95673f6ac2118f6501f75e0185939eb18a3b17fdce0ea21abdec68592  scout/scout_hit_se_21.png
+2b5d66a7658a9dabbe1f529b811cfaeca2cc6e82d92975f1d38986c89167d2d4  scout/scout_hit_se_22.png
+e78c310a1312513d949ff68f466c581d6f9d3592028ed0a344973935d1cb8da8  scout/scout_hit_se_23.png
+243ca20c02a2861e0da9fccc17e57aae46071722d70a446b6ad198ce4ee5a5fa  scout/scout_hit_se_24.png
+8f47de303f3cc40ec259e30a174079b65f3d2938d6958f27ff3aa940312d9b9d  scout/scout_hit_se_25.png
+a946ed95bb8ffe8433d94d59baf6a7330db7c0e3df45ba912c511ccb198a92aa  scout/scout_hit_se_26.png
+cde96aaa2c24ae3934a79a25dc89af1a51648cd5a7a50fd565324bbcb45fe18e  scout/scout_hit_se_27.png
+de1396d305e7d50467c0d58be113c0be0d67fe6234d8de3b729ca8424125ace6  scout/scout_hit_se_28.png
+5579273c3a0e540d75d229057a85a0561546b02d34d58eda0af1482ff9fea86c  scout/scout_idle_se_00.png
+3aa0a72b1fd8bcb630112d31d10bbbcbde47a172160dd9344e356760c622061a  scout/scout_idle_se_01.png
+6cb74ccd14477607ac0eb7a0ec30fa0f238c0068ed8a1082ed8eb65373e28ed9  scout/scout_idle_se_02.png
+0884fd38da62db9b73f9ddd7bf4f068acac8db144b8771a8ebac0632da0ddbd7  scout/scout_idle_se_03.png
+8412bd76f79e93d188bd308175affae1d7fa8b8f47f9b1b0f9f51ed80535ef8e  scout/scout_idle_se_04.png
+dd7c7e31c9424814ffb9d918053d32b13f33e6e853a9ab29f6c30f119a3b681f  scout/scout_idle_se_05.png
+4425d36d561127e192f0bd749c3ba6aa98cc85c6a29a0bbb27856071aa1e79ac  scout/scout_idle_se_06.png
+69519dc4b8e06d5531363f4fe9ef1308a455ac2e811e2212377b6d5ff3a4d937  scout/scout_idle_se_07.png
+55e2c7910eb54f05168d89b6c96887135b8dab595361a05e930e21cc6c1c4ebb  scout/scout_idle_se_08.png
+1e55541998bccd777b3d305c88c89de5fd5ecbe9bfeffd140ff7d66eca211daf  scout/scout_idle_se_09.png
+c2410be5c80b4b5bb740900cf257607062fe5be169d8246ebd6f7e79a2344bf9  scout/scout_idle_se_10.png
+953ce13697407b3cb47202813e09f907615779da688005b2352cfc51b3eccaa5  scout/scout_idle_se_11.png
+26f4ae1d94fe2ba543a7ae8757c60d6da5e56784f0debf454a8d74a15614940c  scout/scout_idle_se_12.png
+80fcbf780fa65388fffbb0ba3e8b2694fd4d986baa6f00514def513a8d1a4139  scout/scout_idle_se_13.png
+56f940edd80752b8ceb4ddcb17894de5f7304a4184c4bf574594965b0dd1a8cf  scout/scout_idle_se_14.png
+29e31c2d3aa8a853fb23c3ff5b81d2116fd569950d1ee8edc3ba05de817147c3  scout/scout_idle_se_15.png
+573736de864b064c6cc651e32a5b5c631b11ef95e678ed023cb50d6f9d6bf696  scout/scout_idle_se_16.png
+defb8b427c888577d540c5e38ef0dc20d778e17d301f854626e743322f9f552e  scout/scout_idle_se_17.png
+a52745f1d86d68245ab6fd202430b618a967a2c04b89a5ff34add7da69b4ef12  scout/scout_idle_se_18.png
+c16bf9c42fc311e8b669416a0118efc8ebda71492004714e33a248c149a21b87  scout/scout_idle_se_19.png
+5d4279ba7cedf94086767317e1ef2b1813d5ceb100bd539e12f6be05f098c1e2  scout/scout_idle_se_20.png
+cc41fce563ad7d7e5be899f76e62639ab1632e11d859228ad1efa79e21419726  scout/scout_idle_se_21.png
+4e048341dc0a6dae3e108c51bdd4dd0891c390b38319b6c5aad319f71df4fb51  scout/scout_idle_se_22.png
+a188b38430cae3b6916c93bc9f5b643f3e497880e60962ba5748b59eed20925e  scout/scout_idle_se_23.png
+e00837696cd16fb6e25019adbe86a5db8a0a2cf48eeb1d86ddf62b89c056e988  scout/scout_idle_se_24.png
+53814eb9c6772be436306fa06bb686c61db3218d85bb0ab18dc6c6bf980be1ca  scout/scout_idle_se_25.png
+08bc716ddea79b9794ef3f4cb778a5f179310d86a4ceefd2c61ff258a293a813  scout/scout_idle_se_26.png
+0af291f26b7e4152bc0e244c8b72160a19ce4f64dc35b18e56fccfc7a8e9311e  scout/scout_idle_se_master.png
+a4b0ee3134504e11f1dbabe9eb4c2bab185011f4b1a21da705fa8de2ba37ef9a  scout/scout_run_se_00.png
+7f9655160d31f6475449fb1931eb39528f3d9bea12bc2fa596044dd69a6b8cec  scout/scout_run_se_01.png
+d50180a0103b264589e83ac43316e6d199e5f928c6f6cc3d3d0cc7fa9ed048aa  scout/scout_run_se_02.png
+33b8c3e73159b8a132dbe4497f58b96df2bd8ccee313298737de33905dad4111  scout/scout_run_se_03.png
+fc289d3b145586c8aae8783c47dac40a4237c7a6634c67873dc7607d9b508c24  scout/scout_run_se_04.png
+c18a2426cd2f21cb3034d0d82c5f3b44b30fc0af00cf0dfb10d47298ab5c1ccd  scout/scout_run_se_05.png
+c240940fd139cd2f6e7d7e850c17ed93062670141d4a8f424ce53c28bd7db039  scout/scout_run_se_06.png
+5927ffa2128cee06a9d51440ed05c6ee85da00de4140c89f90ffc69d93bd2778  scout/scout_run_se_07.png
+48f1db32dc7aafe7bc51a7a58f54bfbc910c555992ab511b9516b07abe39158c  scout/scout_run_se_08.png
+a95912aa1fe63fa27b43eb7fe061ef57a275abab7a7672a2f57e3640b0efbc49  scout/scout_run_se_09.png
+8130d6447bfa8ebc1aa41f3c02c96426df199798c1e2f1c6030385119da09c01  scout/scout_run_se_10.png
+ae74fc4f8d13a2b208daa3f658ccbbac05d7c94fce83ac8aac2023a3325f11ab  scout/scout_run_se_11.png
+47d013e944be6939bdb91c9016398fcd60ac1b1d6b4b1781b9f95d009ed224ad  scout/scout_run_se_12.png
+8e65dc41e6d3a254925b44502b1af83cb2c0f754ea83b6edac580d35efdd9a4e  scout/scout_run_se_13.png
+76fdd55c54b780d7ddd3206a90190d9321fad854a0425d5b7c4530c3c9d300c6  scout/scout_run_se_14.png
+bb39b896f4ea5fd2b045bf353f87a7a90981fd4b4363acd95894fb2e5a6f9fb0  scout/scout_run_se_15.png
+2002bfedc03d25dfa8a5d5543fecb1a3314a161d64e36d20cc617238d08dfbcf  scout/scout_run_se_16.png
+c394e58a4ad67dd25f46c9601ee69596a6d40fab8db1137ee1d0c6aa06de4fcb  scout/scout_run_se_17.png
+0843729f84c86ee9f924fa8ab55433879aed280514a14eedfbb8217a5eef480d  scout/scout_run_se_18.png
+8e8c174f577ce75fc5912408811a26759b67493b4f35291004074ecfee3eae2d  scout/scout_run_se_19.png
+ba58c7b623ae9a68dd6567a20dbd39f91613e6d4f3120040a6a4d760a8ec10fe  scout/scout_run_se_20.png
+fffe1db1b4c65ae262bfbe426998bd6c2fa894609b2f5ce6df0191300ff6ef59  scout/scout_run_se_21.png
+3b668d061ac62fbc68f75e66f0bdb93896686f8acce6f65f8f1971fcc9032603  scout/scout_run_se_22.png
+2efdcaf52bfb1525fd32a4644dedd796033e7f095300b10cb99fe5e72e23e832  scout/scout_run_se_23.png
+eb2c784781c75987dfcbd09d3a7995dfa20d31c81399b885b2de99d73336693e  scout/scout_run_se_24.png
+baafa0410a93cf5a1c89eea3cb66f33d87a2d0146cc1d541c9a223fb5a52ebb6  scout/scout_run_se_25.png
+982ed474ae5a99b2490671ceb9a539461cc6cc764999336e9399222890676ae0  scout/scout_run_se_26.png
+f89a5f4cb7c5f378de3b46cc7ca383e518d7d1499db8386b897325cc4c1cef7a  scout/scout_run_se_27.png
+67a9dc41319373ba339f8e5d7b7568e41dad12cbc6e77856de5f9231b802077a  scout/scout_run_se_28.png
+18da7d2ef03ec36ec61db28ec562c3d7c3c27796ecf476d2df0dfada2e630bae  scout/scout_walk_se_00.png
+4466da1fd98d2a4ed7e35eeb95fb057c20816eeb1daf06e2e21a67297f0860e9  scout/scout_walk_se_01.png
+5d6ca667848075ec2ffcce9f464643f86dd209279b100dbc44d265a33bee2c9a  scout/scout_walk_se_02.png
+1d9112ba092305c327cdd931cf3a5e4ae67efe153e7d4d97c5bb2ed4a108a3c0  scout/scout_walk_se_03.png
+62b9c6c3b4aaf999586a0ea07b087ad28b0d1dc4458918412e20d14f9b41743f  scout/scout_walk_se_04.png
+062166ccda30f4cb566578729bc84d9e4116abc2a404f5290949028bf2ca380a  scout/scout_walk_se_05.png
+008a89ba74e528250561defcead922c923ba25cf6d60569263201c9c2678659c  scout/scout_walk_se_06.png
+dd671f5d924a189e517fb72fba167133717adef097eff75f4bb25a9c353567c6  scout/scout_walk_se_07.png
+3528c8833e59766e652714660a867250eaedcacf987127b8b602708ad8e8aba3  scout/scout_walk_se_08.png
+d62c10d60335952d97c6982ff3efda468e4ea663890f5d1af7977e3ed3cfe7df  scout/scout_walk_se_09.png
+90066569b81d279eb9d438a672d38cade28eaaa26e7ca7536c8c4b0f5e2eb063  scout/scout_walk_se_10.png
+38707d21e1283d56abeef55b1865c3fc65929d03f6e9147d6efb757f91427728  scout/scout_walk_se_11.png
+e3113468093002f11b6b66aec2a1fc2477ee8a2deb1a9a0dfc8a087941db26c5  scout/scout_walk_se_12.png
+c097629882ed6e1096d11a54745f8e98f3cf908470b081bf756882eedc588bc4  scout/scout_walk_se_13.png
+e46ec4592c013dbf099258919d0a9feab8276cdb6b8942923ae7cc0292a59b9d  scout/scout_walk_se_14.png
+5dd636bbae5f97c95448b76b308ad581c7585d26053b2d4954c5c4e5ac101e8d  scout/scout_walk_se_15.png
+2efd170f0248f0068046ae773f450e0548ff4e28183c9aab6854b0d2a862dad2  scout/scout_walk_se_16.png
+40f1104b87dbf7151665453a64510d9f1c6d2fa097dfd24282b7f9f65976eaee  scout/scout_walk_se_17.png
+9092b6fc2cf8748ca00aa7fcaf59b0f669cf38f991ad887481cd0f994386ecd0  scout/scout_walk_se_18.png
+68e4b7f747bee5161e041b3e605b66a178ccd1888603a8f209ab0fa87bb62d28  scout/scout_walk_se_19.png
+84310d729c2e46da34ff13cb257b6f37a674d14459655b54d04c2602be56f84d  scout/scout_walk_se_20.png
+e7149c824c8291d5917d04fa9eb93385fc082b22dfbdbfb72bf1e98e2e78a2d5  scout/scout_walk_se_21.png
+43f9d52e382b96371091df9eba8567a233801344305e53c27ca725269bf91ef8  scout/scout_walk_se_22.png
+9a7ebdfc2af0ae480e733cefbe5447af1d0cd848269f25a163a742ee5ee1e6e3  scout/scout_walk_se_23.png
+79cd5efcbb345e52b0016f362aa49f1e1e351aff903553b98f30fd61d8fea1fd  scout/scout_walk_se_24.png
+fb1af850725d9639b6fb3cc3848e8e28aee6122ed82e434e014c0cfb05bbcfa3  scout/scout_walk_se_25.png
+d091c42af1e4bbc6deb7f6b90f416260c8db6baf2a9f717055d8e45c77bd1c18  scout/scout_walk_se_26.png
+514c79328940e41975b774206ada38079068bbbc183bb81725a1aceda6d90c66  scout/scout_walk_se_27.png
+35e4116886d4182f9f0b809cd35cbca274cc02cdf1b9920b742d49b4a285a9b2  scout/scout_walk_se_28.png
+e5ac4ccd59bda65f80130b3e2dacd7d44dc84493decc75617667be7c11637837  scout/scout_walk_se_29.png
+18a6de1ed9fdc1c5f325d69e05228c134796ca26c91509e11ccec9ddd20785ec  tiles/ref/tile_floor_tech_edge_e_00_pre_b29.png
+6c6b6fec8a7a53c437d0df0d268db523451487fdb9c1466727aed51711022af9  tiles/ref/tile_floor_tech_fill_alt_00.png
+8221e106428e3209f010810e6e693b27069ee38f54515a5d776a1cbc849d0a03  tiles/ref/tile_floor_tech_fill_alt_01.png
+064ac6d1a4cf5e5e60da6247eefe75d33875b339b86dfa23a8b0352ff0bbb35b  tiles/ref/tile_floor_tech_fill_alt_02.png
+bf98e09e2bd22ac1a4fb3df5a20bd63bfad4416329cff49b3ba545ffe5bc918d  tiles/ref/tile_floor_tech_fill_alt_03.png
+2d8d6371496d44da01c8bb90539858d2d074082bfda967a4834b31e63efa1766  tiles/tile_floor_tech_00.png
+5614e6a0edde36cbf8aadddde72bff389220bf68f4ab50e716c914d1fde8066d  tiles/tile_floor_tech_2x2_seam_ref.png
+ab338f9078e32d999e5af3d56251b60bfcadb8f1485f0e7a5878bd8992bf37bb  tiles/tile_floor_tech_corner_ne.png
+9852d066fb4939bc4f6d24412e13fe71eb2e4e63b237d3bc1e8be3b5a040f414  tiles/tile_floor_tech_corner_ne_00.png
+2064f45c906f7bbd8bdc2882469f0e04e9183da00e0ccf929d2396b1a2677488  tiles/tile_floor_tech_corner_nw.png
+6e7812fd871352a11a2b3fdf570db65a6eef82e01f474717a4fe745abe51d182  tiles/tile_floor_tech_corner_nw_00.png
+98a74e54bcdda66cab657191d81496d37a38d5634039053eb3b1146e84f233dc  tiles/tile_floor_tech_corner_se.png
+d9fb3d584415a9111707a4600cea1b981eb19794a3582546b2835716af84ce03  tiles/tile_floor_tech_corner_se_00.png
+c18895afa496899cd75f833e4d33af625cab230abed184d18c454596b80f7ae0  tiles/tile_floor_tech_corner_se_01.png
+e9d6eb3bd0c1b46e9e8d97b83f8c2ff65f60e06dfbf9339012badb4038e5a48c  tiles/tile_floor_tech_corner_sw.png
+a402c2e7bbcda7c8b0211b1559a512d1b84262fa1e72e21f1ab5e14d12c7118a  tiles/tile_floor_tech_corner_sw_00.png
+77ea60b2f7c4cc415d33ff411f76fb093fa16743e261ca710b5f735f50208236  tiles/tile_floor_tech_edge_e.png
+6942113dbd336e22fe4294c4cb16be7d746dcb9a4f04866c0b8125e0f049e0f9  tiles/tile_floor_tech_edge_e_00.png
+0d69f7eeec01b38decb4327ecbcbaa6392efb6127bcf0541a2041c2adf881c0e  tiles/tile_floor_tech_edge_n.png
+68221f55d90ac21920b9b5cd239e95d28d35e944e23c5d8e0ccf5b366bf03ff4  tiles/tile_floor_tech_edge_n_00.png
+e9c63c8ff9a3302c8f083b5c58d6a7f5f8fcee38d922e63f1e5b57976eb98b85  tiles/tile_floor_tech_edge_n_01.png
+bba6759ccf31fdc96990fa2c18ff4f3c8194008e5c61d3c1425af7774cba94b3  tiles/tile_floor_tech_edge_s.png
+8dc6f72f3c731f2f1d0ab68fbcf5e2322105b4c1b30aac3319e7fca3a91f2d61  tiles/tile_floor_tech_edge_s_00.png
+24e10ad0d1c021e18e8f99b92287aa8d03bc793e73c28e023952ba134a367d10  tiles/tile_floor_tech_edge_w.png
+e7d03c0ce0583037588d038fb275477f1a5d1159dc0a4c452d1e7750f1538a80  tiles/tile_floor_tech_edge_w_00.png
+9f06073015b8cada51b8e02f8b9d5d7a2b5d5053bd7a840392784d7a5857fce4  tiles/tile_floor_tech_fill_00.png
+d3d537cb11139d906618931a6bfb84cab875fa7340facc448b98a75c646f4f46  tiles/tile_floor_tech_fill_01.png
+819cef5f1ec2b89bd48fb87e967b1d33bbf6be039671299de4b32fd6d1a9f821  tiles/tile_floor_tech_fill_02.png
+e45e772160e31c76f548f867107a228414f77ac6d1ff16e4f26cc3aebeec25bf  tiles/tile_floor_tech_fill_03.png
+58cfffaaf176ebd467239f94951593cc738bda57df3aae0790c0512c389bbbc0  tiles/tile_floor_tech_fill_04.png
+60bc63eec81072c38f3d56105550f4ef86964dc80086680f9b7f5eba45ff624e  tiles/tile_floor_tech_fill_05.png
+b014cb70e9d1c276302d18b8f2c554c92d7d8093bb929eee3ed62afa0984c0e3  tiles/tile_floor_tech_fill_06.png
+dcaa7cb9bda20c81fa57f5986fe702fdc3a014015566790d4b06b107ba5522bd  tiles/tile_floor_tech_fill_07.png
+70813e00e4363a04be1256466a2e7cf782aa74956d9280322f702d5820e31a4c  tiles/tile_floor_tech_fill_10.png
+09c72c47666b4a315cafe4f29f2f29d40fca9a5bae1ad467f17f512eedfc1093  tiles/tile_floor_tech_fill_11.png
+58968f2b7e42ed6839bdcdde5f34b3b55628668689f1ca657bc902dca28c14f1  tiles/tile_floor_tech_fill_12.png
+acfffb2ba9b601fdf7d4af9f902c986a32ffc03ff892b63cf650fcf4b7912c25  tiles/tile_floor_tech_fill_13.png
+1a180335bf8f411043148b5cce2412d30d7e70105abe40b1d5c09a1ac2fb2938  tiles/tile_floor_tech_fill_14.png
+c3395293ab883376e02474014c63ff849f40dcae669fa82a99e164c13cd1221c  tiles/tile_floor_tech_fill_15.png
+02cc2a711ac2f696d01b08c5829e1bdd1e0ec425dcb63b0ce029046315fed448  tiles/tile_floor_tech_fill_16.png
+375d95d48dcbf81c24b73ce45b5caf34e896b69bab9fb0563f96bce5415b1832  tiles/tile_floor_tech_fill_17.png
+3c5da1fff392840465d8e3b4f6ff7a3dfcf96c39fb5eeb06ee50e0321778f0b8  tiles/tile_floor_tech_fill_18.png
+e78000e3709b1b8aa0709aa9ce620ae353b81210ae32fc538eb8a29476eaaaf0  tiles/tile_floor_tech_fill_19.png
+7e5c4faa71cdefdc57fe83b47d1c6ebbc63c20391dc32b9a4223ec0df72c955d  tiles/tile_floor_tech_fill_20.png
+c31299f179d3a84268e8f87546c6ccbce35134be3c1b6df8ed2757ae629342e6  tiles/tile_floor_tech_fill_21.png
+66d0ade93f25f423c3501b4137240a77197d3c8424e0cd8622a43a509dc4e366  tiles/tile_floor_tech_fill_22.png
+940315fa424ee298720a2706390566243599e2cab175d5c3f83d0d76768e1b23  tiles/tile_floor_tech_fill_23.png
+c70d36c879e70ad9806402c4d8b7bc5bd0410b3d71f4bff3b323452d85b673b9  tiles/tile_floor_tech_fill_24.png
+3c2304aeca3225902c113a55abb6dd220d9fe988729722eb7bc42960e867d5ae  tiles/tile_floor_tech_fill_25.png
+28dc689173882ef9e518ee3251f32d5ad164de9a0ed0ac078803190069563c96  tiles/tile_floor_tech_fill_b_00.png
+dbd6b821b3fdca9b833a883156c64bb957f2f7f5377e2cb4560213c33ec8f485  tiles/tile_floor_tech_fill_b_01.png
+d57b07e6bf5d9a16d7030ae5350b9e456bfcf9528c606da18ca596188bbe237b  tiles/tile_floor_tech_fill_b_02.png
+d5d95e52de25553c774805d6dd28c087b3782b05b798533e6d67e1a0e370ffff  tiles/tile_floor_tech_flat_00.png
+aabce7e82d472d2129b9d14a57ed93b613f24248095c183719a8a1e7500f004a  tiles/tile_floor_tech_hazard_00.png
+eeccef56900642ad64c5212834212b34b40aedba06cea29c14141990f5b87c2d  tiles/tile_floor_tech_hazard_01.png
+fb1e07c670a4a38a20137e5f03c8e75dd265e6f4e203a27cbd32b9dadac51262  tiles/tile_floor_tech_hazard_02.png
+6dd93c9a0aea331576d3d1d0ae0ff8dfcb7b67aa43f1eb2880929d88d1ecf2d9  tiles/tile_floor_tech_hazard_03.png
+c95551252823cb2fcd17ab0a8e1186f710d128d52c56d0e8b5f97052cd1a7c05  tiles/tile_floor_tech_hazard_04.png
+2b35d36b9ad86a3da64e6b42fe79265e2bea592cb72551de13879edcfbc8a7f1  tiles/tile_floor_tech_hazard_05.png
+fed284602bd0faddb0f4d9340b600ac28aafdf9a1954537acbcb48d991457f78  tiles/tile_floor_tech_hazard_06.png
+5104adab79c55296d23908d69f549cb87ff0662fe4af22fefdeffab11163fa99  tiles/tile_floor_tech_hazard_07.png
+e3595d725d2f7a34651a76371886bc55e3d007877b87cdcfa09272e99650afb3  tiles/tile_floor_tech_hazard_08.png
+3fe873a905cd73b6c5f6def649f80d4d178611366fdfa4e29a8c5633aa542fd2  tiles/tile_floor_tech_hazard_09.png
+e8f600c80f4c06c3c979e73129a697debac26d47713203e838f6a84bf85f6076  tiles/tile_floor_tech_platform_raised_00.png
+c2fe8c9a6103e9a67872b900bf95c0ef42be6b0ba6079ad15d12591790b78bd3  tiles/tile_floor_tech_ramp_nw_00.png
+0d5dac8dfd2b54d7f61e7cab628eaa7dfa6eb3b1a4dc2e6e79de2ead79646f09  tiles/tile_floor_tech_ramp_se_00.png
+c8a767d50ac218721118563907e4c456bbd09658fc6f094d877e7094a1e9bd5c  tiles/tile_floor_tech_ramp_se_01.png
+721b0d9359fcbb2ee2398845b4c98df5af33ecea8187dd7060613e7f9dc993c0  tiles/tile_floor_tech_ramp_se_02.png
+c552feaa461af93864422eeff0fbbf323f7ec35e946a77750cb3b9aed0754252  tiles/tile_floor_tech_ramp_se_03.png
+ccc18b4eddb154fa882cd3cdcecbd98a51f31926c9b196d56dff9a8112131cc7  tiles/tile_floor_tech_ramp_se_04.png
+4d6f7d41f149e0180eecd9a24485d5af47e2a871cc9dc85e0d3eeb0eac085a98  tiles/tile_floor_tech_stairs_se_00.png
+d31b107e2d32eb868cc762e0f3af30ce68a5b0f1408baf22771c6b4468dae392  tiles/tile_floor_tech_stairs_se_01.png
+22246494dc3240b2ef4a38ba973eff73d6da704adede512fa9ba1bc2682d1b65  tiles/tile_floor_tech_stairs_se_02.png
+7f252636031d3126da0191e3a782fc389d06a5509532d522911a645aa2f7bc16  tiles/tile_floor_tech_stairs_se_03.png
+4bca87fb4b12e43dafb1db1e1bca53ad560694038cc2bd6049d5d3335f626a99  tiles/tile_hazard_10.png
+5b0263607af8b68fc3088282eb697d23729b36eeb33abc0d2c2b89ebe6c5f90a  tiles/tile_hazard_11.png
+1158007b458b2100da0ff4e7b1b91c0ff81d9a3a15f68ff01a94fe73a0837ba8  tiles/tile_hazard_12.png
+e4a47862f106e02e9418b1691661ce0332a1a7276f5ee726657386169122c860  tiles/tile_hazard_13.png
+804827d22feff5c37aca1a477b0c45a9bb39add7c832e90b0cf79e314d51fb7e  tiles/tile_hazard_14.png
+2291c8a007917998b9dfbc65a7b29d2b6da590d4df7e498ae65a1d6cb3508a86  tiles/tile_hazard_15.png
+4abdfe9adee08c2e5692346b36054307b77ca80ded89c06063cce468586fe41a  tiles/tile_hazard_16.png
+57440708a2558aecc2bf164a20f0860794ab5b7a028273241fe2be1ffd3d98cb  tiles/tile_hazard_17.png
+c32cf7e0509d87f4b9fca3f2d5d06b3e88485530f090d3ac9ecff4bc0ffa6080  tiles/tile_hazard_18.png
+04bd6fbcdebd17e3e00a8884543e02fe0da187fcd672ba11ba4e5b71ce2f25bd  tiles/tile_hazard_19.png
+3844ceeba05e8030572d093727ea63044d2717b3438b13428713ee77a5705bec  tiles/tile_hazard_20.png
+74d3d7909a6aeb3b18f46432249a92b3da7539c0a67b148e5d3809d24eff6605  tiles/tile_hazard_21.png
+1426c7413e3cb6a8192522220d3e8266d5f0172f4088f1167f9bc4a3c774e863  tiles/tile_hazard_22.png
+5eb5efff47de5e7a6bbbb03c5f4095e2708559007694be74faf632fa75939de4  tiles/tile_hazard_23.png
+7b013821a923459b64efd6d190df2fd4592357e79170524113c720b31282c893  tiles/tile_hazard_24.png
+87463c89224481fb1f23ff9862d104b53cb09030340cb0c69f1454159be45db9  tiles/tile_ramp_se_05.png
+a50aa62e0d76eff4a1be8a062d457c4d2ad54e41c506144d9982a6de39de3cda  tiles/tile_ramp_se_06.png
+890952d9ceea2094b130fcda7ad9939e17cc34a6808bc73cb362eb412be5f769  tiles/tile_ramp_se_07.png
+e08a6edf452f327cda0d439cf680310ee8e91686de18b8a9334ee24140e03e65  tiles/tile_ramp_se_08.png
+db9357e378b1e9cbb10efc153fe0bb5e2d72f873aea477d1b8c6384fd32d9b4c  tiles/tile_ramp_se_09.png
+035648f7b783330d3c7bf59dc6db3a2e63f17059050d02b10e34d2561b5bc146  tiles/tile_ramp_se_10.png
+1de9a52823a1510067824169819613202492468a5a70ecf1c0302f1c10d2a7be  tiles/tile_ramp_se_11.png
+7a6a991ff57926134bd89087da7d5ddbbf7c33c83f048afd5923ac1274e7b056  tiles/tile_ramp_se_12.png
+dba750a5b5a9217b42a896072a560d7d29834284c82a6debc04e15d2828016f3  tiles/tile_ramp_se_13.png
+e594d90abc8fd59c3d53624f2fa18978c0bd3bb2c91bde9322e8ac2c71d92bb1  tiles/tile_ramp_se_14.png
+7b771dfce511a0af881a5a9cfcf878cabf5f2558e767c2ffcdbd24d66f42cbcb  tiles/tile_ramp_se_15.png
+885ef1ef961587bc22a54e622812c595097d6fa301ec58d91226de6cbe5f609d  tiles/tile_ramp_se_16.png
+176a1305e32fde924284abd272bfd4df75d15007f998d5277c3fb02f3b830b27  tiles/tile_ramp_se_17.png
+0504935860037f5360fceaac536d764270220b2d3fd70310a39afc1a99557b81  tiles/tile_ramp_se_18.png
+97db4174f4bf925a5035b62749de6765859386524e574139b0a024192bd53e23  tiles/tile_ramp_se_19.png
+2e795342c047608611e6ec112eed1d346a14942b42676883509b2af100445332  tiles/tile_ramp_se_20.png
+fa3fbe788bc161e9a08c243071ee1d03416bbaaa756069c83e060060b87b971f  tiles/tile_ramp_se_21.png
+9865b83c18d06b2bbf62ed19ef5e473494db7c5287b2f3263007c23f54203ebb  tiles/tile_ramp_se_22.png
+170d1e11fbc65693e5f55c703d73fa663ec98cab87afa2316a2aa13c6ec54cc3  tiles/tile_ramp_se_23.png
+7f38cbb9baca56b68c8a77c7fbd2ad9db13ca4d524ea8a14d70b61b5351c0496  tiles/tile_stairs_se_04.png
+9c0d1a232853e3bb74bf8bc71ccfefa24ddb5c23f67b099ede54f63f0443e376  tiles/tile_stairs_se_05.png
+095d1037da73c013c78f8d6b27a9796ed873182a736d253af51c49657ef66ada  ui/portraits/ref/ui_portrait_scout_01_b18.png
+52c5bece9b5dea68e0219977ebf9b5155a8cfb47f0a0ad2b3107e3589a49d69a  ui/portraits/ref/ui_portrait_shopkeeper_00_b19.png
+546ac2be6b8c56359fac738f8b1467365960b75b781583b8f976ff7508e3ceee  ui/portraits/ui_portrait_drone_brute_00.png
+5734e1cd474ed260eb30ea25b3378c13221283681005698f09e92b480090fe25  ui/portraits/ui_portrait_drone_brute_01.png
+48711abbee82639e0a30045098edfb82cd70f3025d600993aa54e7148636deda  ui/portraits/ui_portrait_enemy_melee_00.png
+cfbdb464082836ac54458c387b997818a9772963ed4cd7aad62bf5b22351118b  ui/portraits/ui_portrait_enemy_melee_01.png
+fde493fd272e231973412aa6594c0c3684eb475267c500844a3223a14ae68508  ui/portraits/ui_portrait_scout_00.png
+c0efe704028b6defa279d040057deab94718f68b776fc2387fcc1495e07250a3  ui/portraits/ui_portrait_scout_01.png
+c5d5e5b1934eb4d0a20efbd62d28a16d0b88ffc06f7fd132f6120609e8b9e1d3  ui/portraits/ui_portrait_scout_02.png
+9b652ddc297f4f649ad5ebfcef730ca677e81ea651c1c662c4c099c8f27810ae  ui/portraits/ui_portrait_shopkeeper_00.png
+397270275657b694e45534313333762ac876dbe2cd0aed0b793d3470b63d42d2  ui/ref/ui_interact_prompt_00_pre_b21.png
+67a2ac33aac85ee00d9d103677ad457a607baf184729eb54bfa1af2e0355a82c  ui/ui_boss_pip_00.png
+4af47ace6d794517b2cb5e9d4cfb387f50653049ac34fb3bc5a4d6767078b6d3  ui/ui_boss_pip_empty_00.png
+5a066d2f018eeaca8e92450a21eb3b8e8cb02fb766a00e10e20f3a6a8ab5df92  ui/ui_damage_number_crit_ref_00.png
+66e8b08f6c2a942d3ffdb55a4adfab7c9c9d25003fa13ae8789f0cb0b8af8d70  ui/ui_damage_number_style_ref_00.png
+800d0786211d4b1967df1a191c8d7c2682a0a3b9f3e28b35a4db29660da70253  ui/ui_fill_panel_08.png
+9ae39b57922afbd1702fd4507f250c3bdcc80ccf03c28d7d25f34bdeb9e878eb  ui/ui_fill_panel_09.png
+463f77dd31864aa94e221d06f3f6af67abc19a575c5848c66297b29605414912  ui/ui_health_pip_empty_00.png
+453befa20353983764b583c5887b0814b33872e8bfa8bf9dc9320b60c074b0b0  ui/ui_health_pip_empty_01.png
+c47b2499760b2af9829635611660c8b0035218a5d454549e9030b21ed24057b7  ui/ui_health_pip_full_00.png
+89d2a38254038d2d008a2e05cbb943a5846ceaaed6ab3ef426222098439afe1c  ui/ui_health_pip_full_01.png
+bafba4a08d939b5b29b947cb0328c18e100089eba0509b7b58a226d9a9ae5c25  ui/ui_health_pips_sheet_00.png
+990b164133618ac025caa8ef49670de5d177893912fbd3a6abd32ac738e86699  ui/ui_interact_prompt_00.png
+f1532d0e54900d82c6005136759264ca3e5dba23b15afd0627a1d85723601e24  ui/ui_interact_prompt_active_00.png
+c00fef3660123c5b01b25c9255514a5d6cf4b819945eedfe09da5bd7b26147f6  ui/ui_interact_prompt_pressed_00.png
+e69c295732f3c539f59f472daf093a7591287e1a62bbb983f8445b5b7f5ef5af  ui/ui_minimap_boss_00.png
+2828c0ce52908efb6f0763855c3a083272d489457e0794fb31ea20f80ae81449  ui/ui_minimap_boss_01.png
+d6e9b21aaa6ec42e6829d9e9187bb4ac2189eecf245342200bf97e65b37f8c59  ui/ui_minimap_boss_02.png
+b371d6d87fecb59a6f49bb620ca2ecb4b973d66a9519d721a7115e09548966a1  ui/ui_minimap_boss_03.png
+cd232cf542a9cb9d660741c0c7426b773c8d4de625b8df9dfdf36cb59cb21885  ui/ui_minimap_enemy_00.png
+d1b42c49348fd457aa465e1af09eb9a460fa0e470f2166392b3e6cfcf8d15487  ui/ui_minimap_enemy_01.png
+8c4a4ca8749c60c4af5507214a4b9cf1cc302090ee13883adb82c5f913240f50  ui/ui_minimap_enemy_02.png
+493d40feae93a091f6e034094b2832da4d89b24cb924ae5dcdf7ec3ded233c1d  ui/ui_minimap_player_00.png
+7eb7d52b5fe6d0a855e27bf1ff3c575d4f301b0eee29663b8df2e080482c9897  ui/ui_minimap_player_01.png
+bf2a88b452bf1a212640aab60cc9d48a979fc765f5e3c3b597a2cb89b26d0f96  ui/ui_minimap_player_02.png
+017c17407124f126ef34bbf05230ea4ced0f166f4542de7b0425807027a8c92b  ui/ui_minimap_player_03.png
+b793173d2a097ce8689c801edef92b676ad213a9222acb3aea9796a9a38408b3  ui/ui_minimap_player_04.png
+91f83c83fb3f7898038697e873583c716a19a424b02b5f0112e9ac07c3c4da38  ui/ui_minimap_player_05.png
+eb354e5f154830584de8bbcd5ca6008f3499fa91e97729aeecf8c7e762b1d243  ui/ui_minimap_player_06.png
+58e53e71d8b616a58105f51f5969964bbcac2ef0457352142502aa179d6da1f9  ui/ui_minimap_player_07.png
+d172bc914cb4376aa5068564810c5631ff15b194b56480c53dedb2816f2593e4  ui/ui_minimap_player_08.png
+6be40d1cae9c3f270b9fafd1f113df11bf6de5868bbf4d77e90a43cbf4f26762  ui/ui_minimap_player_09.png
+15cbbc65fcf63d7e2cb87dbaf2e6cbef98fa1475ab1889912efdec422addee94  ui/ui_minimap_player_10.png
+af9f03c7c3d3b9efebb0b0a9469f12c14cedeb02eb068b8d7767f52cce56e0e6  ui/ui_minimap_player_11.png
+79662759256ac5d4777e4e15e3700e40b3bbf1c3d692f2cd4f8687712e80a030  ui/ui_minimap_player_12.png
+76ccd2e1af2230f134936c075b1c5010f5c1c9dbd2b9edc360a22b536adf15e1  ui/ui_minimap_player_13.png
+943a261a132ba087fb87b09b7472546d88914dfa43b433fb89a92346b296b18b  ui/ui_minimap_player_14.png
+f209e97ecdf3d875396c9f459594b8b6dd74fb64474f4d0d0efd42def8ce35c7  ui/ui_minimap_player_15.png
+c6a565be79eb367eafebededd589e7fe4a51a540118e488f8d4999fe3dc8127d  ui/ui_minimap_player_16.png
+3ae691a8aaa11da992d294f0be6b1228622c9d0a41715d717a876a02e43a6d26  ui/ui_minimap_player_17.png
+21d8bba77f8845374b5fda4d06f9db69819a56909e61bd29af38ee6ee91b401c  ui/ui_minimap_player_18.png
+1b3aaae121dc2fcbf35f2166d4546eb8fb11eba646542cf57ec4a37008503935  ui/ui_minimap_player_19.png
+f1f8371d62da87006b19c1fccbfc80e13d19be56458c640db8391f2b40be5251  ui/ui_pickup_glint_00.png
+f3f8703be803c01681cc4f1e872ea2b246b381db3746504b6d6dc2ebbfbef55e  ui/ui_portrait_drone_brute_02.png
+6ca7a69c3cede8dbf04a1b63b0a68e5eebe4ecf5e3ca11618d29d6311fea1e38  ui/ui_portrait_drone_brute_03.png
+430f969293786d5b154c0596facc33c43a3cd4c25c0c42cdd5b23dc76bc3af1a  ui/ui_portrait_drone_brute_04.png
+f8c6d6c7738540e9c85b91feeeb91a33b340c99873383b0fd3404187fec331a7  ui/ui_portrait_drone_brute_05.png
+d54c1d7b7b9d4bdfa650638ef74f9c6de208b8414a7e2f07a0bef43a6705c269  ui/ui_portrait_enemy_melee_02.png
+fc1021d51dde78a9c2a0399bda20995ba29c4d8c60c074f6d409888a39697463  ui/ui_portrait_enemy_melee_03.png
+2977a714f3224d59babcfd00c62d7539df2b0db1659c8fb6b35c2abe1efdb3d6  ui/ui_portrait_enemy_melee_04.png
+976e8f259a910372b178c41f0d0a4aff2c0a93bcde4003647de3b89fc5ee654b  ui/ui_portrait_enemy_melee_05.png
+e0ebb8fc1672a57734fd5cf976a0f7d244cb8278781848e67c92131b994baf55  ui/ui_portrait_enemy_melee_06.png
+bad980d9aba89574f9cc335fc469fb72f93ffe1e5dffbbe5a54470f7eac76e20  ui/ui_portrait_enemy_melee_07.png
+af705e22deb623b6224c0cc14461e97ee0c69ec252cbb9547eb054b75f8e24a0  ui/ui_portrait_melee_08.png
+7bfb6057c7baa1553f361b5967d147b784238e358fdc89118f544c0168f9b8bd  ui/ui_portrait_melee_09.png
+1705aa1da96766ce17887b56c2840cb09e0262c61570b17a77050c807180df98  ui/ui_portrait_melee_10.png
+312ae4fd87e92134cc887ad7331d32cf53cfcfcce251bda6285c15d4cfa6ca61  ui/ui_portrait_melee_11.png
+9b35b322626c7e626cb9c4d747c739a0509557a0ef512cfb423aa85efcd8a95e  ui/ui_portrait_melee_12.png
+4df3ae51d722f73deb886fc67e48652f341fa5252eb770013ed14020c26ccd59  ui/ui_portrait_melee_13.png
+5ba235299f866568ce1c0cc0e8d8130fd3d99fae75e9d58fddfa9120ed26338e  ui/ui_portrait_melee_14.png
+cf0d67fa8d2ed8de43bd271a4bab5d06e79a147e612bb040c23156d5d04698eb  ui/ui_portrait_melee_15.png
+eb7b5ef21e446b59c64f40f187ea19dead51b92b0bf2c9977b4d19f1e550a6a6  ui/ui_portrait_melee_16.png
+dfe2d67c9b7c40724e2e81158c1261e7fced27b6114a3331d136f0e1786966d0  ui/ui_portrait_melee_17.png
+64ef1188c5752598ea4f25f1c948da00f4492913e40b231eacc7435b8a4981bc  ui/ui_portrait_melee_18.png
+cb4c847d1a84af7b312b49182d7467b870b434589f66e83e8c68aebcbbe7c218  ui/ui_portrait_melee_19.png
+f64cb52ad5fba560b540bc88a9b87af59421a152d7de6490f471d1c44d7bd861  ui/ui_portrait_melee_20.png
+19d0510d7ffcd8ab5448d312f347cdabd6cd2f7d1306e2274b2270f17b52a658  ui/ui_portrait_melee_21.png
+36ac87f40daa5c73c5377520e6e0a12cd4030d35a9c46d6732a5407c8fdf652a  ui/ui_portrait_melee_22.png
+17c9e8a6299a75a03dd9929ad0e86804d788497d5d5452ac2fd4bdbee0c310b4  ui/ui_portrait_scout_03.png
+dbd127cf6fa9a5a422ed03d0f86dd7c43bdeeace900086892d42fef6d2dac953  ui/ui_portrait_scout_04.png
+a13b1998fac26f829fa11bfc2fd81b23eb5e40c7ed81126e106aa322bd390321  ui/ui_portrait_scout_05.png
+9bfd8114a48176aa25b0f3707b067b1333305f289a6a7a73b456255791508942  ui/ui_portrait_scout_06.png
+a0d91c8541cd2a57b8eb422575c6cdb8d97c703c2706fdc5a969580015ce1ec6  ui/ui_portrait_scout_07.png
+4364f73a4c928ae150cbfa3d6b4667bebe0ddc5ed5b2759b16ce75f80812fb91  ui/ui_portrait_scout_08.png
+35a7603be587e5cff29e8f90de6bab3a05df84f9755fc4e5907cca073331ae2c  ui/ui_portrait_scout_09.png
+398426a6bd50d888401ed8989db72c2fbc89e9a317b760ac4e67f52b3c13a537  ui/ui_portrait_scout_10.png
+566ca3b6b616ab99ac147c54fdb758ef94743b01a61735c11758ec118ac743e9  ui/ui_portrait_scout_11.png
+5e0ced80fa9e0ed425c523c4ce28bb195b88e8202103c23cb312d4edaa9f5137  ui/ui_portrait_scout_12.png
+aad1ec7884f2a3e468507f90a84875742d98aa74f17f8791bd939dbe21677584  ui/ui_portrait_scout_13.png
+22cc2e6d210e3c0a682d5cff3fa9f69b43bc8934107bf967478b4fa6c3db0e24  ui/ui_portrait_scout_14.png
+05d8fdcf68f4e89f823b37c7891fd612228221bbe71bd1f947a88423c291f5a3  ui/ui_portrait_scout_15.png
+c7875511af734eefd26bedce655b00845d5335918282780f43c054c4c237f174  ui/ui_portrait_scout_16.png
+8692d2157bb43ea07d6d6f68a9065a0eab96af8fba9832832ef203d89d57ee02  ui/ui_portrait_scout_17.png
+283fc8fd2464307d16b03cf8f9bcd4ce543a3f865e46183d31fd8ba660fe2ee8  ui/ui_portrait_scout_18.png
+e92a586059eff0a21e7495feea0dffce3efafcc18ee52993708dbdb5a86012d4  ui/ui_portrait_scout_19.png
+a43ae073df0525bfe5f03492ea14dbca659d4b319fe9341d7beb42fcd92f8827  ui/ui_portrait_scout_20.png
+b72ee3011b82b2bfd623a288e71ef856ef7aebc654266e0aff6fae8684e3c468  ui/ui_portrait_scout_21.png
+1faaa3557c0bb4c6cd96dcb9abe26a92e4f5f119f79b6b9edf3d8140f545eb53  ui/ui_portrait_scout_22.png
+e64ab942c8254bcb3380ca7e7b0c1da87bfd47ba8c832368dd6a547fd29b3751  ui/ui_portrait_scout_23.png
+d609d725748cf8ef5eae2470f530ad0df0b8801c287cce41bf9b2c26e9bb5c00  ui/ui_portrait_scout_24.png
+cf658c27d287aa3026235007e43def659f21f7e8272171da71dd784bc9ea9dfb  ui/ui_xp_pip_00.png
