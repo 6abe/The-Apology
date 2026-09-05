@@ -9,15 +9,21 @@
 /workspace/game-art/agreed/enemies/enemy_drone_brute_hover_se_01.png
 /workspace/game-art/agreed/enemies/enemy_scout_melee_attack_se_00.png
 /workspace/game-art/agreed/enemies/enemy_scout_melee_attack_se_01.png
+/workspace/game-art/agreed/enemies/enemy_scout_melee_death_se_00.png
+/workspace/game-art/agreed/enemies/enemy_scout_melee_hit_se_00.png
 /workspace/game-art/agreed/enemies/enemy_scout_melee_idle_se.png
 /workspace/game-art/agreed/enemies/enemy_scout_melee_walk_se_00.png
 /workspace/game-art/agreed/enemies/enemy_scout_melee_walk_se_01.png
+/workspace/game-art/agreed/enemies/enemy_scout_melee_walk_se_02.png
+/workspace/game-art/agreed/enemies/enemy_scout_melee_walk_se_03.png
+/workspace/game-art/agreed/env/env_ancient_world_vista_00.png
 /workspace/game-art/agreed/env/env_capital_ship_far.png
 /workspace/game-art/agreed/env/env_orbital_ring_far.png
 /workspace/game-art/agreed/env/prop_ruin_chunk.png
 /workspace/game-art/agreed/fx/fx_dash_streak_00.png
 /workspace/game-art/agreed/fx/fx_footstep_v2.png
 /workspace/game-art/agreed/fx/fx_footstep_v3.png
+/workspace/game-art/agreed/fx/fx_footstep_v3_01.png
 /workspace/game-art/agreed/fx/fx_geo_explode_00.png
 /workspace/game-art/agreed/fx/fx_geo_explode_01.png
 /workspace/game-art/agreed/fx/fx_geo_explode_02.png
@@ -30,6 +36,8 @@
 /workspace/game-art/agreed/packs/player_walk_03_64.png
 /workspace/game-art/agreed/palette-proposal.png
 /workspace/game-art/agreed/props/prop_barrel_tech_00.png
+/workspace/game-art/agreed/props/prop_chest_relic_00.png
+/workspace/game-art/agreed/props/prop_console_tech_00.png
 /workspace/game-art/agreed/props/prop_crate_tech_00.png
 /workspace/game-art/agreed/props/prop_crate_tech_01.png
 /workspace/game-art/agreed/props/prop_door_tech_00.png
@@ -42,6 +50,7 @@
 /workspace/game-art/agreed/scout/scout_attack_se_01.png
 /workspace/game-art/agreed/scout/scout_attack_se_02.png
 /workspace/game-art/agreed/scout/scout_attack_se_03.png
+/workspace/game-art/agreed/scout/scout_attack_se_04.png
 /workspace/game-art/agreed/scout/scout_death_se_00.png
 /workspace/game-art/agreed/scout/scout_death_se_01.png
 /workspace/game-art/agreed/scout/scout_death_se_02.png
@@ -78,4 +87,5 @@
 /workspace/game-art/agreed/tiles/tile_floor_tech_fill_b_01.png
 /workspace/game-art/agreed/tiles/tile_floor_tech_fill_b_02.png
 /workspace/game-art/agreed/tiles/tile_floor_tech_flat_00.png
+/workspace/game-art/agreed/ui/ui_damage_number_style_ref_00.png
 /workspace/game-art/agreed/ui/ui_pickup_glint_00.png
